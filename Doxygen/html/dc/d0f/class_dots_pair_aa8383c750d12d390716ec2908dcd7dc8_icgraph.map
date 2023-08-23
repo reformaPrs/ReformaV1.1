@@ -1,0 +1,6 @@
+<map id="DotsPair::getDot1" name="DotsPair::getDot1">
+<area shape="rect" id="node1" title="getDot1" alt="" coords="268,56,393,83"/>
+<area shape="rect" id="node2" href="$d0/d5f/class_pop_dots_pair.html#aab76e9a472a5bb20661b16ae50af7947" title="onDotHoverEntered вызывается при наведении на точки" alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node3" href="$d0/d5f/class_pop_dots_pair.html#ac6d3d177172786b874ef4e4e80b8db4a" title="onDotHoverLeft вызывается при выходе из наведения на точки" alt="" coords="17,56,208,83"/>
+<area shape="rect" id="node4" href="$d0/d5f/class_pop_dots_pair.html#afcff07128dc3d1713e2780219c7efd5b" title="onImpulseClicked вызывается при сигнале от слайдера о принятии значения" alt="" coords="10,107,215,133"/>
+</map>

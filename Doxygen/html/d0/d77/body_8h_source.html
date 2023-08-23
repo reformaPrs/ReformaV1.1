@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Reforma Windows Software: Исходный файл D:/Work/Reforma/Reforma-Windows-Software/bodyParts/body.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Reforma Windows Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Программа для программирования костюма Reforma</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d0/d77/body_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">body.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef BODY_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define BODY_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;bodypart.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;popbodypart.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QException&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;dotsPairs/dotspair.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;dotsPairs/intervaldotspair.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Q_OBJECT</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a> *<a class="code hl_function" href="../../d0/dcb/class_body.html#a61f0de177fb0579dd03c5e9d8599ede3">getBodyInstance</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_class" href="../../d0/dcb/class_body.html">~Body</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5b">   37</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5b">ActiveBodyPart</a>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba7989ea77fb311211fac0f38fbe8c07a8">   38</a></span>        <a class="code hl_enumvalue" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba7989ea77fb311211fac0f38fbe8c07a8">UP_BODY</a>, </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba5bce001c929dd81d384a2ba71306f471">   39</a></span>        <a class="code hl_enumvalue" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba5bce001c929dd81d384a2ba71306f471">DOWN_BODY</a>, </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5baddde9dbd67e3a48906068b06397e9f8d">   40</a></span>        <a class="code hl_enumvalue" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5baddde9dbd67e3a48906068b06397e9f8d">WHOLE_BODY</a>, </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <a class="code hl_enumvalue" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba70c74531a9f32fc26ea9fe11c2117f17">NONE</a> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba70c74531a9f32fc26ea9fe11c2117f17">   42</a></span>    };</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    Q_ENUM(<a class="code hl_enumeration" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5b">ActiveBodyPart</a>)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#ae3dc3e5f5dfbc838a86db95bb6edd582">addToScene</a>(QGraphicsScene *scene);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a2b72a5ebbfe163dee6861ea5570546fd">addPopToScene</a>(QGraphicsScene *scene, <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keyword">const</span> QObject *dialog);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a6d25e975552d08bfb62c336b5dabaa6e">removePopFromScene</a>(QGraphicsScene *scene, <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a7c7a20354d2c132b183237b36be8dfa4">translate</a>(<a class="code hl_enumeration" href="../../db/d16/config_8h.html#a315ca917ad583797f709ea477dd28705">Language</a> language);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <a class="code hl_enumeration" href="../../dd/d50/class_abstract_body_part.html#aca20b29d0f40e108dd25e7429c9969d7">AbstractBodyPart::Status</a> <a class="code hl_function" href="../../d0/dcb/class_body.html#a39ecfa83f4de3c60e004f3d154414bc3">getPopStatus</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a96e6ddc2f3b3a0d6cf4e3abcb867f933">setPopStatus</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <a class="code hl_enumeration" href="../../dd/d50/class_abstract_body_part.html#aca20b29d0f40e108dd25e7429c9969d7">AbstractBodyPart::Status</a> status);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a1eab2bcaaff70f2f41e19bff292565b3">setPartStatus</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <a class="code hl_enumeration" href="../../dd/d50/class_abstract_body_part.html#aca20b29d0f40e108dd25e7429c9969d7">AbstractBodyPart::Status</a> status);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a755b4c2559548e2c698b4ef78c20bab2">hide</a>();</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a88b94bb8dbba60966458a9b3a6d7cfc9">show</a>();</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a90058c21df02a6321753657f2c315fad">mergeChanges</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#ae5f9bd07a7f31d81502e8af0ba355dca">  108</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#ae5f9bd07a7f31d81502e8af0ba355dca">cancelChanges</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#ab25bacb7a215cb819328dc2aeed48b59">setIntaractive</a>(<a class="code hl_enumeration" href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5b">ActiveBodyPart</a> activePart);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a03e2f9745af5e226c77115ef2d780b00">setHalfhourIndex</a>(<span class="keywordtype">int</span> newHalfhourIndex);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a32a39de61acc8d3d110d735318a655a9">saveHalfhour</a>();</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#ad7a70362ec7f1288b00b413612787314">resetIntervalParts</a>();</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#aea0484ca63f4a41b0f8d69b463f5b92c">copyHalfhour</a>();</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#ae97b0f4e1794f67851d2e0e2b04e1665">setCalculatePartStatus</a>(<span class="keywordtype">int</span> partID, <span class="keywordtype">bool</span> isFirst);</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#ad93c27a74db895e4be1a98b1c64bc451">clear</a>();</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86">update</a>();</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86">update</a>(<span class="keyword">const</span> QVector&lt;DotsPair *&gt; dotsPairs);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86">update</a>(<span class="keyword">const</span> QVector&lt;IntervalDotsPair *&gt; dotsPairs);</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#ab0eb0c50cce1b06da1d7404f30d56ee9">saveToFile</a>(QDataStream *out);</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#ad754ebc26f5ab93fc80d52989b5156be">readFromFile</a>(QDataStream *in);</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#acfd562ff6d6de31313a0e0643d6c1638">activateHalfhour</a>();</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#a0f7921e25faed42503fe9edfb650f75b">clearHalfhour</a>();</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#adbb743d810642c5e1cf1101239b3afa4">deactivateHalfhour</a>();</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>signals:</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a70179fc29a3eebd4ee3111cb0cb2030c">  194</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d0/dcb/class_body.html#a70179fc29a3eebd4ee3111cb0cb2030c">clickedBodyPart</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a4890b822f457f4cfd673db75f2244dd1">  199</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d0/dcb/class_body.html#a4890b822f457f4cfd673db75f2244dd1">clickedBackground</a>();</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d0/dcb/class_body.html#ad904a015d2d007cbcb69a31ac7fe3d67">onBodyPartClicked</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d0/dcb/class_body.html#a17642bf2d861e2f46fb0884ff05c5096">onBackgroundClicked</a>();</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="../../d7/d38/class_body_1_1_half_hour_exception.html">  218</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../d7/d38/class_body_1_1_half_hour_exception.html">HalfHourException</a>: <span class="keyword">public</span> QException</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    {</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>        <span class="keywordtype">void</span> raise()<span class="keyword"> const </span>{qDebug() &lt;&lt; <span class="stringliteral">&quot;\nException: &quot;</span>; <span class="keywordflow">throw</span> *<span class="keyword">this</span>;}</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    };</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a>(QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a>&amp; root) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>    <a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#ad292c67afabb5c80c137408be34428c9">  227</a></span>    <a class="code hl_class" href="../../d9/d15/class_hover_pixmap_item.html">HoverPixmapItem</a> *<a class="code hl_variable" href="../../d0/dcb/class_body.html#ad292c67afabb5c80c137408be34428c9">body</a>; </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#aaba42dece3188e6e4831eaadc4620d5b">  228</a></span>    <a class="code hl_class" href="../../d2/d6f/class_body_part.html">BodyPart</a> *<a class="code hl_variable" href="../../d0/dcb/class_body.html#aaba42dece3188e6e4831eaadc4620d5b">bodyParts</a>[18]; </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#ae6bee54f75ee05a91d16fcbd63490561">  229</a></span>    <a class="code hl_enumeration" href="../../dd/d50/class_abstract_body_part.html#aca20b29d0f40e108dd25e7429c9969d7">AbstractBodyPart::Status</a> <a class="code hl_variable" href="../../d0/dcb/class_body.html#ae6bee54f75ee05a91d16fcbd63490561">bodyPartsStatuses</a>[2][18]; </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#ab700e8d24402589cfb0228bd9b9f4761">  230</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d0/dcb/class_body.html#ab700e8d24402589cfb0228bd9b9f4761">halfhourIndex</a> = 0; </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a6f0bcb33419bd80cf4674ac2b4d673df">  231</a></span>    <a class="code hl_class" href="../../d6/d3b/class_pop_body_part.html">PopBodyPart</a> *<a class="code hl_variable" href="../../d0/dcb/class_body.html#a6f0bcb33419bd80cf4674ac2b4d673df">popBodyParts</a>[18]; </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a7f44dbca2e02f9f9b562134d2e02c379">  233</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d0/dcb/class_body.html#a7f44dbca2e02f9f9b562134d2e02c379">isHalfhourActive</a> = <span class="keyword">false</span>; </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#abbc1fb3fd8e8971e1caffcac7676cdd2">  234</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d0/dcb/class_body.html#abbc1fb3fd8e8971e1caffcac7676cdd2">isIntervalActive</a> = <span class="keyword">false</span>; </div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a6140e1627399f24764e08e95d4e55703">  235</a></span>    QVector&lt;BodyPart *&gt; <a class="code hl_variable" href="../../d0/dcb/class_body.html#a6140e1627399f24764e08e95d4e55703">activeIntervalBodyParts</a>; </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#a2c89b567724d13017afda4219e9d95b6">  236</a></span>    QVector&lt;QString&gt; <a class="code hl_variable" href="../../d0/dcb/class_body.html#a2c89b567724d13017afda4219e9d95b6">pairsNames</a>; </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="../../d0/dcb/class_body.html#aaf3f663a0e6bcd04c6502329cbbaf9f9">  238</a></span>    <a class="code hl_enumeration" href="../../dd/d50/class_abstract_body_part.html#aca20b29d0f40e108dd25e7429c9969d7">AbstractBodyPart::Status</a> <a class="code hl_variable" href="../../d0/dcb/class_body.html#aaf3f663a0e6bcd04c6502329cbbaf9f9">oldPopStatus</a>; </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#aa5415e796b81b994527810fe6255d24e">readBodyPartsFromCSV</a>();</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dcb/class_body.html#aeb2e4b518895c469589851c77241832b">readPopBodyPartsFromCSV</a>();</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>};</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="preprocessor">#endif </span><span class="comment">// BODY_H</span></div>
+<div class="ttc" id="aclass_abstract_body_part_html_aca20b29d0f40e108dd25e7429c9969d7"><div class="ttname"><a href="../../dd/d50/class_abstract_body_part.html#aca20b29d0f40e108dd25e7429c9969d7">AbstractBodyPart::Status</a></div><div class="ttdeci">Status</div><div class="ttdoc">The Status enum - статус мышцы</div><div class="ttdef"><b>Definition:</b> abstractbodypart.h:24</div></div>
+<div class="ttc" id="aclass_body_1_1_half_hour_exception_html"><div class="ttname"><a href="../../d7/d38/class_body_1_1_half_hour_exception.html">Body::HalfHourException</a></div><div class="ttdef"><b>Definition:</b> body.h:219</div></div>
+<div class="ttc" id="aclass_body_html"><div class="ttname"><a href="../../d0/dcb/class_body.html">Body</a></div><div class="ttdoc">The Body class - класс фасад всего тела.</div><div class="ttdef"><b>Definition:</b> body.h:20</div></div>
+<div class="ttc" id="aclass_body_html_a03e2f9745af5e226c77115ef2d780b00"><div class="ttname"><a href="../../d0/dcb/class_body.html#a03e2f9745af5e226c77115ef2d780b00">Body::setHalfhourIndex</a></div><div class="ttdeci">void setHalfhourIndex(int newHalfhourIndex)</div><div class="ttdoc">setHalfhourIndex задаёт новый индекс получаса</div><div class="ttdef"><b>Definition:</b> body.cpp:147</div></div>
+<div class="ttc" id="aclass_body_html_a0f7921e25faed42503fe9edfb650f75b"><div class="ttname"><a href="../../d0/dcb/class_body.html#a0f7921e25faed42503fe9edfb650f75b">Body::clearHalfhour</a></div><div class="ttdeci">void clearHalfhour()</div><div class="ttdoc">clearHalfhour</div><div class="ttdef"><b>Definition:</b> body.cpp:211</div></div>
+<div class="ttc" id="aclass_body_html_a17642bf2d861e2f46fb0884ff05c5096"><div class="ttname"><a href="../../d0/dcb/class_body.html#a17642bf2d861e2f46fb0884ff05c5096">Body::onBackgroundClicked</a></div><div class="ttdeci">void onBackgroundClicked()</div><div class="ttdoc">onBackgroundClicked вызывается при нажатии на фон</div><div class="ttdef"><b>Definition:</b> body.cpp:411</div></div>
+<div class="ttc" id="aclass_body_html_a1eab2bcaaff70f2f41e19bff292565b3"><div class="ttname"><a href="../../d0/dcb/class_body.html#a1eab2bcaaff70f2f41e19bff292565b3">Body::setPartStatus</a></div><div class="ttdeci">void setPartStatus(int id, AbstractBodyPart::Status status)</div><div class="ttdoc">setPartStatus устанавливает новый статус части тела</div><div class="ttdef"><b>Definition:</b> body.cpp:79</div></div>
+<div class="ttc" id="aclass_body_html_a2b72a5ebbfe163dee6861ea5570546fd"><div class="ttname"><a href="../../d0/dcb/class_body.html#a2b72a5ebbfe163dee6861ea5570546fd">Body::addPopToScene</a></div><div class="ttdeci">void addPopToScene(QGraphicsScene *scene, int id, const QObject *dialog)</div><div class="ttdoc">addPopToScene добавляет выбранную часть тела в увеличенном варианте на всплывающее окно</div><div class="ttdef"><b>Definition:</b> body.cpp:35</div></div>
+<div class="ttc" id="aclass_body_html_a2c89b567724d13017afda4219e9d95b6"><div class="ttname"><a href="../../d0/dcb/class_body.html#a2c89b567724d13017afda4219e9d95b6">Body::pairsNames</a></div><div class="ttdeci">QVector&lt; QString &gt; pairsNames</div><div class="ttdoc">Имена пар контактов для интервалов</div><div class="ttdef"><b>Definition:</b> body.h:236</div></div>
+<div class="ttc" id="aclass_body_html_a32a39de61acc8d3d110d735318a655a9"><div class="ttname"><a href="../../d0/dcb/class_body.html#a32a39de61acc8d3d110d735318a655a9">Body::saveHalfhour</a></div><div class="ttdeci">void saveHalfhour()</div><div class="ttdoc">saveHalfhour сохраняет данные о текущем получасе</div><div class="ttdef"><b>Definition:</b> body.cpp:156</div></div>
+<div class="ttc" id="aclass_body_html_a39ecfa83f4de3c60e004f3d154414bc3"><div class="ttname"><a href="../../d0/dcb/class_body.html#a39ecfa83f4de3c60e004f3d154414bc3">Body::getPopStatus</a></div><div class="ttdeci">AbstractBodyPart::Status getPopStatus(int id) const</div><div class="ttdoc">getPopStatus возвращает статус всплывающей части тела</div><div class="ttdef"><b>Definition:</b> body.cpp:69</div></div>
+<div class="ttc" id="aclass_body_html_a452eb3f729a977cc157c7517c07d6b5b"><div class="ttname"><a href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5b">Body::ActiveBodyPart</a></div><div class="ttdeci">ActiveBodyPart</div><div class="ttdoc">The ActiveBodyPart enum - варианты состояний интерактивности тела</div><div class="ttdef"><b>Definition:</b> body.h:37</div></div>
+<div class="ttc" id="aclass_body_html_a452eb3f729a977cc157c7517c07d6b5ba5bce001c929dd81d384a2ba71306f471"><div class="ttname"><a href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba5bce001c929dd81d384a2ba71306f471">Body::DOWN_BODY</a></div><div class="ttdeci">@ DOWN_BODY</div><div class="ttdoc">Нижняя часть тела (штаны)</div><div class="ttdef"><b>Definition:</b> body.h:39</div></div>
+<div class="ttc" id="aclass_body_html_a452eb3f729a977cc157c7517c07d6b5ba70c74531a9f32fc26ea9fe11c2117f17"><div class="ttname"><a href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba70c74531a9f32fc26ea9fe11c2117f17">Body::NONE</a></div><div class="ttdeci">@ NONE</div><div class="ttdoc">Ничего</div><div class="ttdef"><b>Definition:</b> body.h:41</div></div>
+<div class="ttc" id="aclass_body_html_a452eb3f729a977cc157c7517c07d6b5ba7989ea77fb311211fac0f38fbe8c07a8"><div class="ttname"><a href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5ba7989ea77fb311211fac0f38fbe8c07a8">Body::UP_BODY</a></div><div class="ttdeci">@ UP_BODY</div><div class="ttdoc">Вехняя часть тела (рубашка)</div><div class="ttdef"><b>Definition:</b> body.h:38</div></div>
+<div class="ttc" id="aclass_body_html_a452eb3f729a977cc157c7517c07d6b5baddde9dbd67e3a48906068b06397e9f8d"><div class="ttname"><a href="../../d0/dcb/class_body.html#a452eb3f729a977cc157c7517c07d6b5baddde9dbd67e3a48906068b06397e9f8d">Body::WHOLE_BODY</a></div><div class="ttdeci">@ WHOLE_BODY</div><div class="ttdoc">Всё тело</div><div class="ttdef"><b>Definition:</b> body.h:40</div></div>
+<div class="ttc" id="aclass_body_html_a4890b822f457f4cfd673db75f2244dd1"><div class="ttname"><a href="../../d0/dcb/class_body.html#a4890b822f457f4cfd673db75f2244dd1">Body::clickedBackground</a></div><div class="ttdeci">void clickedBackground()</div><div class="ttdoc">clickedBackground вызывается при нажатии на фон</div></div>
+<div class="ttc" id="aclass_body_html_a6140e1627399f24764e08e95d4e55703"><div class="ttname"><a href="../../d0/dcb/class_body.html#a6140e1627399f24764e08e95d4e55703">Body::activeIntervalBodyParts</a></div><div class="ttdeci">QVector&lt; BodyPart * &gt; activeIntervalBodyParts</div><div class="ttdoc">Вектор активных частей тела для отображения во аремя симуляции</div><div class="ttdef"><b>Definition:</b> body.h:235</div></div>
+<div class="ttc" id="aclass_body_html_a61f0de177fb0579dd03c5e9d8599ede3"><div class="ttname"><a href="../../d0/dcb/class_body.html#a61f0de177fb0579dd03c5e9d8599ede3">Body::getBodyInstance</a></div><div class="ttdeci">static Body * getBodyInstance()</div><div class="ttdoc">getBodyInstance создаёт единственный объект класса Body</div><div class="ttdef"><b>Definition:</b> body.cpp:4</div></div>
+<div class="ttc" id="aclass_body_html_a6d25e975552d08bfb62c336b5dabaa6e"><div class="ttname"><a href="../../d0/dcb/class_body.html#a6d25e975552d08bfb62c336b5dabaa6e">Body::removePopFromScene</a></div><div class="ttdeci">void removePopFromScene(QGraphicsScene *scene, int id)</div><div class="ttdoc">removePopFromScene - убирает часть тела в увеличенном варианте со сцены</div><div class="ttdef"><b>Definition:</b> body.cpp:47</div></div>
+<div class="ttc" id="aclass_body_html_a6f0bcb33419bd80cf4674ac2b4d673df"><div class="ttname"><a href="../../d0/dcb/class_body.html#a6f0bcb33419bd80cf4674ac2b4d673df">Body::popBodyParts</a></div><div class="ttdeci">PopBodyPart * popBodyParts[18]</div><div class="ttdoc">Части тела на всплывающем окне</div><div class="ttdef"><b>Definition:</b> body.h:231</div></div>
+<div class="ttc" id="aclass_body_html_a70179fc29a3eebd4ee3111cb0cb2030c"><div class="ttname"><a href="../../d0/dcb/class_body.html#a70179fc29a3eebd4ee3111cb0cb2030c">Body::clickedBodyPart</a></div><div class="ttdeci">void clickedBodyPart(int)</div><div class="ttdoc">clickedBodyPart вызывается при нажатии на часть тела</div></div>
+<div class="ttc" id="aclass_body_html_a755b4c2559548e2c698b4ef78c20bab2"><div class="ttname"><a href="../../d0/dcb/class_body.html#a755b4c2559548e2c698b4ef78c20bab2">Body::hide</a></div><div class="ttdeci">void hide()</div><div class="ttdoc">hide скрывает все части тела, но не фон (всё тело)</div><div class="ttdef"><b>Definition:</b> body.cpp:85</div></div>
+<div class="ttc" id="aclass_body_html_a7c7a20354d2c132b183237b36be8dfa4"><div class="ttname"><a href="../../d0/dcb/class_body.html#a7c7a20354d2c132b183237b36be8dfa4">Body::translate</a></div><div class="ttdeci">void translate(Language language)</div><div class="ttdoc">translate переводит тексты подсказок частей тела на общей картинке</div><div class="ttdef"><b>Definition:</b> body.cpp:56</div></div>
+<div class="ttc" id="aclass_body_html_a7f44dbca2e02f9f9b562134d2e02c379"><div class="ttname"><a href="../../d0/dcb/class_body.html#a7f44dbca2e02f9f9b562134d2e02c379">Body::isHalfhourActive</a></div><div class="ttdeci">bool isHalfhourActive</div><div class="ttdoc">Активен ли режим получаса</div><div class="ttdef"><b>Definition:</b> body.h:233</div></div>
+<div class="ttc" id="aclass_body_html_a88b94bb8dbba60966458a9b3a6d7cfc9"><div class="ttname"><a href="../../d0/dcb/class_body.html#a88b94bb8dbba60966458a9b3a6d7cfc9">Body::show</a></div><div class="ttdeci">void show()</div><div class="ttdoc">show показывает все активные части тела</div><div class="ttdef"><b>Definition:</b> body.cpp:92</div></div>
+<div class="ttc" id="aclass_body_html_a90058c21df02a6321753657f2c315fad"><div class="ttname"><a href="../../d0/dcb/class_body.html#a90058c21df02a6321753657f2c315fad">Body::mergeChanges</a></div><div class="ttdeci">void mergeChanges(int id)</div><div class="ttdoc">mergeChanges сохраняет статутс всплывающей части тела в статус обычной</div><div class="ttdef"><b>Definition:</b> body.cpp:52</div></div>
+<div class="ttc" id="aclass_body_html_a96e6ddc2f3b3a0d6cf4e3abcb867f933"><div class="ttname"><a href="../../d0/dcb/class_body.html#a96e6ddc2f3b3a0d6cf4e3abcb867f933">Body::setPopStatus</a></div><div class="ttdeci">void setPopStatus(int id, AbstractBodyPart::Status status)</div><div class="ttdoc">setPopStatus устанавливает новый статус всплывающей части тела</div><div class="ttdef"><b>Definition:</b> body.cpp:74</div></div>
+<div class="ttc" id="aclass_body_html_aa5415e796b81b994527810fe6255d24e"><div class="ttname"><a href="../../d0/dcb/class_body.html#aa5415e796b81b994527810fe6255d24e">Body::readBodyPartsFromCSV</a></div><div class="ttdeci">void readBodyPartsFromCSV()</div><div class="ttdoc">readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла</div><div class="ttdef"><b>Definition:</b> body.cpp:304</div></div>
+<div class="ttc" id="aclass_body_html_aaba42dece3188e6e4831eaadc4620d5b"><div class="ttname"><a href="../../d0/dcb/class_body.html#aaba42dece3188e6e4831eaadc4620d5b">Body::bodyParts</a></div><div class="ttdeci">BodyPart * bodyParts[18]</div><div class="ttdoc">Части тела на главной картинке</div><div class="ttdef"><b>Definition:</b> body.h:228</div></div>
+<div class="ttc" id="aclass_body_html_aaf3f663a0e6bcd04c6502329cbbaf9f9"><div class="ttname"><a href="../../d0/dcb/class_body.html#aaf3f663a0e6bcd04c6502329cbbaf9f9">Body::oldPopStatus</a></div><div class="ttdeci">AbstractBodyPart::Status oldPopStatus</div><div class="ttdoc">Статус активной всплывающей части тела до редактирования</div><div class="ttdef"><b>Definition:</b> body.h:238</div></div>
+<div class="ttc" id="aclass_body_html_ab0eb0c50cce1b06da1d7404f30d56ee9"><div class="ttname"><a href="../../d0/dcb/class_body.html#ab0eb0c50cce1b06da1d7404f30d56ee9">Body::saveToFile</a></div><div class="ttdeci">void saveToFile(QDataStream *out)</div><div class="ttdoc">saveToFile сохраняет статусы мышц в файл</div><div class="ttdef"><b>Definition:</b> body.cpp:270</div></div>
+<div class="ttc" id="aclass_body_html_ab25bacb7a215cb819328dc2aeed48b59"><div class="ttname"><a href="../../d0/dcb/class_body.html#ab25bacb7a215cb819328dc2aeed48b59">Body::setIntaractive</a></div><div class="ttdeci">void setIntaractive(ActiveBodyPart activePart)</div><div class="ttdoc">setIntaractive обновляет интерактивность частей тела в зависимости от значения activePart</div><div class="ttdef"><b>Definition:</b> body.cpp:99</div></div>
+<div class="ttc" id="aclass_body_html_ab700e8d24402589cfb0228bd9b9f4761"><div class="ttname"><a href="../../d0/dcb/class_body.html#ab700e8d24402589cfb0228bd9b9f4761">Body::halfhourIndex</a></div><div class="ttdeci">int halfhourIndex</div><div class="ttdoc">Индекс активного получаса</div><div class="ttdef"><b>Definition:</b> body.h:230</div></div>
+<div class="ttc" id="aclass_body_html_abbc1fb3fd8e8971e1caffcac7676cdd2"><div class="ttname"><a href="../../d0/dcb/class_body.html#abbc1fb3fd8e8971e1caffcac7676cdd2">Body::isIntervalActive</a></div><div class="ttdeci">bool isIntervalActive</div><div class="ttdoc">Активно ли добаление в интервалы</div><div class="ttdef"><b>Definition:</b> body.h:234</div></div>
+<div class="ttc" id="aclass_body_html_acfd562ff6d6de31313a0e0643d6c1638"><div class="ttname"><a href="../../d0/dcb/class_body.html#acfd562ff6d6de31313a0e0643d6c1638">Body::activateHalfhour</a></div><div class="ttdeci">void activateHalfhour()</div><div class="ttdoc">activateHalfhour активирует режим получасов</div><div class="ttdef"><b>Definition:</b> body.cpp:416</div></div>
+<div class="ttc" id="aclass_body_html_ad292c67afabb5c80c137408be34428c9"><div class="ttname"><a href="../../d0/dcb/class_body.html#ad292c67afabb5c80c137408be34428c9">Body::body</a></div><div class="ttdeci">HoverPixmapItem * body</div><div class="ttdoc">Картинка с телом</div><div class="ttdef"><b>Definition:</b> body.h:227</div></div>
+<div class="ttc" id="aclass_body_html_ad754ebc26f5ab93fc80d52989b5156be"><div class="ttname"><a href="../../d0/dcb/class_body.html#ad754ebc26f5ab93fc80d52989b5156be">Body::readFromFile</a></div><div class="ttdeci">void readFromFile(QDataStream *in)</div><div class="ttdoc">readFromFile считывает статусы мышц из файла</div><div class="ttdef"><b>Definition:</b> body.cpp:286</div></div>
+<div class="ttc" id="aclass_body_html_ad7a70362ec7f1288b00b413612787314"><div class="ttname"><a href="../../d0/dcb/class_body.html#ad7a70362ec7f1288b00b413612787314">Body::resetIntervalParts</a></div><div class="ttdeci">void resetIntervalParts()</div><div class="ttdoc">resetIntervalParts делает интервальные части тела не активными</div><div class="ttdef"><b>Definition:</b> body.cpp:170</div></div>
+<div class="ttc" id="aclass_body_html_ad904a015d2d007cbcb69a31ac7fe3d67"><div class="ttname"><a href="../../d0/dcb/class_body.html#ad904a015d2d007cbcb69a31ac7fe3d67">Body::onBodyPartClicked</a></div><div class="ttdeci">void onBodyPartClicked(int id)</div><div class="ttdoc">onBodyPartClicked вызывается при нажатии на часть тела</div><div class="ttdef"><b>Definition:</b> body.cpp:400</div></div>
+<div class="ttc" id="aclass_body_html_ad93c27a74db895e4be1a98b1c64bc451"><div class="ttname"><a href="../../d0/dcb/class_body.html#ad93c27a74db895e4be1a98b1c64bc451">Body::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">clear деактивирует все части тела</div><div class="ttdef"><b>Definition:</b> body.cpp:226</div></div>
+<div class="ttc" id="aclass_body_html_adbb743d810642c5e1cf1101239b3afa4"><div class="ttname"><a href="../../d0/dcb/class_body.html#adbb743d810642c5e1cf1101239b3afa4">Body::deactivateHalfhour</a></div><div class="ttdeci">void deactivateHalfhour()</div><div class="ttdoc">deactivateHalfhour отключает режим получасов</div><div class="ttdef"><b>Definition:</b> body.cpp:421</div></div>
+<div class="ttc" id="aclass_body_html_ae3dc3e5f5dfbc838a86db95bb6edd582"><div class="ttname"><a href="../../d0/dcb/class_body.html#ae3dc3e5f5dfbc838a86db95bb6edd582">Body::addToScene</a></div><div class="ttdeci">void addToScene(QGraphicsScene *scene)</div><div class="ttdoc">addToScene добавляет на сцену изображение человека и все части тела</div><div class="ttdef"><b>Definition:</b> body.cpp:26</div></div>
+<div class="ttc" id="aclass_body_html_ae5f9bd07a7f31d81502e8af0ba355dca"><div class="ttname"><a href="../../d0/dcb/class_body.html#ae5f9bd07a7f31d81502e8af0ba355dca">Body::cancelChanges</a></div><div class="ttdeci">void cancelChanges(int id)</div><div class="ttdoc">cancelChanges сохраняет статутс обычной части тела в статус всплывающей</div></div>
+<div class="ttc" id="aclass_body_html_ae6bee54f75ee05a91d16fcbd63490561"><div class="ttname"><a href="../../d0/dcb/class_body.html#ae6bee54f75ee05a91d16fcbd63490561">Body::bodyPartsStatuses</a></div><div class="ttdeci">AbstractBodyPart::Status bodyPartsStatuses[2][18]</div><div class="ttdoc">Статусы частей тела для получасов</div><div class="ttdef"><b>Definition:</b> body.h:229</div></div>
+<div class="ttc" id="aclass_body_html_ae97b0f4e1794f67851d2e0e2b04e1665"><div class="ttname"><a href="../../d0/dcb/class_body.html#ae97b0f4e1794f67851d2e0e2b04e1665">Body::setCalculatePartStatus</a></div><div class="ttdeci">void setCalculatePartStatus(int partID, bool isFirst)</div><div class="ttdoc">setCalculatePartStatus устанавливает статус части тела на активный в зависимости от поданного значени...</div><div class="ttdef"><b>Definition:</b> body.cpp:180</div></div>
+<div class="ttc" id="aclass_body_html_aea0484ca63f4a41b0f8d69b463f5b92c"><div class="ttname"><a href="../../d0/dcb/class_body.html#aea0484ca63f4a41b0f8d69b463f5b92c">Body::copyHalfhour</a></div><div class="ttdeci">void copyHalfhour()</div><div class="ttdoc">copyHalfhour копирует информацию на другой получас</div><div class="ttdef"><b>Definition:</b> body.cpp:198</div></div>
+<div class="ttc" id="aclass_body_html_aeb2e4b518895c469589851c77241832b"><div class="ttname"><a href="../../d0/dcb/class_body.html#aeb2e4b518895c469589851c77241832b">Body::readPopBodyPartsFromCSV</a></div><div class="ttdeci">void readPopBodyPartsFromCSV()</div><div class="ttdoc">readPopBodyPartsFromCSV считывает данные о частях тела для всплывающих окон из csv файла</div><div class="ttdef"><b>Definition:</b> body.cpp:370</div></div>
+<div class="ttc" id="aclass_body_html_aecb309cef7f9e5945b519adbcb107b86"><div class="ttname"><a href="../../d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86">Body::update</a></div><div class="ttdeci">void update()</div><div class="ttdoc">update обновляет мышцы в соответсвии с сохранённой информацией</div><div class="ttdef"><b>Definition:</b> body.cpp:234</div></div>
+<div class="ttc" id="aclass_body_part_html"><div class="ttname"><a href="../../d2/d6f/class_body_part.html">BodyPart</a></div><div class="ttdoc">Класс части тела на главном экране</div><div class="ttdef"><b>Definition:</b> bodypart.h:19</div></div>
+<div class="ttc" id="aclass_hover_pixmap_item_html"><div class="ttname"><a href="../../d9/d15/class_hover_pixmap_item.html">HoverPixmapItem</a></div><div class="ttdoc">Класс картинки с сигналами при нажатии наведении и выхода из наведения</div><div class="ttdef"><b>Definition:</b> hoverpixmapitem.h:10</div></div>
+<div class="ttc" id="aclass_pop_body_part_html"><div class="ttname"><a href="../../d6/d3b/class_pop_body_part.html">PopBodyPart</a></div><div class="ttdoc">Класс части тела для всплывающего окна</div><div class="ttdef"><b>Definition:</b> popbodypart.h:18</div></div>
+<div class="ttc" id="aconfig_8h_html_a315ca917ad583797f709ea477dd28705"><div class="ttname"><a href="../../db/d16/config_8h.html#a315ca917ad583797f709ea477dd28705">Language</a></div><div class="ttdeci">Language</div><div class="ttdoc">The Language enum - перечисление языков приложения</div><div class="ttdef"><b>Definition:</b> config.h:76</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_76823fb6c02d341a572d5d22ce3d99f3.html">bodyParts</a></li><li class="navelem"><b>body.h</b></li>
+    <li class="footer">Документация по Reforma Windows Software. Последние изменения: Вт 19 Июл 2022 17:39:06. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

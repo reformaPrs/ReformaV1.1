@@ -1,0 +1,5 @@
+<map id="MainWindow::readHeatersFromCSV" name="MainWindow::readHeatersFromCSV">
+<area shape="rect" id="node1" title="readHeatersFromCSV считывает данные о нагревателях из csv файла" alt="" coords="481,5,712,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="232,5,433,32"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,5,184,32"/>
+</map>

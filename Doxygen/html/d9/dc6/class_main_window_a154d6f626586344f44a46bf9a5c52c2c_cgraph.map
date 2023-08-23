@@ -1,0 +1,6 @@
+<map id="MainWindow::updateText" name="MainWindow::updateText">
+<area shape="rect" id="node1" title="updateText обновляет текст" alt="" coords="5,56,173,83"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#af5d423fc6a89441f85f7882187f14270" title="translate переводит интерфейс" alt="" coords="221,5,377,32"/>
+<area shape="rect" id="node3" href="$d0/dcb/class_body.html#a7c7a20354d2c132b183237b36be8dfa4" title="translate переводит тексты подсказок частей тела на общей картинке" alt="" coords="244,56,355,83"/>
+<area shape="rect" id="node4" href="$df/d66/class_mio_suit.html#a5d37fdd1ba70ad3c43a8faac89e023a5" title="translate переводит подсказки паар контактов и нагревателей" alt="" coords="237,107,361,133"/>
+</map>

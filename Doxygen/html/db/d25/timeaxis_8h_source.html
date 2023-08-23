@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Reforma Windows Software: Исходный файл D:/Work/Reforma/Reforma-Windows-Software/timeaxis.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Reforma Windows Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Программа для программирования костюма Reforma</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('db/d25/timeaxis_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">D:/Work/Reforma/Reforma-Windows-Software/timeaxis.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TIMEAXIS_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define TIMEAXIS_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QVector&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QProgressBar&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;graphicItems/pointer.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../db/d16/config_8h.html">config.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define  ALPHA_ACTIVE 130</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define  ALPHA_NOT_ACTIVE 50</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>Ui {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="../../de/d63/class_time_axis.html">TimeAxis</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../de/d63/class_time_axis.html">   22</a></span><span class="keyword">class </span><a class="code hl_class" href="../../de/d63/class_time_axis.html">TimeAxis</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    Q_OBJECT</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../de/d63/class_time_axis.html">TimeAxis</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_class" href="../../de/d63/class_time_axis.html">~TimeAxis</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a833e86f05ffde5be5a3a555404e52040">getStartTime</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080">setStartTime</a>(<span class="keywordtype">int</span> newTime);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a75265d574eca6199369c716bdb9cdcd0">getEndTime</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27">setEndTime</a>(<span class="keywordtype">int</span> newTime);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a0ca92e65c848bf4d13c24a674d1f4832">addNewProgressBar</a>();</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a93ee931de960de949bdec50b2b1ee5ec">deleteProgressBar</a>(qsizetype i);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a5e03f029108a8aaf98bf987fcf24b15d">selectProgressBar</a>(qsizetype i);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a7dc353ed69d7934850242615496d982a">initSimulation</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a8142291d56eb295970e76711cae18009">moveSimulation</a>();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>signals:</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="../../de/d63/class_time_axis.html#a9b3193dd07ccb792ec17020b8c256808">   80</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d63/class_time_axis.html#a9b3193dd07ccb792ec17020b8c256808">startChanged</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="../../de/d63/class_time_axis.html#aedf0c60ff32eb4c12196c280e0131d7e">   84</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d63/class_time_axis.html#aedf0c60ff32eb4c12196c280e0131d7e">endChanged</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="../../de/d63/class_time_axis.html#a3bf6a2f437bebdcd39185564d22b6dd6">   88</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d63/class_time_axis.html#a3bf6a2f437bebdcd39185564d22b6dd6">simulationEnded</a>();</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="../../de/d63/class_time_axis.html#a49909cc367d111e757268d411ae9a00e">   92</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d63/class_time_axis.html#a49909cc367d111e757268d411ae9a00e">simulationTimeChanged</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    Ui::TimeAxis *ui;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <a class="code hl_class" href="../../d6/d3b/class_pointer.html">Pointer</a> *startPointer, *endPointer;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    QLabel *startLabel, *endLabel;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">bool</span> startMoving = <span class="keyword">false</span>, endMoving = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    QPoint pointerOffset;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">int</span> stepInPixels;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    QVector&lt;QProgressBar *&gt; progressBars;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    QVector&lt;QLabel *&gt; endPoints, startPoints;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    QProgressBar *activeProgressBar = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    QLabel *activeEndPoint = <span class="keyword">nullptr</span>, *activeStartPoint = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">int</span> simulationTime = -1;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">bool</span> isSimulation = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a193bdafdd3f3e4333faf7012761173e9">initPointers</a>();</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829">getTimeFromPixels</a>(<span class="keywordtype">int</span> x);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1">getPixelsFromTime</a>(<span class="keywordtype">int</span> time);</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8">setStartGeometry</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h);</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb">setEndGeometry</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h);</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e">activateProgressBar</a>(QProgressBar *progressBar);</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec">deactivateProgressBar</a>(QProgressBar *progressBar);</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    </div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a99bcf0c3ee80441c5a7b0a3ee66c0247">hideActivePoints</a>();</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    </div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#a5631b5d880c0db1bdc0e0daffa80ef06">showActivePoints</a>();</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../de/d63/class_time_axis.html#a022ed7f2f4451b12fc22be1d9cab6770">onPointerPressed</a>(QPoint offset);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../de/d63/class_time_axis.html#a89a9ef5452acfb130b9797ff43d9e1a0">onPointerReleased</a>();</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <span class="comment">// QWidget interface</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d63/class_time_axis.html#ac33dce8987d8e76d7baabf2991a03a55">mouseMoveEvent</a>(QMouseEvent *event);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>};</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span><span class="preprocessor">#endif </span><span class="comment">// TIMEAXIS_H</span></div>
+<div class="ttc" id="aclass_pointer_html"><div class="ttname"><a href="../../d6/d3b/class_pointer.html">Pointer</a></div><div class="ttdoc">Класс указателя</div><div class="ttdef"><b>Definition:</b> pointer.h:12</div></div>
+<div class="ttc" id="aclass_time_axis_html"><div class="ttname"><a href="../../de/d63/class_time_axis.html">TimeAxis</a></div><div class="ttdoc">Класс временной оси для интервальности</div><div class="ttdef"><b>Definition:</b> timeaxis.h:23</div></div>
+<div class="ttc" id="aclass_time_axis_html_a022ed7f2f4451b12fc22be1d9cab6770"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a022ed7f2f4451b12fc22be1d9cab6770">TimeAxis::onPointerPressed</a></div><div class="ttdeci">void onPointerPressed(QPoint offset)</div><div class="ttdoc">onPointerPressed вызывается при нажатии на бегунок</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:295</div></div>
+<div class="ttc" id="aclass_time_axis_html_a0ca92e65c848bf4d13c24a674d1f4832"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a0ca92e65c848bf4d13c24a674d1f4832">TimeAxis::addNewProgressBar</a></div><div class="ttdeci">void addNewProgressBar()</div><div class="ttdoc">addNewProgressBar добавляет один интервал и делает его активным</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:122</div></div>
+<div class="ttc" id="aclass_time_axis_html_a193bdafdd3f3e4333faf7012761173e9"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a193bdafdd3f3e4333faf7012761173e9">TimeAxis::initPointers</a></div><div class="ttdeci">void initPointers()</div><div class="ttdoc">initPointers инициализирует бегунки</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:212</div></div>
+<div class="ttc" id="aclass_time_axis_html_a3bf6a2f437bebdcd39185564d22b6dd6"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a3bf6a2f437bebdcd39185564d22b6dd6">TimeAxis::simulationEnded</a></div><div class="ttdeci">void simulationEnded()</div><div class="ttdoc">simulationEnded вызывается при окончании симуляции</div></div>
+<div class="ttc" id="aclass_time_axis_html_a49909cc367d111e757268d411ae9a00e"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a49909cc367d111e757268d411ae9a00e">TimeAxis::simulationTimeChanged</a></div><div class="ttdeci">void simulationTimeChanged(int)</div><div class="ttdoc">simulationTimeChanged вызывается при изменении времени симуляции на секунду</div></div>
+<div class="ttc" id="aclass_time_axis_html_a4aa359176c644e507ab46351c6d1d829"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829">TimeAxis::getTimeFromPixels</a></div><div class="ttdeci">int getTimeFromPixels(int x)</div><div class="ttdoc">getTimeFromPixels</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:253</div></div>
+<div class="ttc" id="aclass_time_axis_html_a5631b5d880c0db1bdc0e0daffa80ef06"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a5631b5d880c0db1bdc0e0daffa80ef06">TimeAxis::showActivePoints</a></div><div class="ttdeci">void showActivePoints()</div><div class="ttdoc">showActivePoints показывает нижнюю подпись у интервала</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:92</div></div>
+<div class="ttc" id="aclass_time_axis_html_a5e03f029108a8aaf98bf987fcf24b15d"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a5e03f029108a8aaf98bf987fcf24b15d">TimeAxis::selectProgressBar</a></div><div class="ttdeci">void selectProgressBar(qsizetype i)</div><div class="ttdoc">selectProgressBar делает под индексом i интервал активныым</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:159</div></div>
+<div class="ttc" id="aclass_time_axis_html_a75265d574eca6199369c716bdb9cdcd0"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a75265d574eca6199369c716bdb9cdcd0">TimeAxis::getEndTime</a></div><div class="ttdeci">int getEndTime()</div><div class="ttdoc">getEndTime</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:58</div></div>
+<div class="ttc" id="aclass_time_axis_html_a7cc4a686239e09a0c709e9e52eba67e8"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8">TimeAxis::setStartGeometry</a></div><div class="ttdeci">void setStartGeometry(int x, int y, int w, int h)</div><div class="ttdoc">setStartGeometry устанавливат положение начальных элементов интервала</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:263</div></div>
+<div class="ttc" id="aclass_time_axis_html_a7dc353ed69d7934850242615496d982a"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a7dc353ed69d7934850242615496d982a">TimeAxis::initSimulation</a></div><div class="ttdeci">void initSimulation()</div><div class="ttdoc">initSimulation инициализирует симуляцию</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:178</div></div>
+<div class="ttc" id="aclass_time_axis_html_a8142291d56eb295970e76711cae18009"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a8142291d56eb295970e76711cae18009">TimeAxis::moveSimulation</a></div><div class="ttdeci">void moveSimulation()</div><div class="ttdoc">moveSimulation сдвигает время симуляции</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:185</div></div>
+<div class="ttc" id="aclass_time_axis_html_a833e86f05ffde5be5a3a555404e52040"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a833e86f05ffde5be5a3a555404e52040">TimeAxis::getStartTime</a></div><div class="ttdeci">int getStartTime()</div><div class="ttdoc">getStartTime</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:44</div></div>
+<div class="ttc" id="aclass_time_axis_html_a89a9ef5452acfb130b9797ff43d9e1a0"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a89a9ef5452acfb130b9797ff43d9e1a0">TimeAxis::onPointerReleased</a></div><div class="ttdeci">void onPointerReleased()</div><div class="ttdoc">onPointerReleased вызывается при отпускании бегунка</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:305</div></div>
+<div class="ttc" id="aclass_time_axis_html_a93ee931de960de949bdec50b2b1ee5ec"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a93ee931de960de949bdec50b2b1ee5ec">TimeAxis::deleteProgressBar</a></div><div class="ttdeci">void deleteProgressBar(qsizetype i)</div><div class="ttdoc">deleteProgressBar удаляет интервал по индексу i</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:142</div></div>
+<div class="ttc" id="aclass_time_axis_html_a99bcf0c3ee80441c5a7b0a3ee66c0247"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a99bcf0c3ee80441c5a7b0a3ee66c0247">TimeAxis::hideActivePoints</a></div><div class="ttdeci">void hideActivePoints()</div><div class="ttdoc">hideActivePoints скрывает нижнюю подпись у интервала</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:72</div></div>
+<div class="ttc" id="aclass_time_axis_html_a9b3193dd07ccb792ec17020b8c256808"><div class="ttname"><a href="../../de/d63/class_time_axis.html#a9b3193dd07ccb792ec17020b8c256808">TimeAxis::startChanged</a></div><div class="ttdeci">void startChanged(int)</div><div class="ttdoc">startChanged вызывается при изменении начала интервала с помощью бегунка</div></div>
+<div class="ttc" id="aclass_time_axis_html_aaa711117d512d01ea66970454d23f5f1"><div class="ttname"><a href="../../de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1">TimeAxis::getPixelsFromTime</a></div><div class="ttdeci">int getPixelsFromTime(int time)</div><div class="ttdoc">getPixelsFromTime</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:258</div></div>
+<div class="ttc" id="aclass_time_axis_html_ab35e47db83b16146db00a08b55a16dfb"><div class="ttname"><a href="../../de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb">TimeAxis::setEndGeometry</a></div><div class="ttdeci">void setEndGeometry(int x, int y, int w, int h)</div><div class="ttdoc">setEndGeometry устанавливат положение конечных элементов интервала</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:279</div></div>
+<div class="ttc" id="aclass_time_axis_html_ab66ab76573cd5d7ac30c7e76f8e49080"><div class="ttname"><a href="../../de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080">TimeAxis::setStartTime</a></div><div class="ttdeci">void setStartTime(int newTime)</div><div class="ttdoc">setStartTime устанавливает начало активного временного интервала</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:49</div></div>
+<div class="ttc" id="aclass_time_axis_html_ac33dce8987d8e76d7baabf2991a03a55"><div class="ttname"><a href="../../de/d63/class_time_axis.html#ac33dce8987d8e76d7baabf2991a03a55">TimeAxis::mouseMoveEvent</a></div><div class="ttdeci">void mouseMoveEvent(QMouseEvent *event)</div><div class="ttdoc">mouseMoveEvent ловит событие движения мыши</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:312</div></div>
+<div class="ttc" id="aclass_time_axis_html_ad91e69e4333db26afa01d7c8860a167e"><div class="ttname"><a href="../../de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e">TimeAxis::activateProgressBar</a></div><div class="ttdeci">void activateProgressBar(QProgressBar *progressBar)</div><div class="ttdoc">activateProgressBar активирует интервал</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:78</div></div>
+<div class="ttc" id="aclass_time_axis_html_ae8641b0ad3c37f252c5c03cb3675b8ec"><div class="ttname"><a href="../../de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec">TimeAxis::deactivateProgressBar</a></div><div class="ttdeci">void deactivateProgressBar(QProgressBar *progressBar)</div><div class="ttdoc">deactivateProgressBar деактивирует интервал</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:109</div></div>
+<div class="ttc" id="aclass_time_axis_html_aedf0c60ff32eb4c12196c280e0131d7e"><div class="ttname"><a href="../../de/d63/class_time_axis.html#aedf0c60ff32eb4c12196c280e0131d7e">TimeAxis::endChanged</a></div><div class="ttdeci">void endChanged(int)</div><div class="ttdoc">endChanged вызывается при изменении конца интервала с помощью бегунка</div></div>
+<div class="ttc" id="aclass_time_axis_html_af7147439b0e29d422f1e3cd9b3c28b27"><div class="ttname"><a href="../../de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27">TimeAxis::setEndTime</a></div><div class="ttdeci">void setEndTime(int newTime)</div><div class="ttdoc">setEndTime устанавливает конец активного временного интервала</div><div class="ttdef"><b>Definition:</b> timeaxis.cpp:63</div></div>
+<div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="../../db/d16/config_8h.html">config.h</a></div><div class="ttdoc">Файл конфигурации приложения</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>timeaxis.h</b></li>
+    <li class="footer">Документация по Reforma Windows Software. Последние изменения: Вт 19 Июл 2022 17:39:07. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

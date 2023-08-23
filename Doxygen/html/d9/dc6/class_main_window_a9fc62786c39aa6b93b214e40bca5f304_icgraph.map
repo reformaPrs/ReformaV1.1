@@ -1,0 +1,4 @@
+<map id="MainWindow::onIntervalShowClicked" name="MainWindow::onIntervalShowClicked">
+<area shape="rect" id="node1" title="onIntervalShowClicked вызывается при нажатии кнопки Просмотр на виджете интервальности" alt="" coords="215,5,405,47"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a4507212aefca6178791585d378128231" title="initIntervalDialog инициализирует диалоговое окно интервалов" alt="" coords="5,5,167,47"/>
+</map>

@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Reforma Windows Software: Исходный файл D:/Work/Reforma/Reforma-Windows-Software/dotsPairs/miosuit.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Reforma Windows Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Программа для программирования костюма Reforma</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d4/ddf/miosuit_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">miosuit.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef MOISUIT_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define MOISUIT_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;dotspair.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;intervaldotspair.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;popdotspair.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QException&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;bodyParts/heater.h&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html">   21</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    Q_OBJECT</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a> *<a class="code hl_function" href="../../df/d66/class_mio_suit.html#a9b32a306d69dc9297eeb0924cbbcac5e">getMioSuitInstance</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_class" href="../../df/d66/class_mio_suit.html">~MioSuit</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#acb5af18a2c617fa40b6952bba696a62b">addToScene</a>(QGraphicsScene *scene);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a5d37fdd1ba70ad3c43a8faac89e023a5">translate</a>(<a class="code hl_enumeration" href="../../db/d16/config_8h.html#a315ca917ad583797f709ea477dd28705">Language</a> language);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a67128cc5c0cb4bcdd1f492257eeb38bb">show</a>();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a52f6295c125e119f1c3a6c1cc032c8c8">hide</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a25208d1655ac46745b8f9f32ca174291">hideHeaters</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#ae880445d522be34d6f6fc989f39f5450">showHeaters</a>();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a5fa2acd643279f67d8eea227b76ecffb">resetDotsPairs</a>(<span class="keywordtype">int</span> partID);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#ac7804dec56e9fbd724faf2d7bb8789ce">addPopToScene</a>(<span class="keywordtype">int</span> partID, QGraphicsScene *scene);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#af33273c61b459aec07c00dcf4e6f52d2">resetPopDotsPairs</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a042b8805d7d868e9302ba55f67aa4e4f">activateMusclePopDotsPairs</a>(<span class="keywordtype">bool</span> isFirstMuscle);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#accb2def86ffa0e0d9f331639fd24a1c6">deactivateMusclePopDotsPairs</a>(<span class="keywordtype">bool</span> isFirstMuscle);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#ad9fe4b3c5b618e64005fd8b2d2962554">showPopDotsPairs</a>();</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#adcb6a26054c547306714f8a29e3a87f9">removePopFromScene</a>(QGraphicsScene *scene);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a0a69ef989ed595121fd5f75593f9e402">isMuscleActive</a>(<span class="keywordtype">bool</span> isFirstMuscle);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a46ca994fd989acec2050f817a65d1cf1">isPopValuesChanged</a>();</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#abda8757c9332ea0a103bbe14e03974ae">mergeChanges</a>();</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#ae1a0a0e56d431a3edf58529bdd9c6460">setHalfhourIndex</a>(<span class="keywordtype">int</span> newHalfhourIndex);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f">saveHalfhour</a>();</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a2413777c847015cc3070a836290b7aaf">copyHalfhour</a>();</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#ac9ca16da602c69f7ecfa0feaedfa0e77">addIntervalPairs</a>(<span class="keywordtype">bool</span> isUp);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <a class="code hl_class" href="../../d1/d3e/class_interval_dots_pair.html">IntervalDotsPair</a> *<a class="code hl_function" href="../../df/d66/class_mio_suit.html#a8eaf16f0de835e984a98064ea849f296">getIntervalDotsPairAt</a>(<span class="keywordtype">int</span> index, <span class="keywordtype">bool</span> isUp);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a91e9075f542b0aac3de8e55efe1d3a28">removeIntervalDotsPairAt</a>(<span class="keywordtype">int</span> index, <span class="keywordtype">bool</span> isUp);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="keyword">const</span> QVector&lt;IntervalDotsPair *&gt; &amp;getIntervalDotsPairs(<span class="keywordtype">bool</span> isUp) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#aa6b7e820526e80676e303d046c60f30f">isIntervalDotsPairWithPartID</a>(<span class="keywordtype">int</span> partID, <span class="keywordtype">bool</span> isUp);</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a0e216d5965603d8d7d5869d1d95a32fd">setDotsPairSimulationValue</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a582343b6caa3fdf86bd7d37ce6262bec">isFirstMuscleByID</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a07aa709b58e0b2b23f527f7162d73db5">setRecievedValues</a>(<span class="keywordtype">int</span> recievedValues[40][40]);</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a2ac95b2e1a82256313bbf759e91942d0">update</a>();</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#ae09487568c8902980fc1af14727e7782">saveToFile</a>(QDataStream *out);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#ae84c0ca8d74964d8603466cc079e2368">readFromFile</a>(QDataStream *in);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a3442797bf38fd184047472f6d8795b43">activateHalfhour</a>();</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <span class="keyword">const</span> QVector&lt;DotsPair *&gt; &amp;getDotsPairs() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="keywordtype">bool</span> getIsHalfhourActive() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#ac62bc8694426c42decc7105f1ebf3bf4">clearHalfhour</a>();</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#abd3874f90872fcc81cbc4da3686b5c1c">deactivateHalfhour</a>();</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>signals:</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span> </div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno"><a class="line" href="../../da/d32/class_mio_suit_1_1_half_hour_exception.html">  213</a></span>    <span class="keyword">class </span><a class="code hl_class" href="../../da/d32/class_mio_suit_1_1_half_hour_exception.html">HalfHourException</a>: <span class="keyword">public</span> QException</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    {</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        <span class="keywordtype">void</span> raise()<span class="keyword"> const </span>{qDebug() &lt;&lt; <span class="stringliteral">&quot;\nException: &quot;</span>; <span class="keywordflow">throw</span> *<span class="keyword">this</span>;}</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    };</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a>(QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a>&amp; root) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#a15dd5bde6782c47b14599212878acd27">  223</a></span>    QVector&lt;DotsPair *&gt; <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#a15dd5bde6782c47b14599212878acd27">dotsPairs</a>; </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#a76c19ae56e905048c752e047a51d556e">  224</a></span>    QVector&lt;PopDotsPair *&gt; <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#a76c19ae56e905048c752e047a51d556e">popDotsPairs</a>; </div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#af6adeab11542df759c08417358644edd">  225</a></span>    QVector&lt;PopDotsPair *&gt; <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#af6adeab11542df759c08417358644edd">activePopDotsPairs</a>; </div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#a5fad3b422a688a336da9b39aefddcd6f">  226</a></span>    QVector&lt;int&gt; <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#a5fad3b422a688a336da9b39aefddcd6f">pairsValues</a>[2]; </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#aa57b88968480a027daaffb764c2ce048">  228</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#aa57b88968480a027daaffb764c2ce048">isHalfhourActive</a> = <span class="keyword">false</span>; </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#a3c13c41b99eed296f6528f6cbed0a20e">  230</a></span>    QVector&lt;IntervalDotsPair *&gt; <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#a3c13c41b99eed296f6528f6cbed0a20e">intervalDotsPairsUp</a>[2]; </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#aaf229bcad6947ad9a7072a78fcc547f3">  231</a></span>    QVector&lt;IntervalDotsPair *&gt; <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#aaf229bcad6947ad9a7072a78fcc547f3">intervalDotsPairsDown</a>[2]; </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#af7b11326e40176c5875f91e949303d76">  232</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#af7b11326e40176c5875f91e949303d76">halfhourIndex</a> = 0; </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#a60037cde194e16a926703cd53bf2bb12">  233</a></span>    QVector&lt;QString&gt; <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#a60037cde194e16a926703cd53bf2bb12">pairsNames</a>; </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="../../df/d66/class_mio_suit.html#a475a3f5a8c4bb182bfc85d70e925d81d">  235</a></span>    QVector&lt;Heater *&gt; <a class="code hl_variable" href="../../df/d66/class_mio_suit.html#a475a3f5a8c4bb182bfc85d70e925d81d">heaters</a>; </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a5c5193e6eafbbc27a3db7730b5cb9dc5">readDotsPairsFromCSV</a>();</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#abc951a7b20ad52c904959ccdacc6d65c">readHeatersFromCSV</a>();</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d66/class_mio_suit.html#a51c6bf7f6890e2ef3be7700b5e2df542">checkForActiveHalfhour</a>();</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>};</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="preprocessor">#endif </span><span class="comment">// MOISUIT_H</span></div>
+<div class="ttc" id="aclass_interval_dots_pair_html"><div class="ttname"><a href="../../d1/d3e/class_interval_dots_pair.html">IntervalDotsPair</a></div><div class="ttdoc">Класс пары контактов для интервалов</div><div class="ttdef"><b>Definition:</b> intervaldotspair.h:15</div></div>
+<div class="ttc" id="aclass_mio_suit_1_1_half_hour_exception_html"><div class="ttname"><a href="../../da/d32/class_mio_suit_1_1_half_hour_exception.html">MioSuit::HalfHourException</a></div><div class="ttdef"><b>Definition:</b> miosuit.h:214</div></div>
+<div class="ttc" id="aclass_mio_suit_html"><div class="ttname"><a href="../../df/d66/class_mio_suit.html">MioSuit</a></div><div class="ttdoc">Класс костюма Является фасадом для всех пар контактов и нагревателей Также может существовать только ...</div><div class="ttdef"><b>Definition:</b> miosuit.h:22</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a042b8805d7d868e9302ba55f67aa4e4f"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a042b8805d7d868e9302ba55f67aa4e4f">MioSuit::activateMusclePopDotsPairs</a></div><div class="ttdeci">void activateMusclePopDotsPairs(bool isFirstMuscle)</div><div class="ttdoc">activateMusclePopDotsPairs показвывает всплывающую пару контактов мышцы</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:137</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a07aa709b58e0b2b23f527f7162d73db5"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a07aa709b58e0b2b23f527f7162d73db5">MioSuit::setRecievedValues</a></div><div class="ttdeci">void setRecievedValues(int recievedValues[40][40])</div><div class="ttdoc">setRecievedValues</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:260</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a0a69ef989ed595121fd5f75593f9e402"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a0a69ef989ed595121fd5f75593f9e402">MioSuit::isMuscleActive</a></div><div class="ttdeci">bool isMuscleActive(bool isFirstMuscle)</div><div class="ttdoc">isMuscleActive активна ли пара контактов (мышца)</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:163</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a0e216d5965603d8d7d5869d1d95a32fd"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a0e216d5965603d8d7d5869d1d95a32fd">MioSuit::setDotsPairSimulationValue</a></div><div class="ttdeci">void setDotsPairSimulationValue(int id, int value)</div><div class="ttdoc">setDotsPairSimulationValue</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:249</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a15dd5bde6782c47b14599212878acd27"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a15dd5bde6782c47b14599212878acd27">MioSuit::dotsPairs</a></div><div class="ttdeci">QVector&lt; DotsPair * &gt; dotsPairs</div><div class="ttdoc">Пары контактов на главной картинке</div><div class="ttdef"><b>Definition:</b> miosuit.h:223</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a2413777c847015cc3070a836290b7aaf"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a2413777c847015cc3070a836290b7aaf">MioSuit::copyHalfhour</a></div><div class="ttdeci">void copyHalfhour()</div><div class="ttdoc">copyHalfhour копирует информацию на другой получас</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:355</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a25208d1655ac46745b8f9f32ca174291"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a25208d1655ac46745b8f9f32ca174291">MioSuit::hideHeaters</a></div><div class="ttdeci">void hideHeaters()</div><div class="ttdoc">hideHeaters скрывает все нагреватели</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:84</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a2ac95b2e1a82256313bbf759e91942d0"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a2ac95b2e1a82256313bbf759e91942d0">MioSuit::update</a></div><div class="ttdeci">void update()</div><div class="ttdoc">update обновляет пары контактов в соответствии с сохранёнными значениями</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:413</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a3442797bf38fd184047472f6d8795b43"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a3442797bf38fd184047472f6d8795b43">MioSuit::activateHalfhour</a></div><div class="ttdeci">void activateHalfhour()</div><div class="ttdoc">activateHalfhour активирует режим получасов</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:581</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a3c13c41b99eed296f6528f6cbed0a20e"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a3c13c41b99eed296f6528f6cbed0a20e">MioSuit::intervalDotsPairsUp</a></div><div class="ttdeci">QVector&lt; IntervalDotsPair * &gt; intervalDotsPairsUp[2]</div><div class="ttdoc">Вектор пар контактов верхнейчасти тела</div><div class="ttdef"><b>Definition:</b> miosuit.h:230</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a46ca994fd989acec2050f817a65d1cf1"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a46ca994fd989acec2050f817a65d1cf1">MioSuit::isPopValuesChanged</a></div><div class="ttdeci">bool isPopValuesChanged()</div><div class="ttdoc">isPopValuesChanged проверяет поменялись ли значения всплывающих пар контактов</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:172</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a475a3f5a8c4bb182bfc85d70e925d81d"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a475a3f5a8c4bb182bfc85d70e925d81d">MioSuit::heaters</a></div><div class="ttdeci">QVector&lt; Heater * &gt; heaters</div><div class="ttdoc">Вектор нагревателей</div><div class="ttdef"><b>Definition:</b> miosuit.h:235</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a51c6bf7f6890e2ef3be7700b5e2df542"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a51c6bf7f6890e2ef3be7700b5e2df542">MioSuit::checkForActiveHalfhour</a></div><div class="ttdeci">void checkForActiveHalfhour()</div><div class="ttdoc">checkForActiveHalfhour проверяет записанные данные получасов</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:544</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a52f6295c125e119f1c3a6c1cc032c8c8"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a52f6295c125e119f1c3a6c1cc032c8c8">MioSuit::hide</a></div><div class="ttdeci">void hide()</div><div class="ttdoc">hide скрывает пары контактов</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:77</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a582343b6caa3fdf86bd7d37ce6262bec"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a582343b6caa3fdf86bd7d37ce6262bec">MioSuit::isFirstMuscleByID</a></div><div class="ttdeci">bool isFirstMuscleByID(int id)</div><div class="ttdoc">isFirstMuscleByID относиться ли пара контактов к первой мышце</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:255</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a5c5193e6eafbbc27a3db7730b5cb9dc5"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a5c5193e6eafbbc27a3db7730b5cb9dc5">MioSuit::readDotsPairsFromCSV</a></div><div class="ttdeci">void readDotsPairsFromCSV()</div><div class="ttdoc">readDotsPairsFromCSV считывает данные о парах контактов из csv файла</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:613</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a5cad30f1e420aac0db99516c63f03a8f"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f">MioSuit::saveHalfhour</a></div><div class="ttdeci">void saveHalfhour()</div><div class="ttdoc">saveHalfhour сохраняет данные о текущем получасе</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:341</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a5d37fdd1ba70ad3c43a8faac89e023a5"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a5d37fdd1ba70ad3c43a8faac89e023a5">MioSuit::translate</a></div><div class="ttdeci">void translate(Language language)</div><div class="ttdoc">translate переводит подсказки паар контактов и нагревателей</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:47</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a5fa2acd643279f67d8eea227b76ecffb"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a5fa2acd643279f67d8eea227b76ecffb">MioSuit::resetDotsPairs</a></div><div class="ttdeci">void resetDotsPairs(int partID)</div><div class="ttdoc">resetDotsPairs деактивирует пары контактов части тела</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:98</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a5fad3b422a688a336da9b39aefddcd6f"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a5fad3b422a688a336da9b39aefddcd6f">MioSuit::pairsValues</a></div><div class="ttdeci">QVector&lt; int &gt; pairsValues[2]</div><div class="ttdoc">Значения импульсов пар контактов для получасов</div><div class="ttdef"><b>Definition:</b> miosuit.h:226</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a60037cde194e16a926703cd53bf2bb12"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a60037cde194e16a926703cd53bf2bb12">MioSuit::pairsNames</a></div><div class="ttdeci">QVector&lt; QString &gt; pairsNames</div><div class="ttdoc">Имена пар контактов для интервалов</div><div class="ttdef"><b>Definition:</b> miosuit.h:233</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a67128cc5c0cb4bcdd1f492257eeb38bb"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a67128cc5c0cb4bcdd1f492257eeb38bb">MioSuit::show</a></div><div class="ttdeci">void show()</div><div class="ttdoc">show отображает активные пары контактов</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:66</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a76c19ae56e905048c752e047a51d556e"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a76c19ae56e905048c752e047a51d556e">MioSuit::popDotsPairs</a></div><div class="ttdeci">QVector&lt; PopDotsPair * &gt; popDotsPairs</div><div class="ttdoc">Пары контактов для всплывающих окон</div><div class="ttdef"><b>Definition:</b> miosuit.h:224</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a8eaf16f0de835e984a98064ea849f296"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a8eaf16f0de835e984a98064ea849f296">MioSuit::getIntervalDotsPairAt</a></div><div class="ttdeci">IntervalDotsPair * getIntervalDotsPairAt(int index, bool isUp)</div><div class="ttdoc">getIntervalDotsPairAt возвращает интервальную пару контактов по индексу</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:214</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a91e9075f542b0aac3de8e55efe1d3a28"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a91e9075f542b0aac3de8e55efe1d3a28">MioSuit::removeIntervalDotsPairAt</a></div><div class="ttdeci">void removeIntervalDotsPairAt(int index, bool isUp)</div><div class="ttdoc">removeIntervalDotsPairAt удаляет интервальную пару контактов по индексу</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:222</div></div>
+<div class="ttc" id="aclass_mio_suit_html_a9b32a306d69dc9297eeb0924cbbcac5e"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#a9b32a306d69dc9297eeb0924cbbcac5e">MioSuit::getMioSuitInstance</a></div><div class="ttdeci">static MioSuit * getMioSuitInstance()</div><div class="ttdoc">getMioSuitInstance создаёт единственный объект класса</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:3</div></div>
+<div class="ttc" id="aclass_mio_suit_html_aa57b88968480a027daaffb764c2ce048"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#aa57b88968480a027daaffb764c2ce048">MioSuit::isHalfhourActive</a></div><div class="ttdeci">bool isHalfhourActive</div><div class="ttdoc">Активен ли режим получаса</div><div class="ttdef"><b>Definition:</b> miosuit.h:228</div></div>
+<div class="ttc" id="aclass_mio_suit_html_aa6b7e820526e80676e303d046c60f30f"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#aa6b7e820526e80676e303d046c60f30f">MioSuit::isIntervalDotsPairWithPartID</a></div><div class="ttdeci">bool isIntervalDotsPairWithPartID(int partID, bool isUp)</div><div class="ttdoc">isIntervalDotsPairWithPartID</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:231</div></div>
+<div class="ttc" id="aclass_mio_suit_html_aaf229bcad6947ad9a7072a78fcc547f3"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#aaf229bcad6947ad9a7072a78fcc547f3">MioSuit::intervalDotsPairsDown</a></div><div class="ttdeci">QVector&lt; IntervalDotsPair * &gt; intervalDotsPairsDown[2]</div><div class="ttdoc">Вектор пар контактов нижней части тела</div><div class="ttdef"><b>Definition:</b> miosuit.h:231</div></div>
+<div class="ttc" id="aclass_mio_suit_html_abc951a7b20ad52c904959ccdacc6d65c"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#abc951a7b20ad52c904959ccdacc6d65c">MioSuit::readHeatersFromCSV</a></div><div class="ttdeci">void readHeatersFromCSV()</div><div class="ttdoc">readHeatersFromCSV считывает данные о нагревателях из csv файла</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:719</div></div>
+<div class="ttc" id="aclass_mio_suit_html_abd3874f90872fcc81cbc4da3686b5c1c"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#abd3874f90872fcc81cbc4da3686b5c1c">MioSuit::deactivateHalfhour</a></div><div class="ttdeci">void deactivateHalfhour()</div><div class="ttdoc">deactivateHalfhour отключает режим получасов</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:600</div></div>
+<div class="ttc" id="aclass_mio_suit_html_abda8757c9332ea0a103bbe14e03974ae"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#abda8757c9332ea0a103bbe14e03974ae">MioSuit::mergeChanges</a></div><div class="ttdeci">void mergeChanges()</div><div class="ttdoc">mergeChanges записывает значения всплывающих пар контактов в обычные</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:182</div></div>
+<div class="ttc" id="aclass_mio_suit_html_ac62bc8694426c42decc7105f1ebf3bf4"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#ac62bc8694426c42decc7105f1ebf3bf4">MioSuit::clearHalfhour</a></div><div class="ttdeci">void clearHalfhour()</div><div class="ttdoc">clearHalfhour</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:383</div></div>
+<div class="ttc" id="aclass_mio_suit_html_ac7804dec56e9fbd724faf2d7bb8789ce"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#ac7804dec56e9fbd724faf2d7bb8789ce">MioSuit::addPopToScene</a></div><div class="ttdeci">void addPopToScene(int partID, QGraphicsScene *scene)</div><div class="ttdoc">addPopToScene добавляет всплывающие контакты на сцену</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:108</div></div>
+<div class="ttc" id="aclass_mio_suit_html_ac9ca16da602c69f7ecfa0feaedfa0e77"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#ac9ca16da602c69f7ecfa0feaedfa0e77">MioSuit::addIntervalPairs</a></div><div class="ttdeci">int addIntervalPairs(bool isUp)</div><div class="ttdoc">addIntervalPairs добавляет новые пары контактов в интервальные пары из активных всплывающих пар</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:195</div></div>
+<div class="ttc" id="aclass_mio_suit_html_acb5af18a2c617fa40b6952bba696a62b"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#acb5af18a2c617fa40b6952bba696a62b">MioSuit::addToScene</a></div><div class="ttdeci">void addToScene(QGraphicsScene *scene)</div><div class="ttdoc">addToScene добавляет пары котнактов и нагреватели на сцену</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:37</div></div>
+<div class="ttc" id="aclass_mio_suit_html_accb2def86ffa0e0d9f331639fd24a1c6"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#accb2def86ffa0e0d9f331639fd24a1c6">MioSuit::deactivateMusclePopDotsPairs</a></div><div class="ttdeci">void deactivateMusclePopDotsPairs(bool isFirstMuscle)</div><div class="ttdoc">deactivateMusclePopDotsPairs скрывает всплывающую пару контактов мышцы</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:146</div></div>
+<div class="ttc" id="aclass_mio_suit_html_ad9fe4b3c5b618e64005fd8b2d2962554"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#ad9fe4b3c5b618e64005fd8b2d2962554">MioSuit::showPopDotsPairs</a></div><div class="ttdeci">void showPopDotsPairs()</div><div class="ttdoc">showPopDotsPairs показывает всплывающе контакты</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:156</div></div>
+<div class="ttc" id="aclass_mio_suit_html_adcb6a26054c547306714f8a29e3a87f9"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#adcb6a26054c547306714f8a29e3a87f9">MioSuit::removePopFromScene</a></div><div class="ttdeci">void removePopFromScene(QGraphicsScene *scene)</div><div class="ttdoc">removePopFromScene убирает контакты со сцены всплывающего окна</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:123</div></div>
+<div class="ttc" id="aclass_mio_suit_html_ae09487568c8902980fc1af14727e7782"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#ae09487568c8902980fc1af14727e7782">MioSuit::saveToFile</a></div><div class="ttdeci">void saveToFile(QDataStream *out)</div><div class="ttdoc">saveToFile сохраняет информацию о костюме в файл</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:426</div></div>
+<div class="ttc" id="aclass_mio_suit_html_ae1a0a0e56d431a3edf58529bdd9c6460"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#ae1a0a0e56d431a3edf58529bdd9c6460">MioSuit::setHalfhourIndex</a></div><div class="ttdeci">void setHalfhourIndex(int newHalfhourIndex)</div><div class="ttdoc">setHalfhourIndex задаёт новый индекс получаса</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:332</div></div>
+<div class="ttc" id="aclass_mio_suit_html_ae84c0ca8d74964d8603466cc079e2368"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#ae84c0ca8d74964d8603466cc079e2368">MioSuit::readFromFile</a></div><div class="ttdeci">void readFromFile(QDataStream *in)</div><div class="ttdoc">readFromFile считывает информацию о костюме из файла</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:489</div></div>
+<div class="ttc" id="aclass_mio_suit_html_ae880445d522be34d6f6fc989f39f5450"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#ae880445d522be34d6f6fc989f39f5450">MioSuit::showHeaters</a></div><div class="ttdeci">void showHeaters()</div><div class="ttdoc">showHeaters показывает все нагреватели</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:91</div></div>
+<div class="ttc" id="aclass_mio_suit_html_af33273c61b459aec07c00dcf4e6f52d2"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#af33273c61b459aec07c00dcf4e6f52d2">MioSuit::resetPopDotsPairs</a></div><div class="ttdeci">void resetPopDotsPairs()</div><div class="ttdoc">resetPopDotsPairs деактивирует всплывающие пары контактов</div><div class="ttdef"><b>Definition:</b> miosuit.cpp:130</div></div>
+<div class="ttc" id="aclass_mio_suit_html_af6adeab11542df759c08417358644edd"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#af6adeab11542df759c08417358644edd">MioSuit::activePopDotsPairs</a></div><div class="ttdeci">QVector&lt; PopDotsPair * &gt; activePopDotsPairs</div><div class="ttdoc">Пары контактов для активного всплывающих окон</div><div class="ttdef"><b>Definition:</b> miosuit.h:225</div></div>
+<div class="ttc" id="aclass_mio_suit_html_af7b11326e40176c5875f91e949303d76"><div class="ttname"><a href="../../df/d66/class_mio_suit.html#af7b11326e40176c5875f91e949303d76">MioSuit::halfhourIndex</a></div><div class="ttdeci">int halfhourIndex</div><div class="ttdoc">Индекс активного получаса</div><div class="ttdef"><b>Definition:</b> miosuit.h:232</div></div>
+<div class="ttc" id="aconfig_8h_html_a315ca917ad583797f709ea477dd28705"><div class="ttname"><a href="../../db/d16/config_8h.html#a315ca917ad583797f709ea477dd28705">Language</a></div><div class="ttdeci">Language</div><div class="ttdoc">The Language enum - перечисление языков приложения</div><div class="ttdef"><b>Definition:</b> config.h:76</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_f32216e82eb60d6b316fa360ace7bf1b.html">dotsPairs</a></li><li class="navelem"><b>miosuit.h</b></li>
+    <li class="footer">Документация по Reforma Windows Software. Последние изменения: Вт 19 Июл 2022 17:39:06. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<map id="MainWindow::readDotsPairsFromCSV" name="MainWindow::readDotsPairsFromCSV">
+<area shape="rect" id="node1" title="readDotsPairsFromCSV считывает данные о парах контактов из csv файла" alt="" coords="5,23,192,65"/>
+<area shape="rect" id="node2" href="$dc/d0f/class_dots_pair.html#a53786b5ef7d2e796a22ae2bde03a491d" title="addToScene добавляет пару контактов на сцену" alt="" coords="240,5,392,32"/>
+<area shape="rect" id="node4" href="$dc/d0f/class_dots_pair.html#ac7367def3c9b6b8e6434ca177522ab65" title="hide скрывает со сцены" alt="" coords="264,56,368,83"/>
+<area shape="rect" id="node3" href="$d9/d91/class_simple_dots_pair.html#a52792f3ef46e94d931edbc0aa57086d9" title="getValue" alt="" coords="440,5,611,32"/>
+</map>

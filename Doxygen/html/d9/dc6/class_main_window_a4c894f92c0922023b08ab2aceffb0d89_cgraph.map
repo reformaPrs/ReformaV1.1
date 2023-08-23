@@ -1,0 +1,4 @@
+<map id="MainWindow::sendDataPackets" name="MainWindow::sendDataPackets">
+<area shape="rect" id="node1" title="sendDataPackets отсылает 4 пакета с данными о всех парах контактов" alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="260,5,447,32"/>
+</map>

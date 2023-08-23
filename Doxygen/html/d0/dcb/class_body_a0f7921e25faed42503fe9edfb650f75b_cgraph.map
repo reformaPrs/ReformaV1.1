@@ -1,0 +1,5 @@
+<map id="Body::clearHalfhour" name="Body::clearHalfhour">
+<area shape="rect" id="node1" title="clearHalfhour" alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86" title="update обновляет мышцы в соответсвии с сохранённой информацией" alt="" coords="188,5,287,32"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="335,5,475,32"/>
+</map>

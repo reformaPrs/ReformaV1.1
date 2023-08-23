@@ -1,0 +1,4 @@
+<map id="MainWindow::onIntervalIntaractivePartChanged" name="MainWindow::onIntervalIntaractivePartChanged">
+<area shape="rect" id="node1" title="onIntervalIntaractivePartChanged вызывается при изменении мышц в интервалах" alt="" coords="215,5,431,47"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a4507212aefca6178791585d378128231" title="initIntervalDialog инициализирует диалоговое окно интервалов" alt="" coords="5,5,167,47"/>
+</map>

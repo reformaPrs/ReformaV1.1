@@ -1,0 +1,4 @@
+<map id="MainWindow::onHalfHourToggled" name="MainWindow::onHalfHourToggled">
+<area shape="rect" id="node1" title="onHalfHourToggled вызывается нажатием на одну из кнопок получаса" alt="" coords="220,5,432,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="5,5,172,32"/>
+</map>

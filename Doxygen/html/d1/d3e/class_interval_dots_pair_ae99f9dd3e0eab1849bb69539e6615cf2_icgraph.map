@@ -1,0 +1,23 @@
+<map id="IntervalDotsPair::setStartTime" name="IntervalDotsPair::setStartTime">
+<area shape="rect" id="node1" title="setStartTime" alt="" coords="2023,188,2217,215"/>
+<area shape="rect" id="node2" href="$df/d66/class_mio_suit.html#ac9ca16da602c69f7ecfa0feaedfa0e77" title="addIntervalPairs добавляет новые пары контактов в интервальные пары из активных всплывающих пар" alt="" coords="1790,5,1955,32"/>
+<area shape="rect" id="node6" href="$dd/dd9/class_interval_dialog.html#ad7b6c5409f17319a084f4cb9bf9129b6" title="onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox&#39;е" alt="" coords="1788,57,1957,98"/>
+<area shape="rect" id="node7" href="$d8/dc0/class_interval_widget.html#adeedac421abc92e6f222879c4621a630" title="onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox&#39;е" alt="" coords="1785,122,1960,163"/>
+<area shape="rect" id="node8" href="$dd/dd9/class_interval_dialog.html#adf4b5d6547a926d1535bf603d18c9130" title="onStartChanged вызывается при изменении времени начала интервала через шкалу" alt="" coords="1773,188,1972,215"/>
+<area shape="rect" id="node9" href="$d8/dc0/class_interval_widget.html#a8a33857cf699a7bd19868ff9994ff583" title="onStartChanged вызывается при изменении времени начала интервала через шкалу" alt="" coords="1771,239,1975,265"/>
+<area shape="rect" id="node10" href="$df/d66/class_mio_suit.html#ae84c0ca8d74964d8603466cc079e2368" title="readFromFile считывает информацию о костюме из файла" alt="" coords="1797,289,1948,316"/>
+<area shape="rect" id="node14" href="$df/d66/class_mio_suit.html#a07aa709b58e0b2b23f527f7162d73db5" title="setRecievedValues" alt="" coords="1781,340,1965,367"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#af3754b6c30a25d7acd6994882e1aa6b2" title="onImpulseAdderDone вызывает при закрытии всплывающих мышц для задания импульсов" alt="" coords="1496,5,1723,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="1233,5,1448,32"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="984,5,1185,32"/>
+<area shape="rect" id="node11" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="1513,289,1705,316"/>
+<area shape="rect" id="node12" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="1257,239,1424,265"/>
+<area shape="rect" id="node13" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,340,179,367"/>
+<area shape="rect" id="node15" href="$d9/dc6/class_main_window.html#a9d11494701432a2b68195c54213f1a0f" title="setRecievedValues обновляет пары в соответствии с полученными с прибора данными" alt="" coords="1502,340,1717,367"/>
+<area shape="rect" id="node16" href="$d9/dc6/class_main_window.html#a209079830a37745e47076a762bab17d6" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="1248,340,1433,367"/>
+<area shape="rect" id="node17" href="$d9/dc6/class_main_window.html#a092e8d45c24f1c28f1015b3fa7dc8284" title="onPortTriggered вызывается при выборе порта прибора" alt="" coords="987,340,1182,367"/>
+<area shape="rect" id="node18" href="$d9/dc6/class_main_window.html#ae88824a309842c91bcb751650907a7ab" title="updatePortsList обновляет список портов" alt="" coords="741,391,936,417"/>
+<area shape="rect" id="node19" href="$d9/dc6/class_main_window.html#ae7410ead1c1c619ad3699aa1777231f8" title="onDeviceDisconnected вызывается при отключении прибора" alt="" coords="459,340,693,367"/>
+<area shape="rect" id="node20" href="$d9/dc6/class_main_window.html#a6540b8248b4b9d5cfd4b06a1588fb7df" title="onDeviceTriggered вызывается при нажатии на вкладку &quot;Устройство&quot;" alt="" coords="471,391,681,417"/>
+<area shape="rect" id="node21" href="$d9/dc6/class_main_window.html#ac74a8e6b0687f952b1f18cec8b59de65" title="initPortsMenu инициализирует меню портов" alt="" coords="227,365,411,392"/>
+</map>

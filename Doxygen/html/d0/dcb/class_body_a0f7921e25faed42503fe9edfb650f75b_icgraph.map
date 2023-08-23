@@ -1,0 +1,4 @@
+<map id="Body::clearHalfhour" name="Body::clearHalfhour">
+<area shape="rect" id="node1" title="clearHalfhour" alt="" coords="251,5,385,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#ac52ef477f52b694ac64fff35523fb872" title="onClearShortcut вызывается при Ctrl+N для очистки часа или получаса в режиме получасов" alt="" coords="5,5,203,32"/>
+</map>

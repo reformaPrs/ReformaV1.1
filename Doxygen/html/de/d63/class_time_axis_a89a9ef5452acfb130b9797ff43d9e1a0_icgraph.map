@@ -1,0 +1,5 @@
+<map id="TimeAxis::onPointerReleased" name="TimeAxis::onPointerReleased">
+<area shape="rect" id="node1" title="onPointerReleased вызывается при отпускании бегунка" alt="" coords="389,5,583,32"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#a193bdafdd3f3e4333faf7012761173e9" title="initPointers инициализирует бегунки" alt="" coords="192,5,341,32"/>
+<area shape="rect" id="node3" href="$de/d63/class_time_axis.html#aeddae94f85329c339b4ea404e886fe16" title=" " alt="" coords="5,5,144,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="MainWindow::showAllPairs" name="MainWindow::showAllPairs">
+<area shape="rect" id="node1" title="showAllPairs показывает все активные пары контактов и части тела" alt="" coords="675,13,853,39"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a49fe29e158354f31c342694637b6e27e" title="onToolButtonHeatToggled вызывается нажатием на кнопку &quot;Нагрев&quot;" alt="" coords="447,5,627,47"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="232,13,399,39"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,13,184,39"/>
+</map>

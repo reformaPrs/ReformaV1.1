@@ -1,0 +1,11 @@
+<map id="BodyPart::onHoverLeft" name="BodyPart::onHoverLeft">
+<area shape="rect" id="node1" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="1239,31,1389,57"/>
+<area shape="rect" id="node2" href="$d2/d6f/class_body_part.html#a4cb80294e4b04cd83b935da0963e58be" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="1030,5,1181,32"/>
+<area shape="rect" id="node4" href="$d0/dcb/class_body.html#ad904a015d2d007cbcb69a31ac7fe3d67" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="1020,56,1191,83"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#a8eb593c1f53bda975f7c449fa5296f74" title="BodyPart." alt="" coords="801,5,940,32"/>
+<area shape="rect" id="node5" href="$d0/dcb/class_body.html#a2b72a5ebbfe163dee6861ea5570546fd" title="addPopToScene добавляет выбранную часть тела в увеличенном варианте на всплывающее окно" alt="" coords="793,56,948,83"/>
+<area shape="rect" id="node9" href="$d0/dcb/class_body.html#aa5415e796b81b994527810fe6255d24e" title="readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла" alt="" coords="769,107,972,133"/>
+<area shape="rect" id="node6" href="$de/d4d/class_impulse_adder.html#a3c7fb0f1053d6a4a1a3dcc05fe764cb6" title="setPopBodyPart устанавливает часть тела, которую отрисовывает на сцене" alt="" coords="517,56,721,83"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="255,56,469,83"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,56,207,83"/>
+</map>

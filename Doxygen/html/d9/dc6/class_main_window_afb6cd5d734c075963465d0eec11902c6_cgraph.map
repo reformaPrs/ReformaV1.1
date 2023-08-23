@@ -1,0 +1,8 @@
+<map id="MainWindow::onSaveClicked" name="MainWindow::onSaveClicked">
+<area shape="rect" id="node1" title="onSaveClicked вызывается нажатием на кнопку или действие &quot;Сохранить&quot;" alt="" coords="5,81,195,108"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#a32a39de61acc8d3d110d735318a655a9" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="249,5,383,32"/>
+<area shape="rect" id="node4" href="$df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="243,56,389,83"/>
+<area shape="rect" id="node5" href="$d0/dcb/class_body.html#ab0eb0c50cce1b06da1d7404f30d56ee9" title="saveToFile сохраняет статусы мышц в файл" alt="" coords="255,107,377,133"/>
+<area shape="rect" id="node6" href="$df/d66/class_mio_suit.html#ae09487568c8902980fc1af14727e7782" title="saveToFile сохраняет информацию о костюме в файл" alt="" coords="249,157,383,184"/>
+<area shape="rect" id="node3" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="437,5,627,32"/>
+</map>

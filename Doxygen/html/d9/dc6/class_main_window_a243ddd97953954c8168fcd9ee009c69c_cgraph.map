@@ -1,0 +1,4 @@
+<map id="MainWindow::onLanguageTriggered" name="MainWindow::onLanguageTriggered">
+<area shape="rect" id="node1" title="onLanguageTriggered вызывается при выборе языка" alt="" coords="5,5,232,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#aa354849b4d171420260b975d794c65ed" title="saveCurrentLocal сохраняет текущий язык интерфейса в файл" alt="" coords="280,5,483,32"/>
+</map>

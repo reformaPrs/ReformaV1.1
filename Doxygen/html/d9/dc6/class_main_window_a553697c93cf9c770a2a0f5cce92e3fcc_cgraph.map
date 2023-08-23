@@ -1,0 +1,8 @@
+<map id="MainWindow::onCopyShortcut" name="MainWindow::onCopyShortcut">
+<area shape="rect" id="node1" title="onCopyShortcut вызывается нажатим на сочитание клавиш для копирования в системе" alt="" coords="5,31,203,57"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#aea0484ca63f4a41b0f8d69b463f5b92c" title="copyHalfhour копирует информацию на другой получас" alt="" coords="258,5,393,32"/>
+<area shape="rect" id="node5" href="$df/d66/class_mio_suit.html#a2413777c847015cc3070a836290b7aaf" title="copyHalfhour копирует информацию на другой получас" alt="" coords="251,56,400,83"/>
+<area shape="rect" id="node3" href="$d0/dcb/class_body.html#a32a39de61acc8d3d110d735318a655a9" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="455,5,588,32"/>
+<area shape="rect" id="node4" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="643,5,832,32"/>
+<area shape="rect" id="node6" href="$df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="448,56,595,83"/>
+</map>

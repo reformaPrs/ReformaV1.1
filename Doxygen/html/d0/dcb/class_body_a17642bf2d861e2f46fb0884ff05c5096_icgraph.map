@@ -1,0 +1,7 @@
+<map id="Body::onBackgroundClicked" name="Body::onBackgroundClicked">
+<area shape="rect" id="node1" title="onBackgroundClicked вызывается при нажатии на фон" alt="" coords="972,5,1159,32"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#a2b72a5ebbfe163dee6861ea5570546fd" title="addPopToScene добавляет выбранную часть тела в увеличенном варианте на всплывающее окно" alt="" coords="769,5,924,32"/>
+<area shape="rect" id="node3" href="$de/d4d/class_impulse_adder.html#a3c7fb0f1053d6a4a1a3dcc05fe764cb6" title="setPopBodyPart устанавливает часть тела, которую отрисовывает на сцене" alt="" coords="517,5,721,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="255,5,469,32"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,5,207,32"/>
+</map>

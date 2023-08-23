@@ -1,0 +1,9 @@
+<map id="PopDotsPair::addToScene" name="PopDotsPair::addToScene">
+<area shape="rect" id="node1" title="addToScene добавляет пару контактов на сцену" alt="" coords="5,107,180,133"/>
+<area shape="rect" id="node2" href="$dc/d0f/class_dots_pair.html#a53786b5ef7d2e796a22ae2bde03a491d" title="addToScene добавляет пару контактов на сцену" alt="" coords="229,5,381,32"/>
+<area shape="rect" id="node3" href="$d9/d91/class_simple_dots_pair.html#a52792f3ef46e94d931edbc0aa57086d9" title="getValue" alt="" coords="431,31,601,57"/>
+<area shape="rect" id="node4" href="$d6/d51/class_text_rect.html#a38a2a9bf94abae7111cd082083364334" title="addToScene добавляет на сцену" alt="" coords="228,107,383,133"/>
+<area shape="rect" id="node5" href="$d0/d5f/class_pop_dots_pair.html#ad2b25bc1503a0e48286dea7aeb1e540c" title="hide скрывает со сцены" alt="" coords="242,157,369,184"/>
+<area shape="rect" id="node7" href="$d0/dea/class_custom_slider_widget.html#a05c7aee3484784151e842cac754bd82f" title="setValue" alt="" coords="235,209,376,250"/>
+<area shape="rect" id="node6" href="$dc/d0f/class_dots_pair.html#ac7367def3c9b6b8e6434ca177522ab65" title="hide скрывает со сцены" alt="" coords="464,157,568,184"/>
+</map>

@@ -1,0 +1,829 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Reforma Windows Software: Класс IntervalDialog</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Reforma Windows Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Программа для программирования костюма Reforma</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('dd/dd9/class_interval_dialog.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#signals">Сигналы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-slots">Закрытые слоты</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="../../d8/dfc/class_interval_dialog-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс IntervalDialog</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс диалогового окна интервальности  
+ <a href="../../dd/dd9/class_interval_dialog.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../db/d48/intervaldialog_8h_source.html">intervaldialog.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Граф наследования:IntervalDialog:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dc/da0/class_interval_dialog__inherit__graph.png" border="0" usemap="#a_interval_dialog_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_interval_dialog_inherit__map" id="a_interval_dialog_inherit__map">
+<area shape="rect" title="Класс диалогового окна интервальности" alt="" coords="5,80,104,107"/>
+<area shape="rect" title=" " alt="" coords="21,5,89,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">см. легенду</a>]</span></center></div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Граф связей класса IntervalDialog:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../db/dbd/class_interval_dialog__coll__graph.png" border="0" usemap="#a_interval_dialog_coll__map" alt="Collaboration graph"/></div>
+<map name="a_interval_dialog_coll__map" id="a_interval_dialog_coll__map">
+<area shape="rect" title="Класс диалогового окна интервальности" alt="" coords="363,379,462,405"/>
+<area shape="rect" title=" " alt="" coords="216,289,284,316"/>
+<area shape="rect" href="../../d0/dcb/class_body.html" title="The Body class &#45; класс фасад всего тела." alt="" coords="308,289,360,316"/>
+<area shape="rect" title=" " alt="" coords="319,5,389,32"/>
+<area shape="rect" href="../../d9/d15/class_hover_pixmap_item.html" title="Класс картинки с сигналами при нажатии наведении и выхода из наведения" alt="" coords="21,81,143,108"/>
+<area shape="rect" href="../../dd/d50/class_abstract_body_part.html" title="The AbstractBodyPart class &#45; абстрактный класс части тела" alt="" coords="167,81,293,108"/>
+<area shape="rect" href="../../d6/d51/class_text_rect.html" title="Класс текста с рамкой" alt="" coords="317,81,391,108"/>
+<area shape="rect" href="../../df/d66/class_mio_suit.html" title="Класс костюма Является фасадом для всех пар контактов и нагревателей Также может существовать только ..." alt="" coords="395,133,462,160"/>
+<area shape="rect" href="../../d6/d3b/class_pop_body_part.html" title="Класс части тела для всплывающего окна" alt="" coords="143,185,242,212"/>
+<area shape="rect" title=" " alt="" coords="5,5,159,32"/>
+<area shape="rect" href="../../d2/d6f/class_body_part.html" title="Класс части тела на главном экране" alt="" coords="267,185,343,212"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html" title="Класс временной оси для интервальности" alt="" coords="519,289,595,316"/>
+<area shape="rect" title=" " alt="" coords="520,185,593,212"/>
+<area shape="rect" href="../../d6/d3b/class_pointer.html" title="Класс указателя" alt="" coords="617,185,680,212"/>
+<area shape="rect" title=" " alt="" coords="617,81,680,108"/>
+<area shape="rect" href="../../d1/d3e/class_interval_dots_pair.html" title="Класс пары контактов для интервалов" alt="" coords="662,289,774,316"/>
+<area shape="rect" href="../../d9/d91/class_simple_dots_pair.html" title="Базовый класс для пары контактов костюма" alt="" coords="705,185,817,212"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:abd7023c172e2bab1a9565f679e1be4bc"><td class="memItemLeft" align="right" valign="top"><a id="abd7023c172e2bab1a9565f679e1be4bc" name="abd7023c172e2bab1a9565f679e1be4bc"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#abd7023c172e2bab1a9565f679e1be4bc">ActiveMode</a> { <b>UP</b>
+, <b>DOWN</b>
+ }</td></tr>
+<tr class="memdesc:abd7023c172e2bab1a9565f679e1be4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum для выбора верха или низа тела <br /></td></tr>
+<tr class="separator:abd7023c172e2bab1a9565f679e1be4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Сигналы</h2></td></tr>
+<tr class="memitem:ae2a7c52eaa2aaf34683211cbb4590fcd"><td class="memItemLeft" align="right" valign="top"><a id="ae2a7c52eaa2aaf34683211cbb4590fcd" name="ae2a7c52eaa2aaf34683211cbb4590fcd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> ()</td></tr>
+<tr class="memdesc:ae2a7c52eaa2aaf34683211cbb4590fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">add вызывает при нажатии на кнопку "Добавить" <br /></td></tr>
+<tr class="separator:ae2a7c52eaa2aaf34683211cbb4590fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f7c9db56cb25d224d099eca60d7bbc"><td class="memItemLeft" align="right" valign="top"><a id="a98f7c9db56cb25d224d099eca60d7bbc" name="a98f7c9db56cb25d224d099eca60d7bbc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>partChanged</b> (int)</td></tr>
+<tr class="memdesc:a98f7c9db56cb25d224d099eca60d7bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">partChanged вызывается при изменении верхней и нижней части тела <br /></td></tr>
+<tr class="separator:a98f7c9db56cb25d224d099eca60d7bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a9677d56c40fbf5c4f8da1f640135ab78"><td class="memItemLeft" align="right" valign="top"><a id="a9677d56c40fbf5c4f8da1f640135ab78" name="a9677d56c40fbf5c4f8da1f640135ab78"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>IntervalDialog</b> (QWidget *parent=nullptr)</td></tr>
+<tr class="separator:a9677d56c40fbf5c4f8da1f640135ab78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a724dab326cbb73d554c69f76ab7f8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#a1a724dab326cbb73d554c69f76ab7f8d">addPairs</a> (int count)</td></tr>
+<tr class="memdesc:a1a724dab326cbb73d554c69f76ab7f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">addPairs добавляет новые пары  <a href="../../dd/dd9/class_interval_dialog.html#a1a724dab326cbb73d554c69f76ab7f8d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1a724dab326cbb73d554c69f76ab7f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d423fc6a89441f85f7882187f14270"><td class="memItemLeft" align="right" valign="top"><a id="af5d423fc6a89441f85f7882187f14270" name="af5d423fc6a89441f85f7882187f14270"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>translate</b> ()</td></tr>
+<tr class="memdesc:af5d423fc6a89441f85f7882187f14270"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate переводит интерфейс <br /></td></tr>
+<tr class="separator:af5d423fc6a89441f85f7882187f14270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8261d39a2abfd73b05d1b0987e99ebd"><td class="memItemLeft" align="right" valign="top"><a id="ac8261d39a2abfd73b05d1b0987e99ebd" name="ac8261d39a2abfd73b05d1b0987e99ebd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Q_ENUM</b> (<a class="el" href="../../dd/dd9/class_interval_dialog.html#abd7023c172e2bab1a9565f679e1be4bc">ActiveMode</a>)</td></tr>
+<tr class="separator:ac8261d39a2abfd73b05d1b0987e99ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7bfbb71f73cc8fc68f61f0b8ec2b07"><td class="memItemLeft" align="right" valign="top"><a id="a9e7bfbb71f73cc8fc68f61f0b8ec2b07" name="a9e7bfbb71f73cc8fc68f61f0b8ec2b07"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isUpActive</b> ()</td></tr>
+<tr class="separator:a9e7bfbb71f73cc8fc68f61f0b8ec2b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c995c965bf49eb093e8e77ac9b48f19"><td class="memItemLeft" align="right" valign="top"><a id="a1c995c965bf49eb093e8e77ac9b48f19" name="a1c995c965bf49eb093e8e77ac9b48f19"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updatePairs</b> ()</td></tr>
+<tr class="separator:a1c995c965bf49eb093e8e77ac9b48f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
+Закрытые слоты</h2></td></tr>
+<tr class="memitem:ab7c296f30d139e618f6e57b12fc6d861"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#ab7c296f30d139e618f6e57b12fc6d861">onAddClicked</a> ()</td></tr>
+<tr class="memdesc:ab7c296f30d139e618f6e57b12fc6d861"><td class="mdescLeft">&#160;</td><td class="mdescRight">onAddClicked вызывается при нажатии кнопки "Добавить"  <a href="../../dd/dd9/class_interval_dialog.html#ab7c296f30d139e618f6e57b12fc6d861">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab7c296f30d139e618f6e57b12fc6d861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ae3e979f1080600ae0c41cb6f7be80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#ae0ae3e979f1080600ae0c41cb6f7be80">onDeleteClicked</a> ()</td></tr>
+<tr class="memdesc:ae0ae3e979f1080600ae0c41cb6f7be80"><td class="mdescLeft">&#160;</td><td class="mdescRight">onDeleteClicked вызывается при нажатии на кнопку "Удалить"  <a href="../../dd/dd9/class_interval_dialog.html#ae0ae3e979f1080600ae0c41cb6f7be80">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae0ae3e979f1080600ae0c41cb6f7be80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7c184969a0dfac872d44a399c6541f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#ae7c184969a0dfac872d44a399c6541f7">onSaveClicked</a> ()</td></tr>
+<tr class="memdesc:ae7c184969a0dfac872d44a399c6541f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">onSaveClicked вызывается при нажатии на кнопку "Сохранить"  <a href="../../dd/dd9/class_interval_dialog.html#ae7c184969a0dfac872d44a399c6541f7">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae7c184969a0dfac872d44a399c6541f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d463e367f4dc697c9f35bcc79051300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#a8d463e367f4dc697c9f35bcc79051300">onShowClicked</a> ()</td></tr>
+<tr class="memdesc:a8d463e367f4dc697c9f35bcc79051300"><td class="mdescLeft">&#160;</td><td class="mdescRight">onShowClicked вызывается при нажатии на кнопку "Просмотр"  <a href="../../dd/dd9/class_interval_dialog.html#a8d463e367f4dc697c9f35bcc79051300">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8d463e367f4dc697c9f35bcc79051300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf4b5d6547a926d1535bf603d18c9130"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#adf4b5d6547a926d1535bf603d18c9130">onStartChanged</a> (int seconds)</td></tr>
+<tr class="memdesc:adf4b5d6547a926d1535bf603d18c9130"><td class="mdescLeft">&#160;</td><td class="mdescRight">onStartChanged вызывается при изменении времени начала интервала через шкалу  <a href="../../dd/dd9/class_interval_dialog.html#adf4b5d6547a926d1535bf603d18c9130">Подробнее...</a><br /></td></tr>
+<tr class="separator:adf4b5d6547a926d1535bf603d18c9130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab040d68c356e533e8768ed8019384555"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#ab040d68c356e533e8768ed8019384555">onEndChanged</a> (int seconds)</td></tr>
+<tr class="memdesc:ab040d68c356e533e8768ed8019384555"><td class="mdescLeft">&#160;</td><td class="mdescRight">onEndChanged вызывается при изменении времени конца интервала через шкалу  <a href="../../dd/dd9/class_interval_dialog.html#ab040d68c356e533e8768ed8019384555">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab040d68c356e533e8768ed8019384555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b6c5409f17319a084f4cb9bf9129b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#ad7b6c5409f17319a084f4cb9bf9129b6">onSpinBoxStartChanged</a> (int seconds)</td></tr>
+<tr class="memdesc:ad7b6c5409f17319a084f4cb9bf9129b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox'е  <a href="../../dd/dd9/class_interval_dialog.html#ad7b6c5409f17319a084f4cb9bf9129b6">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad7b6c5409f17319a084f4cb9bf9129b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb7a8e2eefd7146d5c01d81e4d720825"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#afb7a8e2eefd7146d5c01d81e4d720825">onSpinBoxEndChanged</a> (int seconds)</td></tr>
+<tr class="memdesc:afb7a8e2eefd7146d5c01d81e4d720825"><td class="mdescLeft">&#160;</td><td class="mdescRight">onSpinBoxEndChanged вызывается при изменении времени конца интервала в SpinBox'е  <a href="../../dd/dd9/class_interval_dialog.html#afb7a8e2eefd7146d5c01d81e4d720825">Подробнее...</a><br /></td></tr>
+<tr class="separator:afb7a8e2eefd7146d5c01d81e4d720825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7c47277ac7911a70cdcbac01d49a700"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#ab7c47277ac7911a70cdcbac01d49a700">onComboBoxIndexChanged</a> (int index)</td></tr>
+<tr class="memdesc:ab7c47277ac7911a70cdcbac01d49a700"><td class="mdescLeft">&#160;</td><td class="mdescRight">onComboBoxIndexChanged вызывается при выборе части тела  <a href="../../dd/dd9/class_interval_dialog.html#ab7c47277ac7911a70cdcbac01d49a700">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab7c47277ac7911a70cdcbac01d49a700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a28d6c4bccbad920257ff1143269e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#aa4a28d6c4bccbad920257ff1143269e4">onListItemClicked</a> (QListWidgetItem *item)</td></tr>
+<tr class="memdesc:aa4a28d6c4bccbad920257ff1143269e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">onListItemClicked вызывается при нажатии на объект листа  <a href="../../dd/dd9/class_interval_dialog.html#aa4a28d6c4bccbad920257ff1143269e4">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa4a28d6c4bccbad920257ff1143269e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a3fc1adf26264bdace5fbb3af4942a54e"><td class="memItemLeft" align="right" valign="top"><a id="a3fc1adf26264bdace5fbb3af4942a54e" name="a3fc1adf26264bdace5fbb3af4942a54e"></a>
+Ui::IntervalDialog *&#160;</td><td class="memItemRight" valign="bottom"><b>ui</b></td></tr>
+<tr class="separator:a3fc1adf26264bdace5fbb3af4942a54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa32767ad5765c83feb0a280a9ca04489"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#aa32767ad5765c83feb0a280a9ca04489">changedByUser</a> = true</td></tr>
+<tr class="memdesc:aa32767ad5765c83feb0a280a9ca04489"><td class="mdescLeft">&#160;</td><td class="mdescRight">changedByUser - изменено время начала или конца пользователем в поле времени или нет  <a href="../../dd/dd9/class_interval_dialog.html#aa32767ad5765c83feb0a280a9ca04489">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa32767ad5765c83feb0a280a9ca04489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84392583989afdfc9feb2689ea20457"><td class="memItemLeft" align="right" valign="top"><a id="af84392583989afdfc9feb2689ea20457" name="af84392583989afdfc9feb2689ea20457"></a>
+<a class="el" href="../../d0/dcb/class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>body</b></td></tr>
+<tr class="separator:af84392583989afdfc9feb2689ea20457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae390ba49aa78b286a90eaaa4aa18373"><td class="memItemLeft" align="right" valign="top"><a id="aae390ba49aa78b286a90eaaa4aa18373" name="aae390ba49aa78b286a90eaaa4aa18373"></a>
+<a class="el" href="../../df/d66/class_mio_suit.html">MioSuit</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mioSuit</b></td></tr>
+<tr class="separator:aae390ba49aa78b286a90eaaa4aa18373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec22dfff70d9eb5837fe932f1620540"><td class="memItemLeft" align="right" valign="top">QListWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#a4ec22dfff70d9eb5837fe932f1620540">activeListWidget</a> = nullptr</td></tr>
+<tr class="memdesc:a4ec22dfff70d9eb5837fe932f1620540"><td class="mdescLeft">&#160;</td><td class="mdescRight">activeListWidget - активный список  <a href="../../dd/dd9/class_interval_dialog.html#a4ec22dfff70d9eb5837fe932f1620540">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4ec22dfff70d9eb5837fe932f1620540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793de77e3ca93c3f94a858eaa2c9db0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d63/class_time_axis.html">TimeAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd9/class_interval_dialog.html#a793de77e3ca93c3f94a858eaa2c9db0d">activeTimeAxis</a> = nullptr</td></tr>
+<tr class="memdesc:a793de77e3ca93c3f94a858eaa2c9db0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">activeTimeAxis - активная временная ось  <a href="../../dd/dd9/class_interval_dialog.html#a793de77e3ca93c3f94a858eaa2c9db0d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a793de77e3ca93c3f94a858eaa2c9db0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85179de1354803e413295d69a64f6943"><td class="memItemLeft" align="right" valign="top"><a id="a85179de1354803e413295d69a64f6943" name="a85179de1354803e413295d69a64f6943"></a>
+<a class="el" href="../../d1/d3e/class_interval_dots_pair.html">IntervalDotsPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>activeDotsPair</b> = nullptr</td></tr>
+<tr class="memdesc:a85179de1354803e413295d69a64f6943"><td class="mdescLeft">&#160;</td><td class="mdescRight">activeDotsPair - активная пара контактов выбранная в списке <br /></td></tr>
+<tr class="separator:a85179de1354803e413295d69a64f6943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64b777452687b104e340c36e57be856b"><td class="memItemLeft" align="right" valign="top"><a id="a64b777452687b104e340c36e57be856b" name="a64b777452687b104e340c36e57be856b"></a>
+<a class="el" href="../../dd/dd9/class_interval_dialog.html#abd7023c172e2bab1a9565f679e1be4bc">ActiveMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>activeMode</b> = UP</td></tr>
+<tr class="memdesc:a64b777452687b104e340c36e57be856b"><td class="mdescLeft">&#160;</td><td class="mdescRight">activeMode - активная часть тела (верхняя или нижняя) <br /></td></tr>
+<tr class="separator:a64b777452687b104e340c36e57be856b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p >Класс диалогового окна интервальности </p>
+<p >Не используется в данной версии </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a1a724dab326cbb73d554c69f76ab7f8d" name="a1a724dab326cbb73d554c69f76ab7f8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a724dab326cbb73d554c69f76ab7f8d">&#9670;&nbsp;</a></span>addPairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::addPairs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>addPairs добавляет новые пары </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pairs</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Добавляет новые пары в список и в шкалу, последняя пара становиться активной </p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Граф вызовов:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_a1a724dab326cbb73d554c69f76ab7f8d_cgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_a1a724dab326cbb73d554c69f76ab7f8d_cgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_a1a724dab326cbb73d554c69f76ab7f8d_cgraph" id="add/dd9/class_interval_dialog_a1a724dab326cbb73d554c69f76ab7f8d_cgraph">
+<area shape="rect" title="addPairs добавляет новые пары" alt="" coords="5,132,163,159"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a0ca92e65c848bf4d13c24a674d1f4832" title="addNewProgressBar добавляет один интервал и делает его активным" alt="" coords="211,132,413,159"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e" title="activateProgressBar активирует интервал" alt="" coords="469,5,669,32"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec" title="deactivateProgressBar деактивирует интервал" alt="" coords="461,56,676,83"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a99bcf0c3ee80441c5a7b0a3ee66c0247" title="hideActivePoints скрывает нижнюю подпись у интервала" alt="" coords="479,107,659,133"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="492,157,645,184"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="489,208,648,235"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a5631b5d880c0db1bdc0e0daffa80ef06" title="showActivePoints показывает нижнюю подпись у интервала" alt="" coords="475,259,662,285"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="724,183,920,209"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="731,132,913,159"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="968,183,1164,209"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="729,233,915,260"/>
+</map>
+</div>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Граф вызова функции:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_a1a724dab326cbb73d554c69f76ab7f8d_icgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_a1a724dab326cbb73d554c69f76ab7f8d_icgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_a1a724dab326cbb73d554c69f76ab7f8d_icgraph" id="add/dd9/class_interval_dialog_a1a724dab326cbb73d554c69f76ab7f8d_icgraph">
+<area shape="rect" title="addPairs добавляет новые пары" alt="" coords="792,5,949,32"/>
+<area shape="rect" href="../../d9/dc6/class_main_window.html#af3754b6c30a25d7acd6994882e1aa6b2" title="onImpulseAdderDone вызывает при закрытии всплывающих мышц для задания импульсов" alt="" coords="517,5,744,32"/>
+<area shape="rect" href="../../d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="255,5,469,32"/>
+<area shape="rect" href="../../d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,5,207,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab7c296f30d139e618f6e57b12fc6d861" name="ab7c296f30d139e618f6e57b12fc6d861"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7c296f30d139e618f6e57b12fc6d861">&#9670;&nbsp;</a></span>onAddClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onAddClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onAddClicked вызывается при нажатии кнопки "Добавить" </p>
+<p >В результате скрывает окно и ожидает добавления пар контактов, при этом вызывает <a class="el" href="../../dd/dd9/class_interval_dialog.html#ae2a7c52eaa2aaf34683211cbb4590fcd" title="add вызывает при нажатии на кнопку &quot;Добавить&quot;">add()</a> </p>
+
+</div>
+</div>
+<a id="ab7c47277ac7911a70cdcbac01d49a700" name="ab7c47277ac7911a70cdcbac01d49a700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7c47277ac7911a70cdcbac01d49a700">&#9670;&nbsp;</a></span>onComboBoxIndexChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onComboBoxIndexChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onComboBoxIndexChanged вызывается при выборе части тела </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae0ae3e979f1080600ae0c41cb6f7be80" name="ae0ae3e979f1080600ae0c41cb6f7be80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0ae3e979f1080600ae0c41cb6f7be80">&#9670;&nbsp;</a></span>onDeleteClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onDeleteClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onDeleteClicked вызывается при нажатии на кнопку "Удалить" </p>
+<p >В результате удаляет активную пару контактов и вызывает intervalPartDeleted(int) </p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Граф вызовов:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_ae0ae3e979f1080600ae0c41cb6f7be80_cgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_ae0ae3e979f1080600ae0c41cb6f7be80_cgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_ae0ae3e979f1080600ae0c41cb6f7be80_cgraph" id="add/dd9/class_interval_dialog_ae0ae3e979f1080600ae0c41cb6f7be80_cgraph">
+<area shape="rect" title="onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;" alt="" coords="5,174,163,215"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a93ee931de960de949bdec50b2b1ee5ec" title="deleteProgressBar удаляет интервал по индексу i" alt="" coords="211,5,401,32"/>
+<area shape="rect" href="../../df/d66/class_mio_suit.html#a8eaf16f0de835e984a98064ea849f296" title="getIntervalDotsPairAt возвращает интервальную пару контактов по индексу" alt="" coords="227,57,385,98"/>
+<area shape="rect" href="../../d9/d91/class_simple_dots_pair.html#a0e651d74ab9e43115da2974c859a68ec" title="getPartID" alt="" coords="219,123,393,149"/>
+<area shape="rect" href="../../df/d66/class_mio_suit.html#aa6b7e820526e80676e303d046c60f30f" title="isIntervalDotsPairWithPartID" alt="" coords="219,174,393,215"/>
+<area shape="rect" href="../../df/d66/class_mio_suit.html#a91e9075f542b0aac3de8e55efe1d3a28" title="removeIntervalDotsPairAt удаляет интервальную пару контактов по индексу" alt="" coords="215,239,397,281"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a5e03f029108a8aaf98bf987fcf24b15d" title="selectProgressBar делает под индексом i интервал активныым" alt="" coords="211,305,401,332"/>
+<area shape="rect" href="../../d0/dcb/class_body.html#a1eab2bcaaff70f2f41e19bff292565b3" title="setPartStatus устанавливает новый статус части тела" alt="" coords="236,407,376,433"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e" title="activateProgressBar активирует интервал" alt="" coords="457,128,657,155"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec" title="deactivateProgressBar деактивирует интервал" alt="" coords="449,179,664,205"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="956,280,1152,307"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a99bcf0c3ee80441c5a7b0a3ee66c0247" title="hideActivePoints скрывает нижнюю подпись у интервала" alt="" coords="467,280,647,307"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="480,331,633,357"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="477,381,636,408"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a5631b5d880c0db1bdc0e0daffa80ef06" title="showActivePoints показывает нижнюю подпись у интервала" alt="" coords="463,432,650,459"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="712,331,908,357"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="719,280,901,307"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="717,381,903,408"/>
+<area shape="rect" href="../../d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="487,483,627,509"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab040d68c356e533e8768ed8019384555" name="ab040d68c356e533e8768ed8019384555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab040d68c356e533e8768ed8019384555">&#9670;&nbsp;</a></span>onEndChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onEndChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>seconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onEndChanged вызывается при изменении времени конца интервала через шкалу </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seconds</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Граф вызовов:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_ab040d68c356e533e8768ed8019384555_cgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_ab040d68c356e533e8768ed8019384555_cgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_ab040d68c356e533e8768ed8019384555_cgraph" id="add/dd9/class_interval_dialog_ab040d68c356e533e8768ed8019384555_cgraph">
+<area shape="rect" title="onEndChanged вызывается при изменении времени конца интервала через шкалу" alt="" coords="5,5,200,32"/>
+<area shape="rect" href="../../d1/d3e/class_interval_dots_pair.html#a703f030eb780ae9b169631494c6e85e2" title="setEndTime" alt="" coords="248,5,437,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa4a28d6c4bccbad920257ff1143269e4" name="aa4a28d6c4bccbad920257ff1143269e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a28d6c4bccbad920257ff1143269e4">&#9670;&nbsp;</a></span>onListItemClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onListItemClicked </td>
+          <td>(</td>
+          <td class="paramtype">QListWidgetItem *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onListItemClicked вызывается при нажатии на объект листа </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Граф вызовов:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_aa4a28d6c4bccbad920257ff1143269e4_cgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_aa4a28d6c4bccbad920257ff1143269e4_cgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_aa4a28d6c4bccbad920257ff1143269e4_cgraph" id="add/dd9/class_interval_dialog_aa4a28d6c4bccbad920257ff1143269e4_cgraph">
+<area shape="rect" title="onListItemClicked вызывается при нажатии на объект листа" alt="" coords="5,121,172,162"/>
+<area shape="rect" href="../../df/d66/class_mio_suit.html#a8eaf16f0de835e984a98064ea849f296" title="getIntervalDotsPairAt возвращает интервальную пару контактов по индексу" alt="" coords="236,91,395,133"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a5e03f029108a8aaf98bf987fcf24b15d" title="selectProgressBar делает под индексом i интервал активныым" alt="" coords="220,157,411,184"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e" title="activateProgressBar активирует интервал" alt="" coords="466,5,666,32"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec" title="deactivateProgressBar деактивирует интервал" alt="" coords="459,56,673,83"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="965,157,1161,184"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a99bcf0c3ee80441c5a7b0a3ee66c0247" title="hideActivePoints скрывает нижнюю подпись у интервала" alt="" coords="476,157,656,184"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="489,208,643,235"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="487,259,645,285"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a5631b5d880c0db1bdc0e0daffa80ef06" title="showActivePoints показывает нижнюю подпись у интервала" alt="" coords="473,309,659,336"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="721,208,917,235"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="728,157,911,184"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="726,259,913,285"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae7c184969a0dfac872d44a399c6541f7" name="ae7c184969a0dfac872d44a399c6541f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7c184969a0dfac872d44a399c6541f7">&#9670;&nbsp;</a></span>onSaveClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onSaveClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onSaveClicked вызывается при нажатии на кнопку "Сохранить" </p>
+<p >В результате скрывает окно </p>
+
+</div>
+</div>
+<a id="a8d463e367f4dc697c9f35bcc79051300" name="a8d463e367f4dc697c9f35bcc79051300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d463e367f4dc697c9f35bcc79051300">&#9670;&nbsp;</a></span>onShowClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onShowClicked </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onShowClicked вызывается при нажатии на кнопку "Просмотр" </p>
+<p >Вызывает диалоговое окно симуляции </p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Граф вызовов:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_a8d463e367f4dc697c9f35bcc79051300_cgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_a8d463e367f4dc697c9f35bcc79051300_cgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_a8d463e367f4dc697c9f35bcc79051300_cgraph" id="add/dd9/class_interval_dialog_a8d463e367f4dc697c9f35bcc79051300_cgraph">
+<area shape="rect" title="onShowClicked вызывается при нажатии на кнопку &quot;Просмотр&quot;" alt="" coords="5,31,200,57"/>
+<area shape="rect" href="../../d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86" title="update обновляет мышцы в соответсвии с сохранённой информацией" alt="" coords="255,5,354,32"/>
+<area shape="rect" href="../../df/d66/class_mio_suit.html#a2ac95b2e1a82256313bbf759e91942d0" title="update обновляет пары контактов в соответствии с сохранёнными значениями" alt="" coords="248,56,361,83"/>
+<area shape="rect" href="../../d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="409,5,549,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afb7a8e2eefd7146d5c01d81e4d720825" name="afb7a8e2eefd7146d5c01d81e4d720825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb7a8e2eefd7146d5c01d81e4d720825">&#9670;&nbsp;</a></span>onSpinBoxEndChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onSpinBoxEndChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>seconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onSpinBoxEndChanged вызывается при изменении времени конца интервала в SpinBox'е </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seconds</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Граф вызовов:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_afb7a8e2eefd7146d5c01d81e4d720825_cgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_afb7a8e2eefd7146d5c01d81e4d720825_cgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_afb7a8e2eefd7146d5c01d81e4d720825_cgraph" id="add/dd9/class_interval_dialog_afb7a8e2eefd7146d5c01d81e4d720825_cgraph">
+<area shape="rect" title="onSpinBoxEndChanged вызывается при изменении времени конца интервала в SpinBox&#39;е" alt="" coords="5,23,175,65"/>
+<area shape="rect" href="../../d1/d3e/class_interval_dots_pair.html#a703f030eb780ae9b169631494c6e85e2" title="setEndTime" alt="" coords="223,5,412,32"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="241,56,394,83"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="460,31,656,57"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="467,81,649,108"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="704,81,900,108"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad7b6c5409f17319a084f4cb9bf9129b6" name="ad7b6c5409f17319a084f4cb9bf9129b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7b6c5409f17319a084f4cb9bf9129b6">&#9670;&nbsp;</a></span>onSpinBoxStartChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onSpinBoxStartChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>seconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox'е </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seconds</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Граф вызовов:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_ad7b6c5409f17319a084f4cb9bf9129b6_cgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_ad7b6c5409f17319a084f4cb9bf9129b6_cgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_ad7b6c5409f17319a084f4cb9bf9129b6_cgraph" id="add/dd9/class_interval_dialog_ad7b6c5409f17319a084f4cb9bf9129b6_cgraph">
+<area shape="rect" title="onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox&#39;е" alt="" coords="5,23,175,65"/>
+<area shape="rect" href="../../d1/d3e/class_interval_dots_pair.html#ae99f9dd3e0eab1849bb69539e6615cf2" title="setStartTime" alt="" coords="223,5,417,32"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="241,56,399,83"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="465,31,661,57"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="470,81,657,108"/>
+<area shape="rect" href="../../de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="709,81,905,108"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adf4b5d6547a926d1535bf603d18c9130" name="adf4b5d6547a926d1535bf603d18c9130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf4b5d6547a926d1535bf603d18c9130">&#9670;&nbsp;</a></span>onStartChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntervalDialog::onStartChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>seconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>onStartChanged вызывается при изменении времени начала интервала через шкалу </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seconds</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Граф вызовов:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dd9/class_interval_dialog_adf4b5d6547a926d1535bf603d18c9130_cgraph.png" border="0" usemap="#add/dd9/class_interval_dialog_adf4b5d6547a926d1535bf603d18c9130_cgraph" alt=""/></div>
+<map name="add/dd9/class_interval_dialog_adf4b5d6547a926d1535bf603d18c9130_cgraph" id="add/dd9/class_interval_dialog_adf4b5d6547a926d1535bf603d18c9130_cgraph">
+<area shape="rect" title="onStartChanged вызывается при изменении времени начала интервала через шкалу" alt="" coords="5,5,204,32"/>
+<area shape="rect" href="../../d1/d3e/class_interval_dots_pair.html#ae99f9dd3e0eab1849bb69539e6615cf2" title="setStartTime" alt="" coords="252,5,447,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="a4ec22dfff70d9eb5837fe932f1620540" name="a4ec22dfff70d9eb5837fe932f1620540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec22dfff70d9eb5837fe932f1620540">&#9670;&nbsp;</a></span>activeListWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QListWidget* IntervalDialog::activeListWidget = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>activeListWidget - активный список </p>
+<p >Либо список верхней части тела, либо нижней </p>
+
+</div>
+</div>
+<a id="a793de77e3ca93c3f94a858eaa2c9db0d" name="a793de77e3ca93c3f94a858eaa2c9db0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793de77e3ca93c3f94a858eaa2c9db0d">&#9670;&nbsp;</a></span>activeTimeAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d63/class_time_axis.html">TimeAxis</a>* IntervalDialog::activeTimeAxis = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>activeTimeAxis - активная временная ось </p>
+<p >Лмбо временная ось верхней части тела, либо нижней </p>
+
+</div>
+</div>
+<a id="aa32767ad5765c83feb0a280a9ca04489" name="aa32767ad5765c83feb0a280a9ca04489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa32767ad5765c83feb0a280a9ca04489">&#9670;&nbsp;</a></span>changedByUser</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IntervalDialog::changedByUser = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>changedByUser - изменено время начала или конца пользователем в поле времени или нет </p>
+<p >Нужно для избегания зацикливания при синхронизации редактирования времени с помощью бегунков и с помощью полей. </p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>D:/Work/Reforma/Reforma-Windows-Software/<a class="el" href="../../db/d48/intervaldialog_8h_source.html">intervaldialog.h</a></li>
+<li>D:/Work/Reforma/Reforma-Windows-Software/intervaldialog.cpp</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dd/dd9/class_interval_dialog.html">IntervalDialog</a></li>
+    <li class="footer">Документация по Reforma Windows Software. Последние изменения: Вт 19 Июл 2022 17:39:07. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

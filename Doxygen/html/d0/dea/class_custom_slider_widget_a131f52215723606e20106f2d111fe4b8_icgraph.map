@@ -1,0 +1,4 @@
+<map id="CustomSliderWidget::clicked" name="CustomSliderWidget::clicked">
+<area shape="rect" id="node1" title="clicked вызывается, когда пользователь нажимает на виджет слайдера" alt="" coords="195,5,336,47"/>
+<area shape="rect" id="node2" href="$d0/dea/class_custom_slider_widget.html#abfa6875b718833c11384b893d74dc222" title="mousePressEvent" alt="" coords="5,5,147,47"/>
+</map>

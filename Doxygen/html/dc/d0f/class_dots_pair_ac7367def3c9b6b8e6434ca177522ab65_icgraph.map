@@ -1,0 +1,6 @@
+<map id="DotsPair::hide" name="DotsPair::hide">
+<area shape="rect" id="node1" title="hide скрывает со сцены" alt="" coords="489,31,593,57"/>
+<area shape="rect" id="node2" href="$d0/d5f/class_pop_dots_pair.html#ad2b25bc1503a0e48286dea7aeb1e540c" title="hide скрывает со сцены" alt="" coords="271,5,398,32"/>
+<area shape="rect" id="node4" href="$df/d66/class_mio_suit.html#a5c5193e6eafbbc27a3db7730b5cb9dc5" title="readDotsPairsFromCSV считывает данные о парах контактов из csv файла" alt="" coords="228,56,441,83"/>
+<area shape="rect" id="node3" href="$d0/d5f/class_pop_dots_pair.html#ad4749035e5ed7b74a3900dbb7f2c4289" title="addToScene добавляет пару контактов на сцену" alt="" coords="5,5,180,32"/>
+</map>

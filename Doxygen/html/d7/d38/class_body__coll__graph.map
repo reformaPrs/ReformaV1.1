@@ -1,0 +1,10 @@
+<map id="Body" name="Body">
+<area shape="rect" id="node1" title="The Body class &#45; класс фасад всего тела." alt="" coords="211,275,263,301"/>
+<area shape="rect" id="node2" title=" " alt="" coords="235,5,305,32"/>
+<area shape="rect" id="node3" href="$d9/d15/class_hover_pixmap_item.html" title="Класс картинки с сигналами при нажатии наведении и выхода из наведения" alt="" coords="21,81,143,108"/>
+<area shape="rect" id="node6" href="$dd/d50/class_abstract_body_part.html" title="The AbstractBodyPart class &#45; абстрактный класс части тела" alt="" coords="167,81,293,108"/>
+<area shape="rect" id="node7" href="$d6/d51/class_text_rect.html" title="Класс текста с рамкой" alt="" coords="317,81,391,108"/>
+<area shape="rect" id="node8" href="$d6/d3b/class_pop_body_part.html" title="Класс части тела для всплывающего окна" alt="" coords="129,185,227,212"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,159,32"/>
+<area shape="rect" id="node5" href="$d2/d6f/class_body_part.html" title="Класс части тела на главном экране" alt="" coords="257,185,333,212"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="IntervalWidget::onSpinBoxEndChanged" name="IntervalWidget::onSpinBoxEndChanged">
+<area shape="rect" id="node1" title="onSpinBoxEndChanged вызывается при изменении времени конца интервала в SpinBox&#39;е" alt="" coords="5,23,180,65"/>
+<area shape="rect" id="node2" href="$d1/d3e/class_interval_dots_pair.html#a703f030eb780ae9b169631494c6e85e2" title="setEndTime" alt="" coords="228,5,417,32"/>
+<area shape="rect" id="node3" href="$de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="246,56,399,83"/>
+<area shape="rect" id="node4" href="$de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="465,31,661,57"/>
+<area shape="rect" id="node5" href="$de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="472,81,655,108"/>
+<area shape="rect" id="node6" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="709,81,905,108"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="MainWindow::initIntervalWidget" name="MainWindow::initIntervalWidget">
+<area shape="rect" id="node1" title="initIntervalDialog инициализирует диалоговое окно интервалов" alt="" coords="5,39,167,80"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a939b9bbfe8d431bc1bd25c645c14dd31" title="onIntervalAddClicked вызывается при нажатии Добавить в окне интервальности" alt="" coords="232,5,413,47"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#aaf19c173d7ee7f136d685849762a0aa8" title="onIntervalIntaractivePartChanged вызывается при изменении мышц в интервалах" alt="" coords="215,71,431,112"/>
+<area shape="rect" id="node4" href="$d0/dcb/class_body.html#ab25bacb7a215cb819328dc2aeed48b59" title="setIntaractive обновляет интерактивность частей тела в зависимости от значения activePart" alt="" coords="479,78,615,105"/>
+<area shape="rect" id="node5" href="$d2/d6f/class_body_part.html#a24feb7f4d611a87d83b740ae8261684f" title="setIntaractive" alt="" coords="663,78,823,105"/>
+</map>

@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Reforma Windows Software: Исходный файл D:/Work/Reforma/Reforma-Windows-Software/graphicItems/textrect.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Reforma Windows Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Программа для программирования костюма Reforma</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d2/d91/textrect_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">textrect.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TEXTRECT_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define TEXTRECT_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QGraphicsRectItem&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QGraphicsScene&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QGraphicsTextItem&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d6/d51/class_text_rect.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d6/d51/class_text_rect.html">TextRect</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    Q_OBJECT</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d6/d51/class_text_rect.html#a768b56bf12c5f21f4be4c57ae8961f07">   24</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="../../d6/d51/class_text_rect.html#a768b56bf12c5f21f4be4c57ae8961f07">Alignment</a>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        Center,</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        Corner</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    };</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Q_ENUM(<a class="code hl_enumeration" href="../../d6/d51/class_text_rect.html#a768b56bf12c5f21f4be4c57ae8961f07">Alignment</a>)</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d6/d51/class_text_rect.html#a7abb876239db3d48c66c9b94f57983bb">TextRect</a>(QString str, <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a0e75d8d2205b975b2d1b5499cde74776">x</a>, <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a877f3fdf25512fcfab4fcf1f2cc09b10">y</a>, <a class="code hl_enumeration" href="../../d6/d51/class_text_rect.html#a768b56bf12c5f21f4be4c57ae8961f07">Alignment</a> <a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a11fd2e71d3583eef31a39007a0a9b160">alignment</a> = Center);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_class" href="../../d6/d51/class_text_rect.html">~TextRect</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d51/class_text_rect.html#a38a2a9bf94abae7111cd082083364334">addToScene</a>(QGraphicsScene *scene);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d51/class_text_rect.html#aa3cf398ff6420e8b5de00dc9f48e3182">removeFromScene</a>(QGraphicsScene *scene);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f">hide</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d51/class_text_rect.html#a0ca60a108ce111781c550fa01121b413">show</a>();</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d51/class_text_rect.html#a6fe8b6f30d49615c48aa734b82fb98d7">setText</a>(QString newText);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d51/class_text_rect.html#aca70824fcac0c1a7cf835471edf8bf19">setWidth</a>(<span class="keywordtype">int</span> newWidth);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d51/class_text_rect.html#a177b967e82b341eff597aefb371164dc">setFont</a>(QFont font);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="../../d6/d51/class_text_rect.html#a434f3bc583cc53ff825a0930469a9681">   79</a></span>    QGraphicsTextItem *<a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a434f3bc583cc53ff825a0930469a9681">text</a>; </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="../../d6/d51/class_text_rect.html#a7def0fbd345a4af0c8b78ad99d6b4e51">   80</a></span>    QGraphicsRectItem *<a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a7def0fbd345a4af0c8b78ad99d6b4e51">rect</a>; </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="../../d6/d51/class_text_rect.html#a11fd2e71d3583eef31a39007a0a9b160">   81</a></span>    <a class="code hl_enumeration" href="../../d6/d51/class_text_rect.html#a768b56bf12c5f21f4be4c57ae8961f07">Alignment</a> <a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a11fd2e71d3583eef31a39007a0a9b160">alignment</a>; </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="../../d6/d51/class_text_rect.html#a0e75d8d2205b975b2d1b5499cde74776">   82</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a0e75d8d2205b975b2d1b5499cde74776">x</a>; </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="../../d6/d51/class_text_rect.html#a877f3fdf25512fcfab4fcf1f2cc09b10">   83</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a877f3fdf25512fcfab4fcf1f2cc09b10">y</a>; </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="../../d6/d51/class_text_rect.html#a2d69105a39854ff8d6b37a95763d0381">   84</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d51/class_text_rect.html#a2d69105a39854ff8d6b37a95763d0381">width</a>; </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#endif </span><span class="comment">// TEXTRECT_H</span></div>
+<div class="ttc" id="aclass_text_rect_html"><div class="ttname"><a href="../../d6/d51/class_text_rect.html">TextRect</a></div><div class="ttdoc">Класс текста с рамкой</div><div class="ttdef"><b>Definition:</b> textrect.h:15</div></div>
+<div class="ttc" id="aclass_text_rect_html_a0ca60a108ce111781c550fa01121b413"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a0ca60a108ce111781c550fa01121b413">TextRect::show</a></div><div class="ttdeci">void show()</div><div class="ttdoc">show показывает объект на сцене</div><div class="ttdef"><b>Definition:</b> textrect.cpp:53</div></div>
+<div class="ttc" id="aclass_text_rect_html_a0e75d8d2205b975b2d1b5499cde74776"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a0e75d8d2205b975b2d1b5499cde74776">TextRect::x</a></div><div class="ttdeci">int x</div><div class="ttdoc">x текста</div><div class="ttdef"><b>Definition:</b> textrect.h:82</div></div>
+<div class="ttc" id="aclass_text_rect_html_a11fd2e71d3583eef31a39007a0a9b160"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a11fd2e71d3583eef31a39007a0a9b160">TextRect::alignment</a></div><div class="ttdeci">Alignment alignment</div><div class="ttdoc">Выравнивание текста относительно заданных координат</div><div class="ttdef"><b>Definition:</b> textrect.h:81</div></div>
+<div class="ttc" id="aclass_text_rect_html_a177b967e82b341eff597aefb371164dc"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a177b967e82b341eff597aefb371164dc">TextRect::setFont</a></div><div class="ttdeci">void setFont(QFont font)</div><div class="ttdoc">setFont устанавливает новый шрифт текста</div><div class="ttdef"><b>Definition:</b> textrect.cpp:89</div></div>
+<div class="ttc" id="aclass_text_rect_html_a2d69105a39854ff8d6b37a95763d0381"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a2d69105a39854ff8d6b37a95763d0381">TextRect::width</a></div><div class="ttdeci">int width</div><div class="ttdoc">ширина текста</div><div class="ttdef"><b>Definition:</b> textrect.h:84</div></div>
+<div class="ttc" id="aclass_text_rect_html_a38a2a9bf94abae7111cd082083364334"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a38a2a9bf94abae7111cd082083364334">TextRect::addToScene</a></div><div class="ttdeci">void addToScene(QGraphicsScene *scene)</div><div class="ttdoc">addToScene добавляет на сцену</div><div class="ttdef"><b>Definition:</b> textrect.cpp:35</div></div>
+<div class="ttc" id="aclass_text_rect_html_a434f3bc583cc53ff825a0930469a9681"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a434f3bc583cc53ff825a0930469a9681">TextRect::text</a></div><div class="ttdeci">QGraphicsTextItem * text</div><div class="ttdoc">Объект текста</div><div class="ttdef"><b>Definition:</b> textrect.h:79</div></div>
+<div class="ttc" id="aclass_text_rect_html_a6fe8b6f30d49615c48aa734b82fb98d7"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a6fe8b6f30d49615c48aa734b82fb98d7">TextRect::setText</a></div><div class="ttdeci">void setText(QString newText)</div><div class="ttdoc">setText устанавливает новый текст</div><div class="ttdef"><b>Definition:</b> textrect.cpp:59</div></div>
+<div class="ttc" id="aclass_text_rect_html_a768b56bf12c5f21f4be4c57ae8961f07"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a768b56bf12c5f21f4be4c57ae8961f07">TextRect::Alignment</a></div><div class="ttdeci">Alignment</div><div class="ttdoc">The Alignment enum - Два варианта задачи координат</div><div class="ttdef"><b>Definition:</b> textrect.h:24</div></div>
+<div class="ttc" id="aclass_text_rect_html_a7abb876239db3d48c66c9b94f57983bb"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a7abb876239db3d48c66c9b94f57983bb">TextRect::TextRect</a></div><div class="ttdeci">TextRect(QString str, int x, int y, Alignment alignment=Center)</div><div class="ttdoc">TextRect.</div><div class="ttdef"><b>Definition:</b> textrect.cpp:3</div></div>
+<div class="ttc" id="aclass_text_rect_html_a7def0fbd345a4af0c8b78ad99d6b4e51"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a7def0fbd345a4af0c8b78ad99d6b4e51">TextRect::rect</a></div><div class="ttdeci">QGraphicsRectItem * rect</div><div class="ttdoc">Объект прямоугольника</div><div class="ttdef"><b>Definition:</b> textrect.h:80</div></div>
+<div class="ttc" id="aclass_text_rect_html_a877f3fdf25512fcfab4fcf1f2cc09b10"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a877f3fdf25512fcfab4fcf1f2cc09b10">TextRect::y</a></div><div class="ttdeci">int y</div><div class="ttdoc">y текста</div><div class="ttdef"><b>Definition:</b> textrect.h:83</div></div>
+<div class="ttc" id="aclass_text_rect_html_a8e28e7bb74993d9c6b3fa59ed1f5c89f"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f">TextRect::hide</a></div><div class="ttdeci">void hide()</div><div class="ttdoc">hide скрывает объект на сцене</div><div class="ttdef"><b>Definition:</b> textrect.cpp:47</div></div>
+<div class="ttc" id="aclass_text_rect_html_aa3cf398ff6420e8b5de00dc9f48e3182"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#aa3cf398ff6420e8b5de00dc9f48e3182">TextRect::removeFromScene</a></div><div class="ttdeci">void removeFromScene(QGraphicsScene *scene)</div><div class="ttdoc">removeFromScene убирает со сцены</div><div class="ttdef"><b>Definition:</b> textrect.cpp:41</div></div>
+<div class="ttc" id="aclass_text_rect_html_aca70824fcac0c1a7cf835471edf8bf19"><div class="ttname"><a href="../../d6/d51/class_text_rect.html#aca70824fcac0c1a7cf835471edf8bf19">TextRect::setWidth</a></div><div class="ttdeci">void setWidth(int newWidth)</div><div class="ttdoc">setWidth устанавливает новую ширину рамки</div><div class="ttdef"><b>Definition:</b> textrect.cpp:74</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_43120f33d6899afdcab792f2438b7c46.html">graphicItems</a></li><li class="navelem"><b>textrect.h</b></li>
+    <li class="footer">Документация по Reforma Windows Software. Последние изменения: Вт 19 Июл 2022 17:39:06. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

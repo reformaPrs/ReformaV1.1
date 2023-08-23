@@ -1,0 +1,4 @@
+<map id="Heater::onDotLeft" name="Heater::onDotLeft">
+<area shape="rect" id="node1" title="onDotLeft вызывается при выходе из наведения на точку" alt="" coords="163,5,285,32"/>
+<area shape="rect" id="node2" href="$de/d1d/class_heater.html#aef6ed4a7995a0ee37983d06187c8ebb3" title="addDot &#45; добавляет новую точку в нагреватель" alt="" coords="5,5,115,32"/>
+</map>

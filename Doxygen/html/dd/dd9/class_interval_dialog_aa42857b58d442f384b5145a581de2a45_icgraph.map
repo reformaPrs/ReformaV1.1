@@ -1,0 +1,8 @@
+<map id="IntervalDialog::setIntervalDotsPairsUp" name="IntervalDialog::setIntervalDotsPairsUp">
+<area shape="rect" id="node1" title="setIntervalDotsPairsUp" alt="" coords="489,49,653,90"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a553697c93cf9c770a2a0f5cce92e3fcc" title="onCopyShortcut вызывается нажатим на сочитание клавиш для копирования в системе" alt="" coords="235,5,433,32"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="238,56,430,83"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#a9d11494701432a2b68195c54213f1a0f" title="setRecievedValues обновляет пары в соответствии с полученными с прибора данными" alt="" coords="227,107,441,133"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="9,31,175,57"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,81,179,108"/>
+</map>

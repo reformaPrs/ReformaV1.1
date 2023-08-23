@@ -1,0 +1,5 @@
+<map id="TextRect::setWidth" name="TextRect::setWidth">
+<area shape="rect" id="node1" title="setWidth устанавливает новую ширину рамки" alt="" coords="340,5,475,32"/>
+<area shape="rect" id="node2" href="$de/d1d/class_heater.html#accecafff1dad8c95027509ca817f3446" title="addHint &#45; добавляет новую подсказку в нагреватель" alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node3" href="$d6/d51/class_text_rect.html#a177b967e82b341eff597aefb371164dc" title="setFont устанавливает новый шрифт текста" alt="" coords="165,31,292,57"/>
+</map>

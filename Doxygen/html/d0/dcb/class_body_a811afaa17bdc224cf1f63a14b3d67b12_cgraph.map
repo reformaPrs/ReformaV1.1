@@ -1,0 +1,4 @@
+<map id="Body::update" name="Body::update">
+<area shape="rect" id="node1" title="update обновляет мышцы в соответствии с значениями полученных пар" alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node2" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="152,5,292,32"/>
+</map>

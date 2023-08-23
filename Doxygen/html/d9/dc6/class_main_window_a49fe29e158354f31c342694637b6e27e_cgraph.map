@@ -1,0 +1,9 @@
+<map id="MainWindow::onToolButtonHeatToggled" name="MainWindow::onToolButtonHeatToggled">
+<area shape="rect" id="node1" title="onToolButtonHeatToggled вызывается нажатием на кнопку &quot;Нагрев&quot;" alt="" coords="5,125,185,166"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#a755b4c2559548e2c698b4ef78c20bab2" title="hide скрывает все части тела, но не фон (всё тело)" alt="" coords="266,5,350,32"/>
+<area shape="rect" id="node3" href="$df/d66/class_mio_suit.html#a52f6295c125e119f1c3a6c1cc032c8c8" title="hide скрывает пары контактов" alt="" coords="259,56,357,83"/>
+<area shape="rect" id="node4" href="$df/d66/class_mio_suit.html#a25208d1655ac46745b8f9f32ca174291" title="hideHeaters скрывает все нагреватели" alt="" coords="237,107,379,133"/>
+<area shape="rect" id="node5" href="$d0/dcb/class_body.html#a88b94bb8dbba60966458a9b3a6d7cfc9" title="show показывает все активные части тела" alt="" coords="263,157,353,184"/>
+<area shape="rect" id="node6" href="$df/d66/class_mio_suit.html#a67128cc5c0cb4bcdd1f492257eeb38bb" title="show отображает активные пары контактов" alt="" coords="256,208,360,235"/>
+<area shape="rect" id="node7" href="$df/d66/class_mio_suit.html#ae880445d522be34d6f6fc989f39f5450" title="showHeaters показывает все нагреватели" alt="" coords="233,259,383,285"/>
+</map>

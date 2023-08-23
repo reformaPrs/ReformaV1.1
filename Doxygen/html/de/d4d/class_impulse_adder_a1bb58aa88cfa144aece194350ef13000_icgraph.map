@@ -1,0 +1,6 @@
+<map id="ImpulseAdder::setDotPairs" name="ImpulseAdder::setDotPairs">
+<area shape="rect" id="node1" title="setDotPairs устанавливает пары контактов, которые отрисовываются на сцены" alt="" coords="756,13,933,39"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a97c3be5d1473370d4e86f3a756c0dd25" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="493,13,708,39"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a190db24a81b8883c9249850d5cfed68d" title="readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла" alt="" coords="255,5,445,47"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,13,207,39"/>
+</map>

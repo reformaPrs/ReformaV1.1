@@ -1,0 +1,21 @@
+<map id="PopBodyPart::setStatus" name="PopBodyPart::setStatus">
+<area shape="rect" id="node1" title="setStatus" alt="" coords="1287,120,1449,146"/>
+<area shape="rect" id="node2" href="$de/d4d/class_impulse_adder.html#a98de4f4b314bfba1713a79da246ef66b" title="onBodyPartClicked вызывается при получении сигнала от части тела" alt="" coords="1047,54,1224,95"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a97c3be5d1473370d4e86f3a756c0dd25" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="517,34,732,61"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#a5027d34d66392d3de18b330d1c2670df" title="onIntervalPartDeleted вызывается при изменении интерактивности мышцы" alt="" coords="791,163,973,204"/>
+<area shape="rect" id="node15" href="$d6/d3b/class_pop_body_part.html#a0c55ea8fdfa37a233b38a7163eb06980" title="onMuscleClicked вызывается при нажатии на картинку мышцы" alt="" coords="1032,120,1239,146"/>
+<area shape="rect" id="node18" href="$d9/dc6/class_main_window.html#a3623b94005619a94633c2ac1d643266f" title="updateBodyParts обновляет отрисовку частей тела после загрузки из файла или прибора" alt="" coords="1033,228,1237,254"/>
+<area shape="rect" id="node3" href="$de/d4d/class_impulse_adder.html#af47f5f29d3fa90a99780ae4bfd240245" title="setPopBodyPart устанавливает часть тела, которую отрисовывает на сцене" alt="" coords="780,57,984,84"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a190db24a81b8883c9249850d5cfed68d" title="readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла" alt="" coords="267,27,457,68"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,34,207,61"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#a83a631e8c81a2f061c8ee4a152618f67" title="initIntervalDialog инициализирует диалоговое окно интервалов" alt="" coords="544,187,705,228"/>
+<area shape="rect" id="node9" href="$d9/dc6/class_main_window.html#a553697c93cf9c770a2a0f5cce92e3fcc" title="onCopyShortcut вызывается нажатим на сочитание клавиш для копирования в системе" alt="" coords="263,165,461,192"/>
+<area shape="rect" id="node10" href="$d9/dc6/class_main_window.html#a0aa82c54ccfa15fe98eb02e201e39654" title="onIntervalClicked вызывается нажатием на кнопку &quot;Интервал&quot;" alt="" coords="261,216,463,242"/>
+<area shape="rect" id="node12" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="266,266,458,293"/>
+<area shape="rect" id="node14" href="$d9/dc6/class_main_window.html#a9d11494701432a2b68195c54213f1a0f" title="setRecievedValues обновляет пары в соответствии с полученными с прибора данными" alt="" coords="255,114,469,141"/>
+<area shape="rect" id="node11" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="23,216,189,242"/>
+<area shape="rect" id="node13" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="19,266,193,293"/>
+<area shape="rect" id="node16" href="$d6/d3b/class_pop_body_part.html#aba644c3c677a1e0854384d7837d6b1c0" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="795,112,969,138"/>
+<area shape="rect" id="node17" href="$d6/d3b/class_pop_body_part.html#aa9d311dc285a3757630c025100c7e8f1" title="PopBodyPart." alt="" coords="533,112,717,138"/>
+<area shape="rect" id="node19" href="$d9/dc6/class_main_window.html#a5eb3a88cf4f2fdd5e26e17681ddfec4e" title="onIntervalPairsActivated вызывается при активации мышцы при симуляции" alt="" coords="788,228,976,270"/>
+</map>

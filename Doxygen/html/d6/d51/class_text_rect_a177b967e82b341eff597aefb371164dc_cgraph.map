@@ -1,0 +1,4 @@
+<map id="TextRect::setFont" name="TextRect::setFont">
+<area shape="rect" id="node1" title="setFont устанавливает новый шрифт текста" alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$d6/d51/class_text_rect.html#aca70824fcac0c1a7cf835471edf8bf19" title="setWidth устанавливает новую ширину рамки" alt="" coords="180,5,315,32"/>
+</map>

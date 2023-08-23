@@ -1,0 +1,5 @@
+<map id="MainWindow::onIntervalIntaractivePartChanged" name="MainWindow::onIntervalIntaractivePartChanged">
+<area shape="rect" id="node1" title="onIntervalIntaractivePartChanged вызывается при изменении мышц в интервалах" alt="" coords="5,5,221,47"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#ab25bacb7a215cb819328dc2aeed48b59" title="setIntaractive обновляет интерактивность частей тела в зависимости от значения activePart" alt="" coords="269,13,405,39"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#a24feb7f4d611a87d83b740ae8261684f" title="setIntaractive" alt="" coords="453,13,613,39"/>
+</map>

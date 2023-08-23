@@ -1,0 +1,6 @@
+<map id="Heater::addHint" name="Heater::addHint">
+<area shape="rect" id="node1" title="addHint &#45; добавляет новую подсказку в нагреватель" alt="" coords="5,56,117,83"/>
+<area shape="rect" id="node2" href="$d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f" title="hide скрывает объект на сцене" alt="" coords="175,5,282,32"/>
+<area shape="rect" id="node3" href="$d6/d51/class_text_rect.html#a177b967e82b341eff597aefb371164dc" title="setFont устанавливает новый шрифт текста" alt="" coords="165,56,292,83"/>
+<area shape="rect" id="node4" href="$d6/d51/class_text_rect.html#aca70824fcac0c1a7cf835471edf8bf19" title="setWidth устанавливает новую ширину рамки" alt="" coords="340,81,475,108"/>
+</map>

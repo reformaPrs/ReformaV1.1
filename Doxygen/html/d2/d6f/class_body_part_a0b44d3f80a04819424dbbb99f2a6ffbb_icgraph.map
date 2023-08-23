@@ -1,0 +1,5 @@
+<map id="BodyPart::onMuscleClick" name="BodyPart::onMuscleClick">
+<area shape="rect" id="node1" title="onMuscleClick вызывается при нажатии на картинку мышцы" alt="" coords="391,5,560,32"/>
+<area shape="rect" id="node2" href="$d2/d6f/class_body_part.html#a4cb80294e4b04cd83b935da0963e58be" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="192,5,343,32"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#a595fb2de387d0c534184c841679ce0a5" title="BodyPart." alt="" coords="5,5,144,32"/>
+</map>

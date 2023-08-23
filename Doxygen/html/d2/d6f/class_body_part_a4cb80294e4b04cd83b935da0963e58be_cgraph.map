@@ -1,0 +1,8 @@
+<map id="BodyPart::initMuscles" name="BodyPart::initMuscles">
+<area shape="rect" id="node1" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="5,56,156,83"/>
+<area shape="rect" id="node2" href="$d2/d6f/class_body_part.html#a9ee0f731a790c8ca979cf947f9e45af9" title="onHoverEntered вызывается при наведении на мышцу" alt="" coords="204,5,379,32"/>
+<area shape="rect" id="node4" href="$d2/d6f/class_body_part.html#a3be2587294821dd9ade3ab5c6b3926d5" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="216,56,367,83"/>
+<area shape="rect" id="node6" href="$d2/d6f/class_body_part.html#a0b44d3f80a04819424dbbb99f2a6ffbb" title="onMuscleClick вызывается при нажатии на картинку мышцы" alt="" coords="207,107,376,133"/>
+<area shape="rect" id="node3" href="$d6/d51/class_text_rect.html#a0ca60a108ce111781c550fa01121b413" title="show показывает объект на сцене" alt="" coords="427,5,539,32"/>
+<area shape="rect" id="node5" href="$d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f" title="hide скрывает объект на сцене" alt="" coords="429,56,536,83"/>
+</map>

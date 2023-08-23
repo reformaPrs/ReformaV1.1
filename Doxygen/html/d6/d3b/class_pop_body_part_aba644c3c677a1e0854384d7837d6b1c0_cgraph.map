@@ -1,0 +1,7 @@
+<map id="PopBodyPart::initMuscles" name="PopBodyPart::initMuscles">
+<area shape="rect" id="node1" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="5,56,179,83"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#aaa2ac63b2f63c7aac1ac8511b5512a99" title="onHoverEntered вызывается при наведении на мышцу" alt="" coords="231,5,429,32"/>
+<area shape="rect" id="node3" href="$d6/d3b/class_pop_body_part.html#a39aa3e66c895c5369d0d28a891ab4a22" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="243,56,417,83"/>
+<area shape="rect" id="node4" href="$d6/d3b/class_pop_body_part.html#a0c55ea8fdfa37a233b38a7163eb06980" title="onMuscleClicked вызывается при нажатии на картинку мышцы" alt="" coords="227,107,433,133"/>
+<area shape="rect" id="node5" href="$d6/d3b/class_pop_body_part.html#aa5da772b503c6ba3ffc8f32df9f3e4dc" title="setStatus" alt="" coords="481,107,644,133"/>
+</map>

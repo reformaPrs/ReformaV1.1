@@ -1,0 +1,7 @@
+<map id="MioSuit::readFromFile" name="MioSuit::readFromFile">
+<area shape="rect" id="node1" title="readFromFile считывает информацию о костюме из файла" alt="" coords="5,81,156,108"/>
+<area shape="rect" id="node2" href="$df/d66/class_mio_suit.html#a51c6bf7f6890e2ef3be7700b5e2df542" title="checkForActiveHalfhour проверяет записанные данные получасов" alt="" coords="204,5,415,32"/>
+<area shape="rect" id="node3" href="$d1/d3e/class_interval_dots_pair.html#a703f030eb780ae9b169631494c6e85e2" title="setEndTime" alt="" coords="215,56,404,83"/>
+<area shape="rect" id="node4" href="$d1/d3e/class_interval_dots_pair.html#ae99f9dd3e0eab1849bb69539e6615cf2" title="setStartTime" alt="" coords="212,107,407,133"/>
+<area shape="rect" id="node5" href="$d9/d91/class_simple_dots_pair.html#a0300c142c4a808ca8bdc3de9a04654a4" title="setValue" alt="" coords="224,157,395,184"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MioSuit::setDotsPairSimulationValue" name="MioSuit::setDotsPairSimulationValue">
+<area shape="rect" id="node1" title="setDotsPairSimulationValue" alt="" coords="237,39,440,80"/>
+<area shape="rect" id="node2" href="$dd/dbd/class_interval_simulation.html#a492803bfc6f8908a07dcc04c52d840f7" title="onSimulationTimeChanged вызывается каждую секунду симуляции" alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node3" href="$dc/db8/class_interval_simulation_widget.html#af5bda8aa592a7e94c73d6d7c67ed24fa" title="onSimulationTimeChanged вызывается каждую секунду симуляции" alt="" coords="5,71,189,112"/>
+</map>

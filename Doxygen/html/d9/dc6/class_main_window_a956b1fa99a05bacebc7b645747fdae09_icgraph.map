@@ -1,0 +1,6 @@
+<map id="MainWindow::sendHalfhourData" name="MainWindow::sendHalfhourData">
+<area shape="rect" id="node1" title="sendHalfhourData отправляет данные активного получаса" alt="" coords="465,31,672,57"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a4d78c9376a9da99c9680318f9797cd6f" title="onSendClicked вызывается нажатием на кнопку или действие &quot;Отправить&quot;" alt="" coords="227,31,417,57"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="9,5,175,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,56,179,83"/>
+</map>

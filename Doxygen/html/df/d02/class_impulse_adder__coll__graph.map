@@ -1,0 +1,12 @@
+<map id="ImpulseAdder" name="ImpulseAdder">
+<area shape="rect" id="node1" title="Класс диалогового окна для добавления значений импульсов" alt="" coords="284,364,385,391"/>
+<area shape="rect" id="node2" title=" " alt="" coords="219,5,290,32"/>
+<area shape="rect" id="node3" href="$d0/dcb/class_body.html" title="The Body class &#45; класс фасад всего тела." alt="" coords="309,275,361,301"/>
+<area shape="rect" id="node4" href="$d9/d15/class_hover_pixmap_item.html" title="Класс картинки с сигналами при нажатии наведении и выхода из наведения" alt="" coords="341,81,464,108"/>
+<area shape="rect" id="node7" href="$dd/d50/class_abstract_body_part.html" title="The AbstractBodyPart class &#45; абстрактный класс части тела" alt="" coords="141,81,267,108"/>
+<area shape="rect" id="node8" href="$d6/d51/class_text_rect.html" title="Класс текста с рамкой" alt="" coords="43,81,117,108"/>
+<area shape="rect" id="node10" href="$df/d66/class_mio_suit.html" title="Класс костюма Является фасадом для всех пар контактов и нагревателей Также может существовать только ..." alt="" coords="509,133,576,160"/>
+<area shape="rect" id="node9" href="$d6/d3b/class_pop_body_part.html" title="Класс части тела для всплывающего окна" alt="" coords="333,185,432,212"/>
+<area shape="rect" id="node5" title=" " alt="" coords="458,5,611,32"/>
+<area shape="rect" id="node6" href="$d2/d6f/class_body_part.html" title="Класс части тела на главном экране" alt="" coords="166,185,242,212"/>
+</map>

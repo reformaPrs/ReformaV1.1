@@ -1,0 +1,8 @@
+<map id="IntervalWidget::onSpinBoxStartChanged" name="IntervalWidget::onSpinBoxStartChanged">
+<area shape="rect" id="node1" title="onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox&#39;е" alt="" coords="5,23,180,65"/>
+<area shape="rect" id="node2" href="$d1/d3e/class_interval_dots_pair.html#ae99f9dd3e0eab1849bb69539e6615cf2" title="setStartTime" alt="" coords="228,5,423,32"/>
+<area shape="rect" id="node3" href="$de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="246,56,405,83"/>
+<area shape="rect" id="node4" href="$de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="471,31,667,57"/>
+<area shape="rect" id="node5" href="$de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="475,81,662,108"/>
+<area shape="rect" id="node6" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="715,81,911,108"/>
+</map>

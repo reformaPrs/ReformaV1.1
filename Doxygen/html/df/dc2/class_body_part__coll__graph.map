@@ -1,0 +1,6 @@
+<map id="BodyPart" name="BodyPart">
+<area shape="rect" id="node1" title="Класс части тела на главном экране" alt="" coords="91,185,167,212"/>
+<area shape="rect" id="node2" href="$dd/d50/class_abstract_body_part.html" title="The AbstractBodyPart class &#45; абстрактный класс части тела" alt="" coords="5,81,131,108"/>
+<area shape="rect" id="node3" title=" " alt="" coords="94,5,165,32"/>
+<area shape="rect" id="node4" href="$d6/d51/class_text_rect.html" title="Класс текста с рамкой" alt="" coords="155,81,229,108"/>
+</map>

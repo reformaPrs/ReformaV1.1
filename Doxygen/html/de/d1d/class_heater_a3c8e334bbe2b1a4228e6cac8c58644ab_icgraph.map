@@ -1,0 +1,6 @@
+<map id="Heater::clicked" name="Heater::clicked">
+<area shape="rect" id="node1" title="clicked вызывается при нажатии на нагреватель" alt="" coords="360,31,469,57"/>
+<area shape="rect" id="node2" href="$de/d1d/class_heater.html#aef6ed4a7995a0ee37983d06187c8ebb3" title="addDot &#45; добавляет новую точку в нагреватель" alt="" coords="5,5,115,32"/>
+<area shape="rect" id="node3" href="$de/d1d/class_heater.html#a525ad52fe0fc6b3409430f9861abea0c" title="onHeaterClick вызывается при нажатии на нагреватель" alt="" coords="163,56,312,83"/>
+<area shape="rect" id="node4" href="$de/d1d/class_heater.html#ad4463bfe7c1aaacd0ceea500b52432cd" title="Heater." alt="" coords="7,56,113,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="PopBodyPart::onHoverLeft" name="PopBodyPart::onHoverLeft">
+<area shape="rect" id="node1" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="227,5,401,32"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#aba644c3c677a1e0854384d7837d6b1c0" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="5,5,179,32"/>
+</map>

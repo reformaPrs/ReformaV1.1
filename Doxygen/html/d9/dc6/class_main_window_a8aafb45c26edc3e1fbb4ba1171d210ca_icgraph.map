@@ -1,0 +1,4 @@
+<map id="MainWindow::onResize" name="MainWindow::onResize">
+<area shape="rect" id="node1" title="onResize вызывается при изменении размеров окна и инициализации" alt="" coords="255,5,413,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,5,207,32"/>
+</map>

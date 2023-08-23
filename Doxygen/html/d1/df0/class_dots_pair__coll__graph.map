@@ -1,0 +1,7 @@
+<map id="DotsPair" name="DotsPair">
+<area shape="rect" id="node1" title="Класс пары контактов на главном экране" alt="" coords="63,185,135,212"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,76,32"/>
+<area shape="rect" id="node4" href="$df/ddf/class_dot.html" title="Класс точки" alt="" coords="78,81,121,108"/>
+<area shape="rect" id="node3" href="$d9/d91/class_simple_dots_pair.html" title="Базовый класс для пары контактов костюма" alt="" coords="145,81,257,108"/>
+<area shape="rect" id="node5" title=" " alt="" coords="100,5,248,32"/>
+</map>

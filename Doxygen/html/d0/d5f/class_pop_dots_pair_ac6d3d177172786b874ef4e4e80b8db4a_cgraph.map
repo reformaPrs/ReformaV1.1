@@ -1,0 +1,9 @@
+<map id="PopDotsPair::onDotHoverLeft" name="PopDotsPair::onDotHoverLeft">
+<area shape="rect" id="node1" title="onDotHoverLeft вызывается при выходе из наведения на точки" alt="" coords="5,132,196,159"/>
+<area shape="rect" id="node2" href="$dc/d0f/class_dots_pair.html#aa8383c750d12d390716ec2908dcd7dc8" title="getDot1" alt="" coords="267,5,392,32"/>
+<area shape="rect" id="node3" href="$dc/d0f/class_dots_pair.html#a3aeacf728459c6ddb08a32bec49b5de9" title="getDot2" alt="" coords="267,56,392,83"/>
+<area shape="rect" id="node4" href="$dc/d0f/class_dots_pair.html#a6bd45d736f52baefe9739d3f123e818e" title="getRadius" alt="" coords="260,107,399,133"/>
+<area shape="rect" id="node5" href="$d9/d91/class_simple_dots_pair.html#a52792f3ef46e94d931edbc0aa57086d9" title="getValue" alt="" coords="244,157,415,184"/>
+<area shape="rect" id="node6" href="$d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f" title="hide скрывает объект на сцене" alt="" coords="276,208,383,235"/>
+<area shape="rect" id="node7" href="$df/ddf/class_dot.html#afa143b57d4e6b3f02bfef0985d713068" title="setRadius задаёт новый радиус" alt="" coords="275,259,383,285"/>
+</map>

@@ -1,0 +1,45 @@
+<map id="MainWindow::initMenuBar" name="MainWindow::initMenuBar">
+<area shape="rect" id="node1" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,440,179,467"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#ac74a8e6b0687f952b1f18cec8b59de65" title="initPortsMenu инициализирует меню портов" alt="" coords="248,59,432,85"/>
+<area shape="rect" id="node14" href="$d9/dc6/class_main_window.html#a2c3ab8d0fae192df421504a9d2aeef8a" title="onExitClicked вызывается нажатием на кнопку или действие &quot;Выход&quot;" alt="" coords="248,465,432,492"/>
+<area shape="rect" id="node15" href="$d9/dc6/class_main_window.html#a62e2fdd368916cdc49ccab263d41e3ab" title="onExportClicked вызывается нажатием на кнопку или действие &quot;Экспорт&quot;" alt="" coords="241,516,439,543"/>
+<area shape="rect" id="node16" href="$d9/dc6/class_main_window.html#a243ddd97953954c8168fcd9ee009c69c" title="onLanguageTriggered вызывается при выборе языка" alt="" coords="227,567,453,593"/>
+<area shape="rect" id="node20" href="$d9/dc6/class_main_window.html#a9c5f607d060a484b8ad2ad71259ce26f" title="onLicenceClicked вызывается нажатием на действие &quot;Лицензия&quot;" alt="" coords="237,617,443,644"/>
+<area shape="rect" id="node21" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="1011,528,1203,555"/>
+<area shape="rect" id="node34" href="$d9/dc6/class_main_window.html#ad5bb166d14305f613611c130c0dc0ccf" title="onPrintClicked вызывается нажатием на кнопку или действие &quot;Печать&quot;" alt="" coords="246,668,434,695"/>
+<area shape="rect" id="node35" href="$d9/dc6/class_main_window.html#afc5d7d57c4366b4493644d9593d6dc86" title="onRecieveClicked вызывается нажатием на кнопку или действие &quot;Получить&quot;" alt="" coords="1003,112,1210,139"/>
+<area shape="rect" id="node36" href="$d9/dc6/class_main_window.html#afb6cd5d734c075963465d0eec11902c6" title="onSaveClicked вызывается нажатием на кнопку или действие &quot;Сохранить&quot;" alt="" coords="245,364,435,391"/>
+<area shape="rect" id="node39" href="$d9/dc6/class_main_window.html#a4d78c9376a9da99c9680318f9797cd6f" title="onSendClicked вызывается нажатием на кнопку или действие &quot;Отправить&quot;" alt="" coords="245,288,435,315"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a6540b8248b4b9d5cfd4b06a1588fb7df" title="onDeviceTriggered вызывается при нажатии на вкладку &quot;Устройство&quot;" alt="" coords="501,57,711,84"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#ae88824a309842c91bcb751650907a7ab" title="updatePortsList обновляет список портов" alt="" coords="759,56,953,83"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a092e8d45c24f1c28f1015b3fa7dc8284" title="onPortTriggered вызывается при выборе порта прибора" alt="" coords="1009,56,1204,83"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#ae7410ead1c1c619ad3699aa1777231f8" title="onDeviceDisconnected вызывается при отключении прибора" alt="" coords="1260,5,1495,32"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#a209079830a37745e47076a762bab17d6" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="1285,56,1470,83"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#a049302056dae9da5f5d6325cccedfd75" title="readDataFromPacket считывает данные из пришедшего с прибора пакета" alt="" coords="1559,46,1745,87"/>
+<area shape="rect" id="node9" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="2061,137,2248,164"/>
+<area shape="rect" id="node10" href="$d9/dc6/class_main_window.html#ae35f43a8452da4d9612f4fea56cf9d09" title="sendCommand отправляет пакет с командой" alt="" coords="1816,112,2007,139"/>
+<area shape="rect" id="node11" href="$d9/dc6/class_main_window.html#a3623b94005619a94633c2ac1d643266f" title="updateBodyParts обновляет отрисовку частей тела после загрузки из файла" alt="" coords="1809,319,2013,345"/>
+<area shape="rect" id="node12" href="$d6/d3b/class_pop_body_part.html#aa5da772b503c6ba3ffc8f32df9f3e4dc" title="setStatus" alt="" coords="2073,373,2236,400"/>
+<area shape="rect" id="node13" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="2085,319,2225,345"/>
+<area shape="rect" id="node17" href="$d9/dc6/class_main_window.html#aa354849b4d171420260b975d794c65ed" title="saveCurrentLocal сохраняет текущий язык интерфейса в файл" alt="" coords="505,541,707,568"/>
+<area shape="rect" id="node18" href="$d9/dc6/class_main_window.html#a154d6f626586344f44a46bf9a5c52c2c" title="updateText обновляет текст" alt="" coords="522,592,690,619"/>
+<area shape="rect" id="node19" href="$dd/dd9/class_interval_dialog.html#af5d423fc6a89441f85f7882187f14270" title="translate переводит интерфейс" alt="" coords="778,592,934,619"/>
+<area shape="rect" id="node22" href="$d9/dc6/class_main_window.html#a7ff96a33321efb203e68eb7afb0add3d" title="hideAllPairs скрывает все пары контактов и части тела" alt="" coords="1291,440,1464,467"/>
+<area shape="rect" id="node23" href="$d9/dc6/class_main_window.html#a83a631e8c81a2f061c8ee4a152618f67" title="initIntervalDialog инициализирует диалоговое окно интервалов" alt="" coords="1297,491,1458,533"/>
+<area shape="rect" id="node26" href="$d9/dc6/class_main_window.html#a8978b68b44240de0bd9f191ee5e52ab0" title="setIntaractive обновляет интерактивность частей тела в зависимости от значения activePart" alt="" coords="1821,681,2001,708"/>
+<area shape="rect" id="node27" href="$d2/d6f/class_body_part.html#a24feb7f4d611a87d83b740ae8261684f" title="setIntaractive" alt="" coords="2075,711,2235,737"/>
+<area shape="rect" id="node32" href="$dd/dd9/class_interval_dialog.html#a14f3be0c1666074d0625554e1c225f11" title="setIntervalDotsPairsDown" alt="" coords="1295,609,1459,650"/>
+<area shape="rect" id="node33" href="$dd/dd9/class_interval_dialog.html#aa42857b58d442f384b5145a581de2a45" title="setIntervalDotsPairsUp" alt="" coords="1295,674,1459,715"/>
+<area shape="rect" id="node24" href="$d9/dc6/class_main_window.html#a5967170eea89ae2a23232f1c4356e2c3" title="onAddInterval вызывается при нажатии на кнопку &quot;Добавить&quot; в окне интервалов" alt="" coords="1561,499,1743,525"/>
+<area shape="rect" id="node25" href="$d9/dc6/class_main_window.html#aaf19c173d7ee7f136d685849762a0aa8" title="onIntervalIntaractivePartChanged вызывается при изменении мышц в интервалах" alt="" coords="1544,615,1760,657"/>
+<area shape="rect" id="node28" href="$d9/dc6/class_main_window.html#a5eb3a88cf4f2fdd5e26e17681ddfec4e" title="onIntervalPairsActivated вызывается при активации мышцы при симуляции" alt="" coords="1558,315,1746,357"/>
+<area shape="rect" id="node29" href="$d9/dc6/class_main_window.html#a5027d34d66392d3de18b330d1c2670df" title="onIntervalPartDeleted вызывается при изменении интерактивности мышцы" alt="" coords="1820,370,2003,411"/>
+<area shape="rect" id="node30" href="$d9/dc6/class_main_window.html#a18070ec5b9bb4c081b97f4dec50923cc" title="onIntervalSimulationEnded вызывается при окончании симуляции" alt="" coords="1543,433,1761,474"/>
+<area shape="rect" id="node31" href="$d9/dc6/class_main_window.html#a51e51a1be6c2e1216ee7dc7b988e88eb" title="onIntervalSimulationStarted вызывается при начале симуляции" alt="" coords="1543,550,1761,591"/>
+<area shape="rect" id="node37" href="$dd/dd9/class_interval_dialog.html#a9af3b5bcd34ffe643c83ee5f60cb7a71" title="getIntervalDotsPairsUp" alt="" coords="774,331,938,373"/>
+<area shape="rect" id="node38" href="$d2/d6f/class_body_part.html#a5b75cf4a5d09409a592d10c475875a2b" title="getStatus" alt="" coords="536,364,676,391"/>
+<area shape="rect" id="node40" href="$d9/dc6/class_main_window.html#aa0e7f76e975450f88f74e0f630bca247" title=" " alt="" coords="503,263,709,289"/>
+<area shape="rect" id="node41" href="$dd/dd9/class_interval_dialog.html#a537dda5234888dbc30601602996b1455" title="getIntervalDotsPairsDown" alt="" coords="774,214,938,255"/>
+<area shape="rect" id="node42" href="$d9/dc6/class_main_window.html#a4c894f92c0922023b08ab2aceffb0d89" title="sendDataPackets отсылает 4 пакета с данными о всех парах контактов" alt="" coords="1003,163,1210,189"/>
+<area shape="rect" id="node43" href="$d9/dc6/class_main_window.html#a968c3cb5fa3990338d927fafc3010a40" title="sendTimingPacket отсылает пакет для интервалов" alt="" coords="1001,247,1212,273"/>
+</map>

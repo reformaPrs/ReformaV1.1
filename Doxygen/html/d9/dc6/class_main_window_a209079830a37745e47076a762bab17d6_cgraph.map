@@ -1,0 +1,9 @@
+<map id="MainWindow::onReadyRead" name="MainWindow::onReadyRead">
+<area shape="rect" id="node1" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="5,43,191,69"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a049302056dae9da5f5d6325cccedfd75" title="readDataFromPacket считывает данные из пришедшего с прибора пакета" alt="" coords="239,35,425,77"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="725,5,912,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#ae35f43a8452da4d9612f4fea56cf9d09" title="sendCommand отправляет пакет с командой" alt="" coords="480,43,671,69"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a3623b94005619a94633c2ac1d643266f" title="updateBodyParts обновляет отрисовку частей тела после загрузки из файла" alt="" coords="473,93,677,120"/>
+<area shape="rect" id="node6" href="$d6/d3b/class_pop_body_part.html#aa5da772b503c6ba3ffc8f32df9f3e4dc" title="setStatus" alt="" coords="737,68,900,95"/>
+<area shape="rect" id="node7" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="749,119,889,145"/>
+</map>

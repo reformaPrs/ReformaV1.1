@@ -1,0 +1,4 @@
+<map id="BodyPart::onHoverLeft" name="BodyPart::onHoverLeft">
+<area shape="rect" id="node1" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node2" href="$d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f" title="hide скрывает объект на сцене" alt="" coords="204,5,311,32"/>
+</map>

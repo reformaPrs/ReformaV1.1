@@ -1,0 +1,4 @@
+<map id="MioSuit::deactivateMusclePopDotsPairs" name="MioSuit::deactivateMusclePopDotsPairs">
+<area shape="rect" id="node1" title="deactivateMusclePopDotsPairs скрывает всплывающую пару контактов мышцы" alt="" coords="231,5,405,47"/>
+<area shape="rect" id="node2" href="$de/d4d/class_impulse_adder.html#a98de4f4b314bfba1713a79da246ef66b" title="onBodyPartClicked вызывается при получении сигнала от части тела" alt="" coords="5,5,183,47"/>
+</map>

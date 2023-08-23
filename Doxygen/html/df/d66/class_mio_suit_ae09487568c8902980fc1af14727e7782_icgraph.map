@@ -1,0 +1,6 @@
+<map id="MioSuit::saveToFile" name="MioSuit::saveToFile">
+<area shape="rect" id="node1" title="saveToFile сохраняет информацию о костюме в файл" alt="" coords="464,31,599,57"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#afb6cd5d734c075963465d0eec11902c6" title="onSaveClicked вызывается нажатием на кнопку или действие &quot;Сохранить&quot;" alt="" coords="227,31,416,57"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="9,5,175,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,56,179,83"/>
+</map>

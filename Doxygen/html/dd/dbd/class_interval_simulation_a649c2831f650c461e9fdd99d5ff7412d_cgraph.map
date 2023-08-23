@@ -1,0 +1,8 @@
+<map id="IntervalSimulation::IntervalSimulation" name="IntervalSimulation::IntervalSimulation">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,136,177"/>
+<area shape="rect" id="node2" href="$dd/dbd/class_interval_simulation.html#a9782b379c72439551b1b597517e85f89" title="onOKClicked вызывается при нажатии на &quot;ОК&quot;" alt="" coords="215,5,337,47"/>
+<area shape="rect" id="node3" href="$dd/dbd/class_interval_simulation.html#a96298106e9f315cb05db3026a79aab28" title="onPlayClicked вызывается при нажатии на кнопку пуска" alt="" coords="215,71,337,112"/>
+<area shape="rect" id="node4" href="$dd/dbd/class_interval_simulation.html#adf56e3cb8be61d047940d2ba9ed74985" title="onSimulationEnd вызывается при окончании симуляции" alt="" coords="212,136,340,177"/>
+<area shape="rect" id="node5" href="$dd/dbd/class_interval_simulation.html#a492803bfc6f8908a07dcc04c52d840f7" title="onSimulationTimeChanged вызывается каждую секунду симуляции" alt="" coords="184,201,368,243"/>
+<area shape="rect" id="node6" href="$dd/dbd/class_interval_simulation.html#afcd8ce22252b9e638d74a551711bd3b0" title="onTimerTimeout вызывается при тике таймера" alt="" coords="215,267,337,308"/>
+</map>

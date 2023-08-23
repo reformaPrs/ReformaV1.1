@@ -1,0 +1,7 @@
+<map id="Body::onBodyPartClicked" name="Body::onBodyPartClicked">
+<area shape="rect" id="node1" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="5,56,176,83"/>
+<area shape="rect" id="node2" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="224,5,413,32"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#a3be2587294821dd9ade3ab5c6b3926d5" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="243,56,394,83"/>
+<area shape="rect" id="node5" href="$d6/d3b/class_pop_body_part.html#a3ecc7ddb1493722c6316c3be4ffc894d" title="setStatus" alt="" coords="237,107,400,133"/>
+<area shape="rect" id="node4" href="$d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f" title="hide скрывает объект на сцене" alt="" coords="461,56,568,83"/>
+</map>

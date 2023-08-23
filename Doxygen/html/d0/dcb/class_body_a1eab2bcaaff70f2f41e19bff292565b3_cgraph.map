@@ -1,0 +1,4 @@
+<map id="Body::setPartStatus" name="Body::setPartStatus">
+<area shape="rect" id="node1" title="setPartStatus устанавливает новый статус части тела" alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node2" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="193,5,333,32"/>
+</map>

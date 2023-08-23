@@ -1,0 +1,4 @@
+<map id="IntervalDialog::onPairsActivated" name="IntervalDialog::onPairsActivated">
+<area shape="rect" id="node1" title="onPairsActivated вызывается для передачи сигнала дальше" alt="" coords="248,5,451,32"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#a8d463e367f4dc697c9f35bcc79051300" title="onShowClicked вызывается при нажатии на кнопку &quot;Просмотр&quot;" alt="" coords="5,5,200,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="CustomSliderWidget::impulseClicked" name="CustomSliderWidget::impulseClicked">
+<area shape="rect" id="node1" title="impulseClicked вызывается, когда пользователь нажимает кнопку &quot;Принять&quot; и незначение со слайдера в мк..." alt="" coords="417,5,559,47"/>
+<area shape="rect" id="node2" href="$d0/dea/class_custom_slider_widget.html#aed13a8cc1e99c8cadf1e947f7654fafd" title="onAcceptButtonClicked Отлавливает нажатие на кнопку &quot;Принять&quot; и отправляет impulseClicked(int)" alt="" coords="203,5,369,47"/>
+<area shape="rect" id="node3" href="$d0/dea/class_custom_slider_widget.html#af85e399a40779b2d5486d67acc78e843" title=" " alt="" coords="5,5,155,47"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="PopBodyPart::setStatus" name="PopBodyPart::setStatus">
+<area shape="rect" id="node1" title="setStatus" alt="" coords="1275,81,1437,108"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#a2b72a5ebbfe163dee6861ea5570546fd" title="addPopToScene добавляет выбранную часть тела в увеличенном варианте на всплывающее окно" alt="" coords="793,5,948,32"/>
+<area shape="rect" id="node6" href="$d0/dcb/class_body.html#ad904a015d2d007cbcb69a31ac7fe3d67" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="1038,56,1209,83"/>
+<area shape="rect" id="node8" href="$d6/d3b/class_pop_body_part.html#a0c55ea8fdfa37a233b38a7163eb06980" title="onMuscleClicked вызывается при нажатии на картинку мышцы" alt="" coords="1020,107,1227,133"/>
+<area shape="rect" id="node10" href="$d0/dcb/class_body.html#a96e6ddc2f3b3a0d6cf4e3abcb867f933" title="setPopStatus устанавливает новый статус всплывающей части тела" alt="" coords="1054,157,1193,184"/>
+<area shape="rect" id="node3" href="$de/d4d/class_impulse_adder.html#a3c7fb0f1053d6a4a1a3dcc05fe764cb6" title="setPopBodyPart устанавливает часть тела, которую отрисовывает на сцене" alt="" coords="517,12,721,39"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="255,17,469,44"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,59,207,85"/>
+<area shape="rect" id="node7" href="$d0/dcb/class_body.html#aa5415e796b81b994527810fe6255d24e" title="readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла" alt="" coords="769,56,972,83"/>
+<area shape="rect" id="node9" href="$d6/d3b/class_pop_body_part.html#aba644c3c677a1e0854384d7837d6b1c0" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="784,107,957,133"/>
+<area shape="rect" id="node11" href="$de/d4d/class_impulse_adder.html#aa287adc68b5a11794ea91a1c5ae577fb" title="проверка перед закрытием" alt="" coords="787,157,954,184"/>
+<area shape="rect" id="node14" href="$de/d4d/class_impulse_adder.html#a98de4f4b314bfba1713a79da246ef66b" title="onBodyPartClicked вызывается при получении сигнала от части тела" alt="" coords="782,209,959,250"/>
+<area shape="rect" id="node12" href="$de/d4d/class_impulse_adder.html#ad07c85181bd46c554d2b840bf249928f" title="onBackgroundClicked вызывается при нажатии на задний фон" alt="" coords="523,103,715,145"/>
+<area shape="rect" id="node13" href="$d9/dc6/class_main_window.html#a74239fc92ffa143241be33e79e4e57dc" title="onBackgroundClicked вызывается при нажатии на фон" alt="" coords="269,81,455,122"/>
+</map>

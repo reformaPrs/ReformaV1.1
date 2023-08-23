@@ -1,0 +1,7 @@
+<map id="MainWindow::sendCommand" name="MainWindow::sendCommand">
+<area shape="rect" id="node1" title="sendCommand отправляет пакет с командой" alt="" coords="481,56,672,83"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#afc5d7d57c4366b4493644d9593d6dc86" title="onRecieveClicked вызывается нажатием на кнопку или действие &quot;Получить&quot;" alt="" coords="227,31,433,57"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a6853ae0a153c6bf3e3ae56d1ff321cd9" title="sendStatusTick вызывается при срабатывании таймера statusTickTimer" alt="" coords="233,81,427,108"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="9,5,175,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,56,179,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="MainWindow::onToolButtonHeatToggled" name="MainWindow::onToolButtonHeatToggled">
+<area shape="rect" id="node1" title="onToolButtonHeatToggled вызывается нажатием на кнопку &quot;Нагрев&quot;" alt="" coords="220,5,400,47"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="5,13,172,39"/>
+</map>

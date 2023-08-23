@@ -1,0 +1,10 @@
+<map id="MainWindow::onSendClicked" name="MainWindow::onSendClicked">
+<area shape="rect" id="node1" title="onSendClicked вызывается нажатием на кнопку или действие &quot;Отправить&quot;" alt="" coords="5,107,196,133"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a956b1fa99a05bacebc7b645747fdae09" title="sendHalfhourData отправляет данные активного получаса" alt="" coords="244,107,451,133"/>
+<area shape="rect" id="node3" href="$df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="531,5,677,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a4c894f92c0922023b08ab2aceffb0d89" title="sendDataPackets отсылает 4 пакета с данными о всех парах контактов" alt="" coords="501,56,707,83"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#a82c524347ce0d331c634f071a26bda71" title="sendTimingPacket отсылает пакет для интервалов" alt="" coords="499,107,709,133"/>
+<area shape="rect" id="node7" href="$df/d66/class_mio_suit.html#ae1a0a0e56d431a3edf58529bdd9c6460" title="setHalfhourIndex задаёт новый индекс получаса" alt="" coords="519,157,689,184"/>
+<area shape="rect" id="node8" href="$df/d66/class_mio_suit.html#a2ac95b2e1a82256313bbf759e91942d0" title="update обновляет пары контактов в соответствии с сохранёнными значениями" alt="" coords="547,208,661,235"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="757,81,944,108"/>
+</map>

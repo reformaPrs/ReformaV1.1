@@ -1,0 +1,4 @@
+<map id="HoverPixmapItem::mouseClicked" name="HoverPixmapItem::mouseClicked">
+<area shape="rect" id="node1" title="mouseClicked вызывается при нажатии на картинку" alt="" coords="257,13,471,39"/>
+<area shape="rect" id="node2" href="$d9/d15/class_hover_pixmap_item.html#a69625534313f3fcf6e8e22958c8e68dd" title="mousePressEvent ловит собызия нажатия на картинку" alt="" coords="5,5,209,47"/>
+</map>

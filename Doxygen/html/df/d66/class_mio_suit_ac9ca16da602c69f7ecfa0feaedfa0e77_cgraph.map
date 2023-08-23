@@ -1,0 +1,5 @@
+<map id="MioSuit::addIntervalPairs" name="MioSuit::addIntervalPairs">
+<area shape="rect" id="node1" title="addIntervalPairs добавляет новые пары контактов в интервальные пары из активных всплывающих пар" alt="" coords="5,31,171,57"/>
+<area shape="rect" id="node2" href="$d1/d3e/class_interval_dots_pair.html#a703f030eb780ae9b169631494c6e85e2" title="setEndTime" alt="" coords="221,5,411,32"/>
+<area shape="rect" id="node3" href="$d1/d3e/class_interval_dots_pair.html#ae99f9dd3e0eab1849bb69539e6615cf2" title="setStartTime" alt="" coords="219,56,413,83"/>
+</map>

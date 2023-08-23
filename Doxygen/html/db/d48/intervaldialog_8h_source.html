@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Reforma Windows Software: Исходный файл D:/Work/Reforma/Reforma-Windows-Software/intervaldialog.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Reforma Windows Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Программа для программирования костюма Reforma</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('db/d48/intervaldialog_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">D:/Work/Reforma/Reforma-Windows-Software/intervaldialog.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef INTERVALDIALOG_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define INTERVALDIALOG_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QVector&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QListWidgetItem&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QTime&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;dotsPairs/miosuit.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;bodyParts/body.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;dotsPairs/intervaldotspair.h&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;intervalsimulation.h&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;timeaxis.h&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span>Ui {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span><a class="code hl_class" href="../../dd/dd9/class_interval_dialog.html">IntervalDialog</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>}</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html">   26</a></span><span class="keyword">class </span><a class="code hl_class" href="../../dd/dd9/class_interval_dialog.html">IntervalDialog</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Q_OBJECT</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../dd/dd9/class_interval_dialog.html">IntervalDialog</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_class" href="../../dd/dd9/class_interval_dialog.html">~IntervalDialog</a>();</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dd9/class_interval_dialog.html#a1a724dab326cbb73d554c69f76ab7f8d">addPairs</a>(<span class="keywordtype">int</span> count);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dd9/class_interval_dialog.html#af5d423fc6a89441f85f7882187f14270">translate</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html#abd7023c172e2bab1a9565f679e1be4bc">   49</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="../../dd/dd9/class_interval_dialog.html#abd7023c172e2bab1a9565f679e1be4bc">ActiveMode</a>{</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        UP,</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        DOWN</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    };</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    Q_ENUM(<a class="code hl_enumeration" href="../../dd/dd9/class_interval_dialog.html#abd7023c172e2bab1a9565f679e1be4bc">ActiveMode</a>);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">bool</span> isUpActive();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> updatePairs();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>signals:</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html#ae2a7c52eaa2aaf34683211cbb4590fcd">   64</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../dd/dd9/class_interval_dialog.html#ae2a7c52eaa2aaf34683211cbb4590fcd">add</a>();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html#a98f7c9db56cb25d224d099eca60d7bbc">   68</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../dd/dd9/class_interval_dialog.html#a98f7c9db56cb25d224d099eca60d7bbc">partChanged</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    Ui::IntervalDialog *ui;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html#aa32767ad5765c83feb0a280a9ca04489">   77</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../dd/dd9/class_interval_dialog.html#aa32767ad5765c83feb0a280a9ca04489">changedByUser</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a> *body;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a> *mioSuit;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html#a4ec22dfff70d9eb5837fe932f1620540">   86</a></span>    QListWidget *<a class="code hl_variable" href="../../dd/dd9/class_interval_dialog.html#a4ec22dfff70d9eb5837fe932f1620540">activeListWidget</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html#a793de77e3ca93c3f94a858eaa2c9db0d">   92</a></span>    <a class="code hl_class" href="../../de/d63/class_time_axis.html">TimeAxis</a> *<a class="code hl_variable" href="../../dd/dd9/class_interval_dialog.html#a793de77e3ca93c3f94a858eaa2c9db0d">activeTimeAxis</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html#a85179de1354803e413295d69a64f6943">   96</a></span>    <a class="code hl_class" href="../../d1/d3e/class_interval_dots_pair.html">IntervalDotsPair</a> *<a class="code hl_variable" href="../../dd/dd9/class_interval_dialog.html#a85179de1354803e413295d69a64f6943">activeDotsPair</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="../../dd/dd9/class_interval_dialog.html#a64b777452687b104e340c36e57be856b">  100</a></span>    <a class="code hl_enumeration" href="../../dd/dd9/class_interval_dialog.html#abd7023c172e2bab1a9565f679e1be4bc">ActiveMode</a> <a class="code hl_variable" href="../../dd/dd9/class_interval_dialog.html#a64b777452687b104e340c36e57be856b">activeMode</a> = UP;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#ab7c296f30d139e618f6e57b12fc6d861">onAddClicked</a>();</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#ae0ae3e979f1080600ae0c41cb6f7be80">onDeleteClicked</a>();</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#ae7c184969a0dfac872d44a399c6541f7">onSaveClicked</a>();</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#a8d463e367f4dc697c9f35bcc79051300">onShowClicked</a>();</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#adf4b5d6547a926d1535bf603d18c9130">onStartChanged</a>(<span class="keywordtype">int</span> seconds);</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#ab040d68c356e533e8768ed8019384555">onEndChanged</a>(<span class="keywordtype">int</span> seconds);</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#ad7b6c5409f17319a084f4cb9bf9129b6">onSpinBoxStartChanged</a>(<span class="keywordtype">int</span> seconds);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#afb7a8e2eefd7146d5c01d81e4d720825">onSpinBoxEndChanged</a>(<span class="keywordtype">int</span> seconds);</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#ab7c47277ac7911a70cdcbac01d49a700">onComboBoxIndexChanged</a>(<span class="keywordtype">int</span> index);</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd9/class_interval_dialog.html#aa4a28d6c4bccbad920257ff1143269e4">onListItemClicked</a>(QListWidgetItem *item);</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>};</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span><span class="preprocessor">#endif </span><span class="comment">// INTERVALDIALOG_H</span></div>
+<div class="ttc" id="aclass_body_html"><div class="ttname"><a href="../../d0/dcb/class_body.html">Body</a></div><div class="ttdoc">The Body class - класс фасад всего тела.</div><div class="ttdef"><b>Definition:</b> body.h:20</div></div>
+<div class="ttc" id="aclass_interval_dialog_html"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html">IntervalDialog</a></div><div class="ttdoc">Класс диалогового окна интервальности</div><div class="ttdef"><b>Definition:</b> intervaldialog.h:27</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_a1a724dab326cbb73d554c69f76ab7f8d"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#a1a724dab326cbb73d554c69f76ab7f8d">IntervalDialog::addPairs</a></div><div class="ttdeci">void addPairs(int count)</div><div class="ttdoc">addPairs добавляет новые пары</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:52</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_a4ec22dfff70d9eb5837fe932f1620540"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#a4ec22dfff70d9eb5837fe932f1620540">IntervalDialog::activeListWidget</a></div><div class="ttdeci">QListWidget * activeListWidget</div><div class="ttdoc">activeListWidget - активный список</div><div class="ttdef"><b>Definition:</b> intervaldialog.h:86</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_a64b777452687b104e340c36e57be856b"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#a64b777452687b104e340c36e57be856b">IntervalDialog::activeMode</a></div><div class="ttdeci">ActiveMode activeMode</div><div class="ttdoc">activeMode - активная часть тела (верхняя или нижняя)</div><div class="ttdef"><b>Definition:</b> intervaldialog.h:100</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_a793de77e3ca93c3f94a858eaa2c9db0d"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#a793de77e3ca93c3f94a858eaa2c9db0d">IntervalDialog::activeTimeAxis</a></div><div class="ttdeci">TimeAxis * activeTimeAxis</div><div class="ttdoc">activeTimeAxis - активная временная ось</div><div class="ttdef"><b>Definition:</b> intervaldialog.h:92</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_a85179de1354803e413295d69a64f6943"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#a85179de1354803e413295d69a64f6943">IntervalDialog::activeDotsPair</a></div><div class="ttdeci">IntervalDotsPair * activeDotsPair</div><div class="ttdoc">activeDotsPair - активная пара контактов выбранная в списке</div><div class="ttdef"><b>Definition:</b> intervaldialog.h:96</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_a8d463e367f4dc697c9f35bcc79051300"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#a8d463e367f4dc697c9f35bcc79051300">IntervalDialog::onShowClicked</a></div><div class="ttdeci">void onShowClicked()</div><div class="ttdoc">onShowClicked вызывается при нажатии на кнопку &quot;Просмотр&quot;</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:153</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_a98f7c9db56cb25d224d099eca60d7bbc"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#a98f7c9db56cb25d224d099eca60d7bbc">IntervalDialog::partChanged</a></div><div class="ttdeci">void partChanged(int)</div><div class="ttdoc">partChanged вызывается при изменении верхней и нижней части тела</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_aa32767ad5765c83feb0a280a9ca04489"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#aa32767ad5765c83feb0a280a9ca04489">IntervalDialog::changedByUser</a></div><div class="ttdeci">bool changedByUser</div><div class="ttdoc">changedByUser - изменено время начала или конца пользователем в поле времени или нет</div><div class="ttdef"><b>Definition:</b> intervaldialog.h:77</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_aa4a28d6c4bccbad920257ff1143269e4"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#aa4a28d6c4bccbad920257ff1143269e4">IntervalDialog::onListItemClicked</a></div><div class="ttdeci">void onListItemClicked(QListWidgetItem *item)</div><div class="ttdoc">onListItemClicked вызывается при нажатии на объект листа</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:227</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_ab040d68c356e533e8768ed8019384555"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#ab040d68c356e533e8768ed8019384555">IntervalDialog::onEndChanged</a></div><div class="ttdeci">void onEndChanged(int seconds)</div><div class="ttdoc">onEndChanged вызывается при изменении времени конца интервала через шкалу</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:172</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_ab7c296f30d139e618f6e57b12fc6d861"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#ab7c296f30d139e618f6e57b12fc6d861">IntervalDialog::onAddClicked</a></div><div class="ttdeci">void onAddClicked()</div><div class="ttdoc">onAddClicked вызывается при нажатии кнопки &quot;Добавить&quot;</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:109</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_ab7c47277ac7911a70cdcbac01d49a700"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#ab7c47277ac7911a70cdcbac01d49a700">IntervalDialog::onComboBoxIndexChanged</a></div><div class="ttdeci">void onComboBoxIndexChanged(int index)</div><div class="ttdoc">onComboBoxIndexChanged вызывается при выборе части тела</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:206</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_abd7023c172e2bab1a9565f679e1be4bc"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#abd7023c172e2bab1a9565f679e1be4bc">IntervalDialog::ActiveMode</a></div><div class="ttdeci">ActiveMode</div><div class="ttdoc">Enum для выбора верха или низа тела</div><div class="ttdef"><b>Definition:</b> intervaldialog.h:49</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_ad7b6c5409f17319a084f4cb9bf9129b6"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#ad7b6c5409f17319a084f4cb9bf9129b6">IntervalDialog::onSpinBoxStartChanged</a></div><div class="ttdeci">void onSpinBoxStartChanged(int seconds)</div><div class="ttdoc">onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox'е</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:180</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_adf4b5d6547a926d1535bf603d18c9130"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#adf4b5d6547a926d1535bf603d18c9130">IntervalDialog::onStartChanged</a></div><div class="ttdeci">void onStartChanged(int seconds)</div><div class="ttdoc">onStartChanged вызывается при изменении времени начала интервала через шкалу</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:164</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_ae0ae3e979f1080600ae0c41cb6f7be80"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#ae0ae3e979f1080600ae0c41cb6f7be80">IntervalDialog::onDeleteClicked</a></div><div class="ttdeci">void onDeleteClicked()</div><div class="ttdoc">onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:119</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_ae2a7c52eaa2aaf34683211cbb4590fcd"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#ae2a7c52eaa2aaf34683211cbb4590fcd">IntervalDialog::add</a></div><div class="ttdeci">void add()</div><div class="ttdoc">add вызывает при нажатии на кнопку &quot;Добавить&quot;</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_ae7c184969a0dfac872d44a399c6541f7"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#ae7c184969a0dfac872d44a399c6541f7">IntervalDialog::onSaveClicked</a></div><div class="ttdeci">void onSaveClicked()</div><div class="ttdoc">onSaveClicked вызывается при нажатии на кнопку &quot;Сохранить&quot;</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:146</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_af5d423fc6a89441f85f7882187f14270"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#af5d423fc6a89441f85f7882187f14270">IntervalDialog::translate</a></div><div class="ttdeci">void translate()</div><div class="ttdoc">translate переводит интерфейс</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:65</div></div>
+<div class="ttc" id="aclass_interval_dialog_html_afb7a8e2eefd7146d5c01d81e4d720825"><div class="ttname"><a href="../../dd/dd9/class_interval_dialog.html#afb7a8e2eefd7146d5c01d81e4d720825">IntervalDialog::onSpinBoxEndChanged</a></div><div class="ttdeci">void onSpinBoxEndChanged(int seconds)</div><div class="ttdoc">onSpinBoxEndChanged вызывается при изменении времени конца интервала в SpinBox'е</div><div class="ttdef"><b>Definition:</b> intervaldialog.cpp:193</div></div>
+<div class="ttc" id="aclass_interval_dots_pair_html"><div class="ttname"><a href="../../d1/d3e/class_interval_dots_pair.html">IntervalDotsPair</a></div><div class="ttdoc">Класс пары контактов для интервалов</div><div class="ttdef"><b>Definition:</b> intervaldotspair.h:15</div></div>
+<div class="ttc" id="aclass_mio_suit_html"><div class="ttname"><a href="../../df/d66/class_mio_suit.html">MioSuit</a></div><div class="ttdoc">Класс костюма Является фасадом для всех пар контактов и нагревателей Также может существовать только ...</div><div class="ttdef"><b>Definition:</b> miosuit.h:22</div></div>
+<div class="ttc" id="aclass_time_axis_html"><div class="ttname"><a href="../../de/d63/class_time_axis.html">TimeAxis</a></div><div class="ttdoc">Класс временной оси для интервальности</div><div class="ttdef"><b>Definition:</b> timeaxis.h:23</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>intervaldialog.h</b></li>
+    <li class="footer">Документация по Reforma Windows Software. Последние изменения: Вт 19 Июл 2022 17:39:06. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

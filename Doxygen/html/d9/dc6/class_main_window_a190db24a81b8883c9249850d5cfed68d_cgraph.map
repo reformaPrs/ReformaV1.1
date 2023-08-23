@@ -1,0 +1,25 @@
+<map id="MainWindow::readBodyPartsFromCSV" name="MainWindow::readBodyPartsFromCSV">
+<area shape="rect" id="node1" title="readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла" alt="" coords="5,278,196,319"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a97c3be5d1473370d4e86f3a756c0dd25" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="244,285,459,312"/>
+<area shape="rect" id="node3" href="$dd/dd9/class_interval_dialog.html#a368cf07e533e7d3743c37796ae09b306" title="addPairs добавляет новые пары" alt="" coords="530,132,687,159"/>
+<area shape="rect" id="node15" href="$d6/d3b/class_pop_body_part.html#a3666696d94457d8ca453e54cae390b5d" title="getStatus" alt="" coords="1035,397,1198,424"/>
+<area shape="rect" id="node16" href="$de/d4d/class_impulse_adder.html#a1bb58aa88cfa144aece194350ef13000" title="setDotPairs устанавливает пары контактов, которые отрисовываются на сцены" alt="" coords="520,271,697,297"/>
+<area shape="rect" id="node18" href="$de/d4d/class_impulse_adder.html#af47f5f29d3fa90a99780ae4bfd240245" title="setPopBodyPart устанавливает часть тела, которую отрисовывает на сцене" alt="" coords="507,344,711,371"/>
+<area shape="rect" id="node22" href="$d6/d3b/class_pop_body_part.html#aa5da772b503c6ba3ffc8f32df9f3e4dc" title="setStatus" alt="" coords="1035,452,1198,479"/>
+<area shape="rect" id="node23" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="539,533,679,560"/>
+<area shape="rect" id="node4" href="$de/d63/class_time_axis.html#a0ca92e65c848bf4d13c24a674d1f4832" title="addNewProgressBar добавляет один интервал и делает его активным" alt="" coords="759,132,961,159"/>
+<area shape="rect" id="node5" href="$de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e" title="activateProgressBar активирует интервал" alt="" coords="1017,5,1217,32"/>
+<area shape="rect" id="node6" href="$de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec" title="deactivateProgressBar деактивирует интервал" alt="" coords="1009,56,1224,83"/>
+<area shape="rect" id="node7" href="$de/d63/class_time_axis.html#a99bcf0c3ee80441c5a7b0a3ee66c0247" title="hideActivePoints скрывает нижнюю подпись у интервала" alt="" coords="1027,107,1207,133"/>
+<area shape="rect" id="node8" href="$de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="1040,157,1193,184"/>
+<area shape="rect" id="node12" href="$de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="1037,208,1196,235"/>
+<area shape="rect" id="node14" href="$de/d63/class_time_axis.html#a5631b5d880c0db1bdc0e0daffa80ef06" title="showActivePoints показывает нижнюю подпись у интервала" alt="" coords="1023,259,1210,285"/>
+<area shape="rect" id="node9" href="$de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="1272,183,1468,209"/>
+<area shape="rect" id="node10" href="$de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="1279,132,1461,159"/>
+<area shape="rect" id="node11" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="1516,183,1712,209"/>
+<area shape="rect" id="node13" href="$de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="1277,233,1463,260"/>
+<area shape="rect" id="node17" href="$de/d4d/class_impulse_adder.html#ab45442418b49e0d7f7b08c04c2d69616" title="onSliderBoxClicked меняет значение wasSliderBoxClicked" alt="" coords="771,234,949,275"/>
+<area shape="rect" id="node19" href="$d6/d3b/class_pop_body_part.html#a7bd4742abec82d3ecec3fbd385c8d096" title="addToScene добавляет часть тела на сцену" alt="" coords="771,300,949,327"/>
+<area shape="rect" id="node20" href="$de/d4d/class_impulse_adder.html#ad07c85181bd46c554d2b840bf249928f" title="onBackgroundClicked вызывается при нажатии на задний фон" alt="" coords="764,351,956,393"/>
+<area shape="rect" id="node21" href="$de/d4d/class_impulse_adder.html#a98de4f4b314bfba1713a79da246ef66b" title="onBodyPartClicked вызывается при получении сигнала от части тела" alt="" coords="771,417,949,458"/>
+</map>
