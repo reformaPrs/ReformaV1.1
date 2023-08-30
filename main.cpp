@@ -3,6 +3,7 @@
 
 #include <QApplication>
 #include <QElapsedTimer>
+#include <QFontDatabase>
 #include <QPainter>
 #include <QSplashScreen>
 #include "jsonclient.h"
@@ -24,6 +25,16 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     QString check = "";
     QDialog d;
+
+    int fontId = QFontDatabase::addApplicationFont(":/fonts/fonts/Active_Reforma.ttf");
+
+    if (fontId != -1){
+        QStringList fontFamilies = QFontDatabase::applicationFontFamilies(fontId);
+        if(!fontFamilies.empty()){
+            QFont customFont = QFont(fontFamilies.first(), 10);
+            QApplication::setFont(customFont);
+        }
+    }
 
     if (kIsProfVersion){
         check = checkLincenc();

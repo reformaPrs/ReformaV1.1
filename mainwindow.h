@@ -30,6 +30,7 @@
 #include <QStandardPaths>
 #include <QInputDialog>
 #include <QPushButton>
+#include <QFontDatabase>
 
 #include <bodyParts/body.h>
 #include <dotsPairs/miosuit.h>
@@ -113,6 +114,7 @@ private:
     QAction *actionRU; ///< Действие русского языка
     QTranslator translatorRU; ///< Переводчик на русский язык
     QTranslator translatorEN; ///< Переводчик на английский язык
+    QTranslator translatorUZ;///< Переводчик на узбекский язык
     const QString localSaveFileName = "/trInfo.save"; ///< Имя файла для сохранения установленного языка
     Language language; ///< Текущий язык интерфейса
 
@@ -257,6 +259,8 @@ private:
      * \param customPath - переданный пользовательский путь. Если пустой, устанавливается путь по умолчанию
      */
     void initAppDataDir(const QString& customPath);
+
+    void initFonts();
 
     /*!
      * \brief copyDataFromResources копирует файлы программ (с расширением .mioconfig) из ресурсов приложения в директорию по адресу appDataPath

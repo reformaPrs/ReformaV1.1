@@ -427,7 +427,8 @@
         <file>heatPoints.csv</file>
         <file>licenceAgreement.txt</file>
         <file>ContactsClassification.csv</file>
-        <file>programsCategory.csv</file>
+        <file>programsCategory_US.csv</file>
+        <file>programsCategory_RU.csv</file>
     </qresource>
     <qresource prefix="/backgrounds">
         <file>backgrounds/buttonBackground1.svg</file>
@@ -476,5 +477,6 @@
     </qresource>
     <qresource prefix="/fonts">
         <file>fonts/DroidSansMono.ttf</file>
+        <file>fonts/Active_Reforma.ttf</file>
     </qresource>
 </RCC>

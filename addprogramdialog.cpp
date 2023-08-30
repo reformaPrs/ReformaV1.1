@@ -1,12 +1,16 @@
 #include "addprogramdialog.h"
 #include "ui_addprogramdialog.h"
 
-AddProgramDialog::AddProgramDialog(QWidget *parent) :
+#include <QTextStream>
+#include <QFile>
+
+AddProgramDialog::AddProgramDialog(int languageCase, QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddProgramDialog)
 {
     ui->setupUi(this);
 
+    this->languageCase = languageCase;
     initProgramList();
 
     if(!programList.isEmpty()){
@@ -79,23 +83,47 @@ void AddProgramDialog::cancelPushButtonClicked()
 
 void AddProgramDialog::initProgramList()
 {
-    QFile file(":/data/programsCategory.csv");
+    if(languageCase == 1)
+    {
+        QFile file(":/data/programsCategory_US.csv");
 
-    if(!file.open(QIODevice::ReadOnly | QIODevice::Text)){
-        qDebug() << "Cannot open file";
-        return;
-    }
-
-    QTextStream in(&file);
-    while(!in.atEnd()){
-        QString line = in.readLine();
-
-        QStringList fields = line.split(',');
-
-        if(fields.size() > 1){
-            programList.append(fields.at(1));
+        if(!file.open(QIODevice::ReadOnly | QIODevice::Text)){
+            qDebug() << "Cannot open file";
+            return;
         }
-    }
 
-    file.close();
+        QTextStream in(&file);
+        while(!in.atEnd()){
+            QString line = in.readLine();
+
+            QStringList fields = line.split(',');
+
+            if(fields.size() > 1){
+                programList.append(fields.at(1));
+            }
+        }
+
+        file.close();
+    }
+    else{
+        QFile file(":/data/programsCategory_RU.csv");
+
+        if(!file.open(QIODevice::ReadOnly | QIODevice::Text)){
+            qDebug() << "Cannot open file";
+            return;
+        }
+
+        QTextStream in(&file);
+        while(!in.atEnd()){
+            QString line = in.readLine();
+
+            QStringList fields = line.split(',');
+
+            if(fields.size() > 1){
+                programList.append(fields.at(1));
+            }
+        }
+
+        file.close();
+    }
 }

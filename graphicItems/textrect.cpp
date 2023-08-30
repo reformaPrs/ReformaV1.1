@@ -6,7 +6,7 @@ TextRect::TextRect(QString str, int x, int y, Alignment alignment):
     text = new QGraphicsTextItem();
     rect = new QGraphicsRectItem();
 
-    text->setFont(QFont("Segoe UI Bold", 13));
+//    text->setFont(QFont("Segoe UI Bold", 13));
     text->setPlainText(str);
     width = 600;
     text->setTextWidth(width);

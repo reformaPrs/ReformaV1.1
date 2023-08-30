@@ -24,6 +24,7 @@ class TabsWidget : public QWidget
 public:
     explicit TabsWidget(QWidget *parent = nullptr);
     ~TabsWidget();
+    Language language; ///< текущий язык
 
     /*!
      * \brief getProgramWidget возвращает виджет с отображением текущей программы

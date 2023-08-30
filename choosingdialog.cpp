@@ -1,6 +1,8 @@
 #include "choosingdialog.h"
 #include "ui_choosingdialog.h"
 
+#include <QFontDatabase>
+
 ChoosingDialog::ChoosingDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::ChoosingDialog)
@@ -8,6 +10,15 @@ ChoosingDialog::ChoosingDialog(QWidget *parent) :
     ui->setupUi(this);
     currentProgramIndexs = *new QList<int>();
 
+    int fontId = QFontDatabase::addApplicationFont(":/fonts/fonts/Active_Reforma.ttf");
+
+    if (fontId != -1){
+        QStringList fontFamilies = QFontDatabase::applicationFontFamilies(fontId);
+        if(!fontFamilies.empty()){
+            QApplication::setFont(QFont(fontFamilies.first()));
+            ui->listWidget->setFont(QFont(fontFamilies.first(), 12));
+        }
+    }
 
 }
 

@@ -70,7 +70,8 @@ constexpr bool kIsProfVersion = true;
  */
 enum Language{
     RU,
-    EN
+    EN,
+    UZ
 };
 
 #endif // REFORMA_H

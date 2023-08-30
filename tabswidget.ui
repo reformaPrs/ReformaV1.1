@@ -358,7 +358,7 @@
 }</string>
         </property>
         <property name="text">
-         <string>Симптомы верхнего мотонейронного поражения</string>
+         <string>Симптомы верхнего мотонейронного</string>
         </property>
         <property name="autoRepeat">
          <bool>false</bool>

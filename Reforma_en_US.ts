@@ -632,8 +632,8 @@ connected</source>
     </message>
     <message>
         <location filename="tabswidget.ui" line="361"/>
-        <source>Симптомы верхнего мотонейронного поражения</source>
-        <translation>Symptoms of upper motor neuronal lesion</translation>
+        <source>Симптомы верхнего мотонейронного</source>
+        <translation>Symptoms of upper motor neuron syndrome</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="396"/>
@@ -676,14 +676,13 @@ connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="tabswidget.cpp" line="110"/>
-        <location filename="tabswidget.cpp" line="170"/>
+        <location filename="tabswidget.cpp" line="160"/>
         <source>Program with name </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="tabswidget.cpp" line="110"/>
-        <source> already exists. Do you want to override it?</source>
+        <location filename="tabswidget.cpp" line="160"/>
+        <source> already exists.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -768,6 +767,57 @@ connected</source>
     <message>
         <location filename="jsonclient.cpp" line="72"/>
         <source>Unable to open file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>AddProgramDialog</name>
+    <message>
+        <location filename="addprogramdialog.cpp" line="66"/>
+        <source>Ошибка</source>
+        <translation>Error</translation>
+    </message>
+    <message>
+        <location filename="addprogramdialog.cpp" line="66"/>
+        <source>Пожалуйста введите имя программы.</source>
+        <translation>Please enter the name of the program.</translation>
+    </message>
+    <message>
+        <location filename="addprogramdialog.ui" line="23"/>
+        <source>Enter filename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="addprogramdialog.ui" line="30"/>
+        <source>Select a category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="addprogramdialog.ui" line="42"/>
+        <source>Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="addprogramdialog.ui" line="52"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DeleteProgramDialog</name>
+    <message>
+        <location filename="deleteprogramdialog.ui" line="40"/>
+        <source>Choose a program</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="deleteprogramdialog.ui" line="42"/>
+        <source>Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="deleteprogramdialog.ui" line="52"/>
+        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

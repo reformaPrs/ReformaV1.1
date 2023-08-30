@@ -4,6 +4,7 @@
 #include <QDialog>
 #include <QFile>
 #include <QMessageBox>
+#include <QTextStream>
 
 namespace Ui {
 class AddProgramDialog;
@@ -14,10 +15,12 @@ class AddProgramDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit AddProgramDialog(QWidget *parent = nullptr);
+    explicit AddProgramDialog(int languageCase, QWidget *parent = nullptr);
     ~AddProgramDialog();
 
     QString fullProgramName;
+
+    int languageCase;
 
 private slots:
     void okPushButtonClicked();

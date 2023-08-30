@@ -31,6 +31,8 @@ MainWindow::MainWindow(Dialog *loadingDialog, QWidget *parent)
     mioSuit = MioSuit::getMioSuitInstance();
 
     initAppDataDir("");
+    //initAppDataDir("resources");
+    initFonts();
     initButtons();
     initGraphicsView();
     initMenuBar();
@@ -66,6 +68,8 @@ MainWindow::MainWindow(Dialog *loadingDialog, QWidget *parent)
     connect(ui->tabsWidget, &TabsWidget::programAdded, this, &MainWindow::onProgramAdded);
     connect(ui->tabsWidget, &TabsWidget::programDeleted, this, &MainWindow::onProgramDeleted);
 
+    ui->tabsWidget->language = this->language;
+
     loadingDialog->setLoadingValue(LOADING_PROGRESS_READ_FILES);
     readFiles();
 }
@@ -83,19 +87,36 @@ MainWindow::~MainWindow()
 
 void MainWindow::initAppDataDir(const QString& customPath){
     if(customPath.isEmpty()){
-        QDir dir = QDir::current();
-        QString subFolderName = "programs";
+        QString path = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+
+        QDir dir(path);
+
+        if(!dir.exists()){
+            dir.mkpath(".");
+        }
+
+        QString subFolderName = "programsMioconfig";
 
         if(!dir.exists(subFolderName)){
-            if(dir.mkdir(subFolderName)){
-                qDebug() << "Subfolder 'programs' has been created succesfully!";
-            } else{
-                qDebug() << "An error occured while creating the 'programs subfolder'";
-            }
+            dir.mkpath(subFolderName);
         }
 
         appDataPath = dir.absoluteFilePath(subFolderName + "/");
         return;
+    }
+    else if(customPath == "current"){
+        QDir dir = QDir::current();
+        QString subFolderName = "programs";
+
+        if(!dir.exists(subFolderName)){
+            dir.mkdir(subFolderName);
+        }
+
+        appDataPath = dir.absoluteFilePath(subFolderName + "/");
+        return;
+    }
+    else if(customPath == "resources"){
+        appDataPath = ":/programs/programs/";
     }
     else{
         appDataPath = customPath;
@@ -105,6 +126,30 @@ void MainWindow::initAppDataDir(const QString& customPath){
 
     if (!appDataDir.exists()){
         appDataDir.mkpath(appDataPath);
+    }
+}
+
+void MainWindow::initFonts()
+{
+    int fontId = QFontDatabase::addApplicationFont(":/fonts/fonts/Active_Reforma.ttf");
+
+    if (fontId != -1){
+        QStringList fontFamilies = QFontDatabase::applicationFontFamilies(fontId);
+        if(!fontFamilies.empty()){
+            QFont customFont = QFont(fontFamilies.first(), 10);
+            QApplication::setFont(customFont);
+
+            ui->toolButtonOpen->setFont(customFont);
+            ui->toolButtonSave->setFont(customFont);
+            ui->toolButtonHeat->setFont(customFont);
+            ui->toolButtonSend->setFont(customFont);
+            ui->toolButtonRecieve->setFont(customFont);
+            ui->toolButtonPrint->setFont(customFont);
+            ui->toolButtonExport->setFont(customFont);
+            ui->toolButtonExit->setFont(customFont);
+            ui->toolButtonInterval->setFont(customFont);
+            ui->toolButtonProgramList->setFont(customFont);
+        }
     }
 }
 
@@ -193,6 +238,8 @@ void MainWindow::initButtons()
 
     ui->toolButtonRecieve->setEnabled(false);
     ui->toolButtonSend->setEnabled(false);
+
+
 }
 
 void MainWindow::initGraphicsView()
@@ -212,8 +259,8 @@ void MainWindow::initGraphicsView()
     scene->addItem(fileNameText);
     serialNumberText->setZValue(1000);
     fileNameText->setZValue(1000);
-    fileNameText->setFont(QFont("Arial", 14, QFont::Medium));
-    serialNumberText->setFont(QFont("Arial", 14, QFont::Medium));
+//    fileNameText->setFont(QFont("Arial", 14, QFont::Medium));
+//    serialNumberText->setFont(QFont("Arial", 14, QFont::Medium));
 
     fileNameText->setPos(0, 890);
 
@@ -248,7 +295,7 @@ void MainWindow::initGraphicsView()
 
     connect(programWidgetViewPushButton, SIGNAL(clicked()), this, SLOT(onProgramWidgetViewClicked()));
     programWidgetViewPushButton->setVisible(false);
-    programWidgetViewPushButton->setMinimumWidth(150);
+    programWidgetViewPushButton->setMinimumWidth(200);
 
     connect(intervalPushButton, SIGNAL(clicked()), this, SLOT(onIntervalClicked()));
     intervalPushButton->setVisible(false);
@@ -366,6 +413,9 @@ void MainWindow::initTranslators()
     }
     if (translatorEN.load(":/i18n/Reforma_en_US")) {
         qDebug() << "EN Loaded";
+    }
+    if (translatorUZ.load(":/data/Reforma_uz_UZ")) {
+        qDebug() << "UZ Loaded";
     }
     QFile file(QDir::currentPath() + localSaveFileName);
     if (!file.open(QIODevice::ReadOnly)) {
@@ -711,7 +761,7 @@ void MainWindow::onSaveClicked()
         return;
     }
 
-    if(!ui->tabsWidget->getProgramWidget()->isVisible()){
+    if(!ui->tabsWidget->getProgramWidget()->isVisible() && !ui->graphicsView->isVisible()){
         QMessageBox msgBox;
         msgBox.setWindowIcon(QIcon(":/icons/icons/reforma1.ico"));
         msgBox.setText(tr("There is no program to save."));
@@ -1140,19 +1190,7 @@ void MainWindow::onClearShortcut(){
 }
 
 void MainWindow::onProgramAdded(int programIndex, QString programName){
-    QDir dir = QDir::current();
-    QString subFolderName = "programs";
-
-    if(!dir.exists(subFolderName)){
-        if(dir.mkdir(subFolderName)){
-            qDebug() << "Subfolder 'programs' has been created succesfully!";
-        } else{
-            qDebug() << "An error occured while creating the 'programs subfolder'";
-            return;
-        }
-    }
-
-    QFile file(dir.absoluteFilePath(subFolderName + "/" + createProgramFileName(programIndex) + ".mioconfig"));
+    QFile file(appDataPath + createProgramFileName(programIndex) + ".mioconfig");
     if (!file.open(QIODevice::WriteOnly)){
         QMessageBox::information(this, tr("Unable to open file"), file.errorString());
         return;
@@ -1182,8 +1220,7 @@ void MainWindow::onProgramAdded(int programIndex, QString programName){
 
 void MainWindow::onProgramDeleted(int programIndex, QString programName)
 {
-    QDir dir = QDir::current();
-    QString filePath = dir.absoluteFilePath("programs/" + createProgramFileName(programIndex) + ".mioconfig");
+    QString filePath = appDataPath + createProgramFileName(programIndex) + ".mioconfig";
 
     if(QFile::remove(filePath)){
         qDebug() << "File" << programName << "has been deleted successfully!";
@@ -1192,7 +1229,7 @@ void MainWindow::onProgramDeleted(int programIndex, QString programName)
         return;
     }
 
-    QDir programsDir(dir.absoluteFilePath("programs/"));
+    QDir programsDir(appDataPath);
     QStringList files = programsDir.entryList(QDir::Files);
 
     for(; programIndex < files.count() - 1; programIndex++){
@@ -1441,6 +1478,7 @@ void MainWindow::onLanguageTriggered()
         qApp->installTranslator(&translatorRU);
         language = RU;
     }
+    ui->tabsWidget->language = this->language;
     ui->retranslateUi(this);
     updateText();
 }

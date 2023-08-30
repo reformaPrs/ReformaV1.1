@@ -892,7 +892,6 @@ void ProgramWidget::paintEvent(QPaintEvent *event)
                         "{"
                         "color:white;"
                         "font-size: 14px;"
-                        "font-family: Sans Serif;"
                         "}");
     ui->showBtn->setStyleSheet("QPushButton"
                                "{"
@@ -928,11 +927,6 @@ void ProgramWidget::paintEvent(QPaintEvent *event)
     QList<QPushButton*> buttons = findChildren<QPushButton*>();
 
     for(QPushButton* button: buttons){
-        QFont font = button->font();
-        font.setPointSize(12);
-        font.setFamily("Sans Serif");
-        button->setFont(font);
-
         button->setMaximumSize(500, 100);
 
         button->setStyleSheet("QPushButton { "

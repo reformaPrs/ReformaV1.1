@@ -137,7 +137,13 @@ void TabsWidget::setProgramNames(const QStringList &programNames)
 void TabsWidget::onAddPushButton_clicked()
 {
     qDebug() << "Add program";
-    AddProgramDialog dialog(this);
+    int langCase = 0;
+    if(language == EN)
+        langCase = 1;
+    else
+        langCase = 0;
+
+    AddProgramDialog dialog(langCase, this);
     int result = dialog.exec();
 
     QString programName;
@@ -148,6 +154,7 @@ void TabsWidget::onAddPushButton_clicked()
         return;
     }
 
+    //сделать возможность замены программы при нахождении одинакового имени(?)
     if(checkProgramNameExist(programName)){
         QMessageBox msgBox;
         msgBox.setWindowIcon(QIcon(":/icons/icons/reforma1.ico"));
@@ -155,6 +162,7 @@ void TabsWidget::onAddPushButton_clicked()
         msgBox.setIcon(QMessageBox::Warning);
         msgBox.addButton(tr("Continue"), QMessageBox::ActionRole);
         msgBox.exec();
+        return;
     }
 
     emit programAdded(programNames.count(), programName);
@@ -236,11 +244,6 @@ void TabsWidget::initButtons()
 {
     QList<QPushButton*> buttons = findChildren<QPushButton*>();
     for(QPushButton* button: buttons){
-        QFont font = button->font();
-        font.setPointSize(12);
-        font.setFamily("Sans Serif");
-        button->setFont(font);
-
         button->setMaximumSize(500, 100);
 
         button->setStyleSheet("QPushButton { "
