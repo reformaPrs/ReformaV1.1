@@ -29,7 +29,7 @@ BodyPart::~BodyPart()
 
 void BodyPart::addHints(QString *hint1, QString *hint2, int hintX1, int hintY1, int hintX2, int hintY2)
 {
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 3; i++) {
         hintStr1[i] = hint1[i];
         hintStr2[i] = hint2[i];
     }

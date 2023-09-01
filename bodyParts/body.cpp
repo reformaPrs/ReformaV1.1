@@ -59,9 +59,13 @@ void Body::translate(Language language)
         for (auto part : bodyParts) {
             part->translate(RU);
         }
-    } else {
+    } else if (language == EN) {
         for (auto part : bodyParts){
             part->translate(EN);
+        }
+    } else if (language == UZ){
+        for (auto part: bodyParts){
+            part->translate(UZ);
         }
     }
 }
@@ -308,7 +312,7 @@ void Body::readFromFile(QDataStream *in)
 
 void Body::readBodyPartsFromCSV()
 {
-    QFile file(":/data/parts.csv");
+    QFile file(":/data/partsRUENUZ.csv");
     if (!file.open(QFile::ReadOnly | QFile::Text)) {
         qDebug() << "File not exists";
         return;
@@ -326,7 +330,7 @@ void Body::readBodyPartsFromCSV()
         if (line.trimmed().isEmpty()) continue;  // Skip empty lines
 
         int j = 0;
-        QString img1[5], img2[5], hint1[2], hint2[2];
+        QString img1[5], img2[5], hint1[3], hint2[3];
         int x1 = -1, y1 = -1, x2 = -1, y2 = -1;
 
         for (const QString &item : line.split(";")) {
@@ -346,21 +350,27 @@ void Body::readBodyPartsFromCSV()
                     hint1[1] = item;
                     break;
                 case 13:
-                    x1 = item.toInt();
+                    hint1[2] = item;
                     break;
                 case 14:
-                    y1 = item.toInt();
+                    x1 = item.toInt();
                     break;
                 case 15:
-                    hint2[0] = item;
+                    y1 = item.toInt();
                     break;
                 case 16:
-                    hint2[1] = item;
+                    hint2[0] = item;
                     break;
                 case 17:
-                    x2 = item.toInt();
+                    hint2[1] = item;
                     break;
                 case 18:
+                    hint2[2] = item;
+                    break;
+                case 19:
+                    x2 = item.toInt();
+                    break;
+                case 20:
                     y2 = item.toInt();
                     break;
                 }

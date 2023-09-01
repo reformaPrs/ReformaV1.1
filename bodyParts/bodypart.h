@@ -95,8 +95,8 @@ private:
 
     TextRect *hintTextRect1; ///< Объект подсказки первой мышцы
     TextRect *hintTextRect2; ///< Объект подсказки второй мышцы
-    QString hintStr1[2]; ///< Текст первой подсказки на двух языках
-    QString hintStr2[2]; ///< Текст второй подсказки на двух языках
+    QString hintStr1[3]; ///< Текст первой подсказки на двух языках
+    QString hintStr2[3]; ///< Текст второй подсказки на двух языках
     /*!
      * \brief intaractive
      *

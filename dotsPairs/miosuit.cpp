@@ -54,12 +54,19 @@ void MioSuit::translate(Language language)
         for (auto heater : heaters){
             heater->translate(RU);
         }
-    } else {
+    } else if (language == EN) {
         for (auto dot : popDotsPairs) {
             dot->translate(EN);
         }
         for (auto heater : heaters){
             heater->translate(EN);
+        }
+    } else if (language == UZ) {
+        for (auto dot : popDotsPairs) {
+            dot->translate(UZ);
+        }
+        for (auto heater : heaters){
+            heater->translate(UZ);
         }
     }
 }
@@ -1166,7 +1173,7 @@ void MioSuit::readDotsPairsFromCSV()
 {
     DotsPair *dotsPair;
     PopDotsPair *popDotsPair;
-    QFile file(":/data/Contacts.csv");
+    QFile file(":/data/ContactsRUENUZ.csv");
     if ( !file.open(QFile::ReadOnly | QFile::Text) ) {
         qDebug() << "File not exists";
     } else {
@@ -1182,7 +1189,7 @@ void MioSuit::readDotsPairsFromCSV()
             int hintX[2], hintY[2];
             bool isFirst = false;
             int sliderX = -1, sliderY = 0;
-            QString hint1[2], hint2[2];
+            QString hint1[3], hint2[3];
             for (const QString &item : line.split(";")) {
                 if (item == "") break;
                 switch (j) {
@@ -1223,30 +1230,36 @@ void MioSuit::readDotsPairsFromCSV()
                     hint1[1] = item;
                     break;
                 case 15:
-                    hintX[0] = item.toInt();
+                    hint1[2] = item;
                     break;
                 case 16:
-                    hintY[0] = item.toInt();
+                    hintX[0] = item.toInt();
                     break;
                 case 17:
-                    hint2[0] = item;
+                    hintY[0] = item.toInt();
                     break;
                 case 18:
-                    hint2[1] = item;
+                    hint2[0] = item;
                     break;
                 case 19:
-                    hintX[1] = item.toInt();
+                    hint2[1] = item;
                     break;
                 case 20:
-                    hintY[1] = item.toInt();
+                    hint2[2] = item;
                     break;
                 case 21:
-                    pairsNames.append(item);
+                    hintX[1] = item.toInt();
                     break;
                 case 22:
-                    sliderX = item.toInt();
+                    hintY[1] = item.toInt();
                     break;
                 case 23:
+                    pairsNames.append(item);
+                    break;
+                case 24:
+                    sliderX = item.toInt();
+                    break;
+                case 25:
                     sliderY = item.toInt();
                     break;
                 }
@@ -1322,7 +1335,7 @@ void MioSuit::readHeatersFromCSV()
         }
         file.close();
     }
-    QFile file1(":/data/heatPoints.csv");
+    QFile file1(":/data/heatPointsRUENUZ.csv");
     if ( !file1.open(QFile::ReadOnly | QFile::Text) ) {
         qDebug() << "File not exists";
     } else {
@@ -1335,7 +1348,7 @@ void MioSuit::readHeatersFromCSV()
             int j = 0;
             int id = -1;
             QVector<int> x, y, hintsX, hintsY;
-            QVector<QString> hintsRU, hintsEN;
+            QVector<QString> hintsRU, hintsEN, hintsUZ;
             for (const QString &item : line.split(";")) {
                 if (item == "") break;
                 switch (j) {
@@ -1343,25 +1356,27 @@ void MioSuit::readHeatersFromCSV()
                     id = item.toInt();
                     break;
                 default:
-                    if (j % 6 == 1) {
-                        x.append(item.toInt());
-                    } else if (j % 6 == 2){
-                        y.append(item.toInt());
-                    } else if (j % 6 == 3){
-                        hintsRU.append(item);
-                    } else if (j % 6 == 4){
-                        hintsEN.append(item);
-                    } else if (j % 6 == 5){
-                        hintsX.append(item.toInt());
-                    } else {
-                        hintsY.append(item.toInt());
+                    if (j % 7 == 1){
+                       x.append(item.toInt());
+                    } else if (j % 7 == 2){
+                       y.append(item.toInt());
+                    } else if (j % 7 == 3){
+                       hintsRU.append(item);
+                    } else if (j % 7 == 4){
+                       hintsEN.append(item);
+                    } else if (j % 7 == 5){
+                       hintsUZ.append(item);
+                    } else if (j % 7 == 6){
+                       hintsX.append(item.toInt());
+                    } else{
+                       hintsY.append(item.toInt());
                     }
                 }
                 j++;
             }
             for(qsizetype i = 0; i < y.size(); i++){
                 heaters[id]->addDot(x[i], y[i], 11);
-                heaters[id]->addHint(hintsX[i], hintsY[i], hintsRU[i], hintsEN[i]);
+                heaters[id]->addHint(hintsX[i], hintsY[i], hintsRU[i], hintsEN[i], hintsUZ[i]);
             }
             i++;
         }

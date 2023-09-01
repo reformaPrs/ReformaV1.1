@@ -11,8 +11,8 @@ class PopDotsPair : public DotsPair
 {
     Q_OBJECT
 public:
-    PopDotsPair(int x1, int y1, int x2, int y2, int radius, int partID, int id, bool firstMuscle, QString hintStr1[2], QString hintStr2[2], int hintX[2], int hintY[2]);
-    PopDotsPair(int x1, int y1, int x2, int y2, int radius, int partID, int id, bool firstMuscle, QString hint1[2], QString hint2[2], int hintX[2], int hintY[2], int sliderX, int sliderY);
+    PopDotsPair(int x1, int y1, int x2, int y2, int radius, int partID, int id, bool firstMuscle, QString hintStr1[3], QString hintStr2[3], int hintX[2], int hintY[2]);
+    PopDotsPair(int x1, int y1, int x2, int y2, int radius, int partID, int id, bool firstMuscle, QString hint1[3], QString hint2[3], int hintX[2], int hintY[2], int sliderX, int sliderY);
     ~PopDotsPair();
 
     /*!
@@ -25,8 +25,8 @@ private:
 
     TextRect *hint1; ///< Объект первой подсказки
     TextRect *hint2; ///< Объект второй подсказки
-    QString hintStr1[2]; ///< Текст первой подсказки на двух языках
-    QString hintStr2[2]; ///< Текст второй подсказки на двух языках
+    QString hintStr1[3]; ///< Текст первой подсказки на двух языках
+    QString hintStr2[3]; ///< Текст второй подсказки на двух языках
     CustomSliderWidget *slider; ///< Объект виджета слайдера
 
 private slots:

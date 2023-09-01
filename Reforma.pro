@@ -113,7 +113,8 @@ FORMS += \
 
 TRANSLATIONS += \
     Reforma_ru_RU.ts \
-    Reforma_en_US.ts
+    Reforma_en_US.ts \
+    Reforma_uz_UZ.ts
 CONFIG += lrelease
 CONFIG += embed_translations
 

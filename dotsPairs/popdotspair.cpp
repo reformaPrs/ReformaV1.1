@@ -1,7 +1,7 @@
 #include "popdotspair.h"
 
 PopDotsPair::PopDotsPair(int x1, int y1, int x2, int y2, int radius, int partID, int id, bool firstMuscle,
-                   QString hintStr1[2], QString hintStr2[2], int hintX[2], int hintY[2]):
+                   QString hintStr1[3], QString hintStr2[3], int hintX[2], int hintY[2]):
     DotsPair(x1, y1, x2, y2, radius, partID, id, firstMuscle)
 {
     const QPoint offset(IMPULSE_ADDER_OFFSET);
@@ -31,13 +31,13 @@ PopDotsPair::PopDotsPair(int x1, int y1, int x2, int y2, int radius, int partID,
     hint1->hide();
     hint2->hide();
 
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 3; i++) {
         this->hintStr1[i] = hintStr1[i];
         this->hintStr2[i] = hintStr2[i];
     }
 }
 
-PopDotsPair::PopDotsPair(int x1, int y1, int x2, int y2, int radius, int partID, int id, bool firstMuscle, QString hint1[2], QString hint2[2], int hintX[2], int hintY[2], int sliderX, int sliderY):
+PopDotsPair::PopDotsPair(int x1, int y1, int x2, int y2, int radius, int partID, int id, bool firstMuscle, QString hint1[3], QString hint2[3], int hintX[2], int hintY[2], int sliderX, int sliderY):
     PopDotsPair(x1, y1, x2, y2, radius, partID, id, firstMuscle, hint1, hint2, hintX, hintY)
 {
     const QPoint offset(IMPULSE_ADDER_OFFSET);
@@ -56,9 +56,12 @@ void PopDotsPair::translate(Language language)
     if (language == EN) {
         hint1->setText(hintStr1[EN]);
         hint2->setText(hintStr2[EN]);
-    } else {
+    } else if (language == RU ) {
         hint1->setText(hintStr1[RU]);
         hint2->setText(hintStr2[RU]);
+    } else if (language == UZ ) {
+        hint1->setText(hintStr1[UZ]);
+        hint2->setText(hintStr2[UZ]);
     }
 }
 

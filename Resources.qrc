@@ -29,6 +29,7 @@
         <file>icons/temperature-low.svg</file>
         <file>icons/upload.svg</file>
         <file>icons/Tab.png</file>
+        <file>icons/UZ_flag.png</file>
     </qresource>
     <qresource prefix="/heaters">
         <file>heaters/1a_L.png</file>
@@ -429,6 +430,9 @@
         <file>ContactsClassification.csv</file>
         <file>programsCategory_US.csv</file>
         <file>programsCategory_RU.csv</file>
+        <file>ContactsRUENUZ.csv</file>
+        <file>heatPointsRUENUZ.csv</file>
+        <file>partsRUENUZ.csv</file>
     </qresource>
     <qresource prefix="/backgrounds">
         <file>backgrounds/buttonBackground1.svg</file>

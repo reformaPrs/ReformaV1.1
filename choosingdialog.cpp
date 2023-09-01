@@ -128,7 +128,7 @@ void ChoosingDialog::on_listWidget_itemDoubleClicked(QListWidgetItem *item)
 
     QMessageBox msgBox;
     msgBox.setWindowIcon(QIcon(":/icons/icons/reforma1.ico"));
-    msgBox.setText(tr("You chose ") + item->text());
+    msgBox.setText(tr("You choose ") + item->text());
     msgBox.setIcon(QMessageBox::Question);
     QPushButton *yesBtn = msgBox.addButton(tr("Continue"), QMessageBox::ActionRole);
     QPushButton *noBtn = msgBox.addButton(tr("Cancel"), QMessageBox::ActionRole);

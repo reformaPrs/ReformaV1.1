@@ -104,10 +104,11 @@ void Heater::addDot(int x, int y, int r)
     dots.append(tmp);
 }
 
-void Heater::addHint(int x, int y, QString hintRU, QString hintEN)
+void Heater::addHint(int x, int y, QString hintRU, QString hintEN, QString hintUZ)
 {
     hintsRU.append(hintRU);
     hintsEN.append(hintEN);
+    hintsUZ.append(hintUZ);
     TextRect *textRect = new TextRect(hintRU, x, y, TextRect::Center);
     textRect->setFont(QFont("Arial Rounded MT Bold", 11, QFont::Medium));
     textRect->hide();
@@ -134,9 +135,13 @@ void Heater::translate(Language language)
         for(qsizetype i = 0; i < hints.size(); i++){
             hints[i]->setText(hintsRU[i]);
         }
-    else
+    else if (language == EN)
         for(qsizetype i = 0; i < hints.size(); i++){
             hints[i]->setText(hintsEN[i]);
+        }
+    else if (language == UZ)
+        for(qsizetype i = 0; i < hints.size(); i++){
+            hints[i]->setText(hintsUZ[i]);
         }
 }
 

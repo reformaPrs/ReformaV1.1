@@ -325,23 +325,30 @@ void MainWindow::initMenuBar()
 
     actionEN = new QAction();
     actionRU = new QAction();
+    actionUZ = new QAction();
     actionEN->setText(tr("English"));
     actionRU->setText(tr("Russian"));
+    actionUZ->setText(tr("Uzbek"));
     actionEN->setIcon(QIcon(":/icons/icons/USA_flag.png"));
     actionRU->setIcon(QIcon(":/icons/icons/RU_flag.png"));
+    actionUZ->setIcon(QIcon(":/icons/icons/UZ_flag.png"));
     actionEN->setCheckable(true);
     actionRU->setCheckable(true);
+    actionUZ->setCheckable(true);
 
     langGroup = new QActionGroup(this);
 
     langGroup->addAction(actionEN);
     langGroup->addAction(actionRU);
+    langGroup->addAction(actionUZ);
     langGroup->setExclusive(true);
 
     ui->menuLanguage->addAction(actionRU);
     ui->menuLanguage->addAction(actionEN);
+    ui->menuLanguage->addAction(actionUZ);
     connect(actionEN, SIGNAL(triggered()), this, SLOT(onLanguageTriggered()));
     connect(actionRU, SIGNAL(triggered()), this, SLOT(onLanguageTriggered()));
+    connect(actionUZ, SIGNAL(triggered()), this, SLOT(onLanguageTriggered()));
 }
 
 void MainWindow::initPortsMenu()
@@ -414,7 +421,7 @@ void MainWindow::initTranslators()
     if (translatorEN.load(":/i18n/Reforma_en_US")) {
         qDebug() << "EN Loaded";
     }
-    if (translatorUZ.load(":/data/Reforma_uz_UZ")) {
+    if (translatorUZ.load(":/i18n/Reforma_uz_UZ")) {
         qDebug() << "UZ Loaded";
     }
     QFile file(QDir::currentPath() + localSaveFileName);
@@ -465,6 +472,7 @@ void MainWindow::updateText()
 {
     actionEN->setText(tr("English"));
     actionRU->setText(tr("Russian"));
+    actionUZ->setText(tr("Uzbek"));
     firstHalfhourButton->setText(tr("First\nHalfhour"));
     secondHalfhourButton->setText(tr("Second\nHalfhour"));
     intervalPushButton->setText(tr("Set the interval"));
@@ -1407,13 +1415,14 @@ void MainWindow::onProgramListClicked()
     ui->tabsWidget->setVisible(true);
     ui->tabsWidget->getPanelWidget()->setVisible(true);
 
-    qDebug() << isIntervalModeActive;
     if(isIntervalModeActive){
         isIntervalModeActive = !isIntervalModeActive;
         firstHalfhourButton->setVisible(false);
         secondHalfhourButton->setVisible(false);
         onAdminModeChanged();
     }
+
+    body->setIntaractive(static_cast<Body::ActiveBodyPart>(2));
 }
 
 void MainWindow::onDeviceDisconnected()
@@ -1469,14 +1478,23 @@ void MainWindow::onLanguageTriggered()
         saveCurrentLocal("English");
         ui->menuLanguage->setIcon(QIcon(":/icons/icons/USA_flag.png"));
         qApp->removeTranslator(&translatorRU);
+        qApp->removeTranslator(&translatorUZ);
         qApp->installTranslator(&translatorEN);
         language = EN;
     } else if (sender() == actionRU) {
         saveCurrentLocal("Russian");
         ui->menuLanguage->setIcon(QIcon(":/icons/icons/RU_flag.png"));
         qApp->removeTranslator(&translatorEN);
+        qApp->removeTranslator(&translatorUZ);
         qApp->installTranslator(&translatorRU);
         language = RU;
+    } else if (sender() == actionUZ){
+        saveCurrentLocal("Uzbek");
+        ui->menuLanguage->setIcon(QIcon(":/icons/icons/UZ_flag.png"));
+        qApp->removeTranslator(&translatorEN);
+        qApp->removeTranslator(&translatorRU);
+        qApp->installTranslator(&translatorUZ);
+        language = UZ;
     }
     ui->tabsWidget->language = this->language;
     ui->retranslateUi(this);

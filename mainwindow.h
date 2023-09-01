@@ -112,6 +112,7 @@ private:
     QActionGroup *langGroup; ///< Группа действий для выбора языка
     QAction *actionEN; ///< Действие английского языка
     QAction *actionRU; ///< Действие русского языка
+    QAction *actionUZ; ///< Действие узбекского языка
     QTranslator translatorRU; ///< Переводчик на русский язык
     QTranslator translatorEN; ///< Переводчик на английский язык
     QTranslator translatorUZ;///< Переводчик на узбекский язык

@@ -68,7 +68,7 @@ public:
      *
      * Обязательно вызывается вместе с addDot()
      */
-    void addHint(int x, int y, QString hintRU, QString hintEN);
+    void addHint(int x, int y, QString hintRU, QString hintEN, QString hintUZ);
     /*!
      * \brief addToScene - добавляет нагреватель на сцену
      * \param scene
@@ -96,6 +96,7 @@ private:
     QVector<TextRect *> hints; ///< Объекты подсказок нагревателя
     QVector<QString> hintsRU; ///< Тексты подсказок на русском
     QVector<QString> hintsEN; ///< Тексты подсказок на английском
+    QVector<QString> hintsUZ; ///< Тексты подсказок на узбеском
 
     int id; ///< Уникальный номер нагревателя
     /*!

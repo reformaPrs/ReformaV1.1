@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<TS version="2.1" language="uz_UZ">
 <context>
     <name>ChoosingDialog</name>
     <message>
         <location filename="choosingdialog.ui" line="14"/>
         <source>Выбор программы</source>
-        <translation type="unfinished"></translation>
+        <translation>Dastur tanlash</translation>
     </message>
     <message>
-        <location filename="choosingdialog.cpp" line="72"/>
+        <location filename="choosingdialog.cpp" line="131"/>
         <source>You choose </source>
-        <translation>Вы выбрали </translation>
+        <translation>Siz tanlaysiz</translation>
     </message>
     <message>
-        <location filename="choosingdialog.cpp" line="74"/>
+        <location filename="choosingdialog.cpp" line="133"/>
         <source>Continue</source>
-        <oldsource>Contimue</oldsource>
-        <translation>Продолжить</translation>
+        <translation>Davom</translation>
     </message>
     <message>
-        <location filename="choosingdialog.cpp" line="75"/>
+        <location filename="choosingdialog.cpp" line="134"/>
         <source>Cancel</source>
-        <translation>Отмена</translation>
+        <translation>Bekor qilish</translation>
     </message>
 </context>
 <context>
@@ -30,28 +29,28 @@
     <message>
         <location filename="dotsPairs/customsliderwidget.ui" line="32"/>
         <source>Form</source>
-        <translation></translation>
+        <translation>Shakl</translation>
     </message>
     <message>
         <location filename="dotsPairs/customsliderwidget.ui" line="50"/>
         <source>0 μs</source>
         <oldsource>0 us</oldsource>
-        <translation>0 мкс</translation>
+        <translation>0 mks</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="vanished">Применить</translation>
+        <translation type="vanished">Qo'llash</translation>
     </message>
     <message>
         <source>Применить</source>
-        <translation type="vanished">Применить</translation>
+        <translation type="vanished">Qo'llash</translation>
     </message>
     <message>
         <location filename="dotsPairs/customsliderwidget.cpp" line="40"/>
         <location filename="dotsPairs/customsliderwidget.cpp" line="58"/>
         <source> μs</source>
         <oldsource> us</oldsource>
-        <translation> мкс</translation>
+        <translation> mks</translation>
     </message>
 </context>
 <context>
@@ -59,45 +58,45 @@
     <message>
         <location filename="dialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation></translation>
+        <translation>Muloqot</translation>
     </message>
 </context>
 <context>
     <name>ImpulseAdder</name>
     <message>
         <source>Add impulses</source>
-        <translation type="vanished">Добавить импульсы</translation>
+        <translation type="vanished">Impulslarni qo'shing</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="vanished">Отмена</translation>
+        <translation type="vanished">Bekor qilish</translation>
     </message>
     <message>
         <location filename="impulseadder.cpp" line="73"/>
         <source>Save changes?</source>
-        <translation>Сохранить изменения?</translation>
+        <translation>O'zgarishlarni saqlaysizmi?</translation>
     </message>
     <message>
         <location filename="impulseadder.cpp" line="75"/>
         <source>Yes</source>
-        <translation>Да</translation>
+        <translation>Ha</translation>
     </message>
     <message>
         <location filename="impulseadder.cpp" line="76"/>
         <source>No</source>
-        <translation>Нет</translation>
+        <translation>Yo'q</translation>
     </message>
     <message>
         <location filename="impulseadder.cpp" line="77"/>
         <source>Continue</source>
-        <translation>Продолжить</translation>
+        <translation>Davom</translation>
     </message>
 </context>
 <context>
     <name>IntervalAnimation</name>
     <message>
         <source>OK</source>
-        <translation type="obsolete">ОК</translation>
+        <translation type="obsolete">OK</translation>
     </message>
 </context>
 <context>
@@ -105,36 +104,36 @@
     <message>
         <location filename="intervaldialog.ui" line="26"/>
         <source>Interval</source>
-        <translation>Интервал</translation>
+        <translation>Interval</translation>
     </message>
     <message>
         <location filename="intervaldialog.ui" line="102"/>
         <source>Add</source>
-        <translation>Добавить</translation>
+        <translation>Qo'shish</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="vanished">Изменить</translation>
+        <translation type="vanished">Tahrirlash</translation>
     </message>
     <message>
         <location filename="intervaldialog.ui" line="115"/>
         <source>Delete</source>
-        <translation>Удалить</translation>
+        <translation>O'chirish</translation>
     </message>
     <message>
         <location filename="intervaldialog.ui" line="83"/>
         <source>Up</source>
-        <translation>Верх</translation>
+        <translation>Yuqoriga</translation>
     </message>
     <message>
         <location filename="intervaldialog.ui" line="88"/>
         <source>Down</source>
-        <translation>Низ</translation>
+        <translation>Pastga</translation>
     </message>
     <message>
         <location filename="intervaldialog.ui" line="138"/>
         <source>Start</source>
-        <translation>Начало</translation>
+        <translation>Boshlash</translation>
     </message>
     <message>
         <source>mm:ss</source>
@@ -143,17 +142,17 @@
     <message>
         <location filename="intervaldialog.ui" line="161"/>
         <source>End</source>
-        <translation>Конец</translation>
+        <translation>Oxiri</translation>
     </message>
     <message>
         <location filename="intervaldialog.ui" line="229"/>
         <source>Save</source>
-        <translation>Сохранить</translation>
+        <translation>Saqlash</translation>
     </message>
     <message>
         <location filename="intervaldialog.ui" line="216"/>
         <source>Show</source>
-        <translation>Просмотр</translation>
+        <translation>Ko'rsatish</translation>
     </message>
     <message>
         <source>OK</source>
@@ -165,7 +164,7 @@
     <message>
         <location filename="intervalsimulation.ui" line="14"/>
         <source>Interval Simulation</source>
-        <translation>Симуляция</translation>
+        <translation>Intervalli Simulyatsiya</translation>
     </message>
     <message>
         <location filename="intervalsimulation.ui" line="79"/>
@@ -178,7 +177,7 @@
     <message>
         <location filename="intervalsimulationwidget.ui" line="32"/>
         <source>Interval Simulation</source>
-        <translation>Симуляция</translation>
+        <translation>Intervalli Simulyatsiya</translation>
     </message>
     <message>
         <location filename="intervalsimulationwidget.ui" line="132"/>
@@ -190,51 +189,51 @@
     <name>IntervalWidget</name>
     <message>
         <source>Interval</source>
-        <translation type="vanished">Интервал</translation>
+        <translation type="vanished">Interval</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation type="vanished">Верх</translation>
+        <translation type="vanished">Yuqoriga</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation type="vanished">Низ</translation>
+        <translation type="vanished">Pastga</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="vanished">Добавить</translation>
+        <translation type="vanished">Qo'shish</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="vanished">Удалить</translation>
+        <translation type="vanished">O'chirish</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation type="vanished">Начало</translation>
+        <translation type="vanished">Boshlash</translation>
     </message>
     <message>
         <source>Upper
-Body</source>
-        <translation type="vanished">Верх
-Тела</translation>
+    Body</source>
+        <translation type="vanished">Yuqori
+    Tana</translation>
     </message>
     <message>
         <source>Lower
-Body</source>
-        <translation type="vanished">Низ
-Тела</translation>
+    Body</source>
+        <translation type="vanished">Past
+    Tana</translation>
     </message>
     <message>
         <source>End</source>
-        <translation type="vanished">Конец</translation>
+        <translation type="vanished">Tugash</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation type="vanished">Просмотр</translation>
+        <translation type="vanished">Ko'rsatish</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="vanished">Сохранить</translation>
+        <translation type="vanished">Saqlash</translation>
     </message>
 </context>
 <context>
@@ -242,12 +241,12 @@ Body</source>
     <message>
         <location filename="graphicItems/labeledsliderwidget.ui" line="20"/>
         <source>Form</source>
-        <translation></translation>
+        <translation>Forma</translation>
     </message>
     <message>
         <location filename="graphicItems/labeledsliderwidget.ui" line="38"/>
         <source>0 μs</source>
-        <translation>0 мкс</translation>
+        <translation>0 μs</translation>
     </message>
 </context>
 <context>
@@ -257,8 +256,7 @@ Body</source>
         <location filename="graphicItems/labeledsliderwidget.cpp" line="34"/>
         <location filename="graphicItems/labeledsliderwidget.cpp" line="50"/>
         <source> μs</source>
-        <oldsource> us</oldsource>
-        <translation> мкс</translation>
+        <translation> μs</translation>
     </message>
 </context>
 <context>
@@ -266,17 +264,17 @@ Body</source>
     <message>
         <location filename="licenceDialogs/licencetext.ui" line="14"/>
         <source>Licence agreement</source>
-        <translation>Лицензионное соглашение</translation>
+        <translation>Litsenziya shartnomasi</translation>
     </message>
     <message>
         <location filename="licenceDialogs/licencetext.ui" line="42"/>
         <source>Print</source>
-        <translation>Печать</translation>
+        <translation>Chop etish</translation>
     </message>
     <message>
         <location filename="licenceDialogs/licencetext.cpp" line="33"/>
         <source>Print Document</source>
-        <translation>Печать документа</translation>
+        <translation>Hujjatni chop etish</translation>
     </message>
 </context>
 <context>
@@ -284,7 +282,7 @@ Body</source>
     <message>
         <location filename="licenceDialogs/licenceupdate.ui" line="20"/>
         <source>Update check</source>
-        <translation>Проверка обновлений</translation>
+        <translation>Yangilanishni tekshirish</translation>
     </message>
     <message>
         <location filename="licenceDialogs/licenceupdate.ui" line="30"/>
@@ -294,28 +292,28 @@ Body</source>
     <message>
         <location filename="licenceDialogs/licenceupdate.cpp" line="12"/>
         <source>Your program will need to be updated in </source>
-        <translation>Ваша программа нуждается в обновлении через </translation>
+        <translation>Sizning dasturingizni yangilash kerak bo'ladi </translation>
     </message>
     <message>
         <location filename="licenceDialogs/licenceupdate.cpp" line="13"/>
         <source>Update your program before </source>
-        <translation>Обновите свою программу до </translation>
+        <translation>Sizning dasturingizni yangilang </translation>
     </message>
     <message>
         <location filename="licenceDialogs/licenceupdate.cpp" line="13"/>
         <source> days. </source>
-        <translation> дней. </translation>
+        <translation> kun ichida. </translation>
     </message>
     <message>
         <location filename="licenceDialogs/licenceupdate.cpp" line="14"/>
         <location filename="licenceDialogs/licenceupdate.cpp" line="17"/>
         <source>License renewal is possible after recertification. All questions you can ask at SMART Academy academsmart@yandex.ru</source>
-        <translation>Продление лицензии возможно после прохождения переаттестации. Все вопросы вы можете задать в академии «СМАРТ» academsmart@yandex.ru</translation>
+        <translation>Litsenziyani yangilash mumkin, faqat tasdiqlashdan so'ng. Barcha savollaringizni SMART Akademiyasiga murojaat qiling: academsmart@yandex.ru</translation>
     </message>
     <message>
         <location filename="licenceDialogs/licenceupdate.cpp" line="16"/>
         <source>Your program needs to be updated</source>
-        <translation>Вашу программу необходимо обновить</translation>
+        <translation>Sizning dasturingizni yangilash kerak</translation>
     </message>
 </context>
 <context>
@@ -329,169 +327,169 @@ Body</source>
         <location filename="mainwindow.ui" line="36"/>
         <location filename="mainwindow.ui" line="409"/>
         <source>Open</source>
-        <translation>Открыть</translation>
+        <translation>Ochiq</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="59"/>
         <location filename="mainwindow.ui" line="418"/>
         <source>Save</source>
-        <translation>Сохранить</translation>
+        <translation>Saqlash</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="135"/>
         <location filename="mainwindow.cpp" line="417"/>
         <source>First
 Halfhour</source>
-        <translation>Первые
-Полчаса</translation>
+        <translation>Birinchi
+        Yarim soat</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="152"/>
         <location filename="mainwindow.cpp" line="418"/>
         <source>Second
 Halfhour</source>
-        <translation>Вторые
-Полчаса</translation>
+        <translation>Ikkinchi
+        Yarim soat</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1015"/>
         <source>To proceed to the intervals mode, you need to close the current program. Close the current program?</source>
-        <translation>Для перехода в режим интервалов, необходимо закрыть текущую программу. Закрыть текущую программу?</translation>
+        <translation>Intervallar rejimiga o'tish uchun siz joriy dasturni yopishingiz kerak. Joriy dasturni yopasizmi?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="237"/>
         <source>Set the interval</source>
-        <translation>Задать интервал</translation>
+        <translation>Intervalni o'rnating</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="225"/>
         <source>Back to the program</source>
-        <translation>Вернуться к настройке</translation>
+        <translation>Dasturga qaytish</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="92"/>
         <source>Heat</source>
-        <translation>Нагрев</translation>
+        <translation>Issiqlik</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="118"/>
         <source>Interval</source>
-        <translation>Интервал</translation>
+        <translation>Interval</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="154"/>
         <location filename="mainwindow.ui" line="391"/>
         <source>Send</source>
-        <translation>Отправить</translation>
+        <translation>Yuborish</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="177"/>
         <location filename="mainwindow.ui" line="400"/>
         <source>Recieve</source>
-        <translation>Получить</translation>
+        <translation>Qabul</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="207"/>
         <location filename="mainwindow.ui" line="427"/>
         <source>Print</source>
-        <translation>Печать</translation>
+        <translation>Print</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="230"/>
         <source>Export</source>
-        <translation>Экспорт</translation>
+        <translation>Eksport</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="272"/>
         <source>Program</source>
-        <translation>Программы</translation>
+        <translation>Dasturlar</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="436"/>
         <location filename="mainwindow.cpp" line="871"/>
         <source>Export PDF</source>
         <oldsource>Export</oldsource>
-        <translation>Экспорт PDF</translation>
+        <translation>>Export PDF</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="450"/>
         <source>Halfhour mode</source>
-        <translation>Режим получасов</translation>
+        <translation>Yarim soatlik rejim</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="455"/>
         <source>Admin</source>
-        <translation>Администратор</translation>
+        <translation>Administrator</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="460"/>
         <source>Default Settings</source>
-        <translation>Стандартные настройки</translation>
+        <translation>Standart Sozlamalar</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="274"/>
         <source>Device isn&apos;t &lt;br&gt;
 connected</source>
-        <translation>Прибор не &lt;br&gt;
-подключен</translation>
+        <translation>Qurilma &lt;br&gt; emas
+        ulangan</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="288"/>
         <location filename="mainwindow.ui" line="445"/>
         <source>Exit</source>
-        <translation>Выйти</translation>
+        <translation>Chiqish</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="337"/>
         <source>File</source>
-        <translation>Файл</translation>
+        <translation>Fayl</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="349"/>
         <source>Device</source>
-        <translation>Устройство</translation>
+        <translation>Qurilma</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="359"/>
         <source>Settings</source>
-        <translation>Настройки</translation>
+        <translation>Sozlamalar</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="366"/>
         <source>Language</source>
-        <translation>Язык</translation>
+        <translation>Til</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="382"/>
         <source>License</source>
         <oldsource>English</oldsource>
-        <translation>Лицензия</translation>
+        <translation>Litsenziya</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="232"/>
         <location filename="mainwindow.cpp" line="369"/>
         <source>Russian</source>
-        <translation>Русский</translation>
+        <translation>Rus tili</translation>
     </message>
     <message>
         <source>Port</source>
-        <translation type="vanished">Порт</translation>
+        <translation type="vanished">Port</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="253"/>
         <location filename="mainwindow.cpp" line="278"/>
         <location filename="mainwindow.cpp" line="297"/>
         <source>Ports</source>
-        <translation>Порты</translation>
+        <translation>Portlar</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="448"/>
         <source>Open file</source>
-        <translation>Открыть файл</translation>
+        <translation>Faylni ochish</translation>
     </message>
     <message>
         <source>Reforma (*.mio);;All Files (*)</source>
-        <translation type="vanished">Reforma (*.mio);;All Files (*)</translation>
+        <translation type="vanished">Reforma (*.mio);;Barcha Fayllar (*)</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="87"/>
@@ -504,7 +502,7 @@ connected</source>
         <location filename="mainwindow.cpp" line="993"/>
         <location filename="mainwindow.cpp" line="1045"/>
         <source>Unable to open file</source>
-        <translation>Ошибка открытия файла</translation>
+        <translation>Faylni ochib bo'lmadi</translation>
     </message>
     <message>
         <source>Ctrl+C</source>
@@ -518,71 +516,71 @@ connected</source>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="449"/>
-        <source>Reforma (*.mioconfig *.mio);;All Files (*)</source>
-        <translation>Reforma (*.mioconfig *.mio);;All Files (*)</translation>
+        <source>Reforma (*.mioconfig *.mio);;Barcha Fayllar (*)</source>
+        <translation>Reforma (*.mioconfig *.mio);;Barcha Fayllar (*)</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="586"/>
         <source>Program has been saved successfully. Do you want save it in export file?</source>
-        <translation>Программа успешно сохранена. Хотите сохранить файл для экспорта?</translation>
+        <translation>Dastur muvaffaqiyatli saqlandi. Uni eksport faylida saqlashni xohlaysizmi?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="594"/>
         <location filename="mainwindow.cpp" line="612"/>
         <source>Save file</source>
-        <translation>Сохранить файл</translation>
+        <translation>Faylni saqlash</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="841"/>
         <source>All data was successfully sent</source>
-        <translation>Загрузка данных успешно завершена</translation>
+        <translation>Barcha ma'lumotlar muvaffaqiyatli yuborildi</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="974"/>
         <source>Do you want to clear current halfhour data?</source>
-        <translation>Вы хотите очистить данные текущего полчаса?</translation>
+        <translation>Joriy yarim soatlik ma'lumotlarni tozalashni xohlaysizmi?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="976"/>
         <source>Do you want to clear data?</source>
-        <translation>Вы хотите очистить данные?</translation>
+        <translation>Ma'lumotlarni tozalashni xohlaysizmi?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1070"/>
         <source>Admin code</source>
-        <translation>Код администратора</translation>
+        <translation>Administrator kodi</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1071"/>
         <source>Enter admin code</source>
-        <translation>Введите код администратора</translation>
+        <translation>Administrator kodini kiriting</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1087"/>
         <location filename="mainwindow.cpp" line="1092"/>
         <source>Error</source>
-        <translation>Ошибка</translation>
+        <translation>Xato</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1087"/>
         <location filename="mainwindow.cpp" line="1092"/>
         <source>Wrong code</source>
-        <translation>Неверный код</translation>
+        <translation>Noto'g'ri kod</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1138"/>
         <source>Do you want revert all changes?</source>
-        <translation>Хотите сбросить все настройки до стандартных?</translation>
+        <translation>Barcha o'zgarishlarni qaytarishni xohlaysizmi?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1145"/>
         <source>Program will be closed for reversion of settings</source>
-        <translation>Программа будет закрыта для возврата к стандартным настройкам</translation>
+        <translation>Dastur sozlamalarni qaytarish uchun yopiladi</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1162"/>
         <source>Do you want to copy current halfhour to other?</source>
-        <translation>Вы хотите скопировать текущие полчаса в другие?</translation>
+        <translation>Agar boshqa joriy yarim soat nusxa istaysizmi?</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="588"/>
@@ -590,7 +588,7 @@ connected</source>
         <location filename="mainwindow.cpp" line="1140"/>
         <location filename="mainwindow.cpp" line="1164"/>
         <source>Yes</source>
-        <translation>Да</translation>
+        <translation>Ha</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="589"/>
@@ -598,17 +596,17 @@ connected</source>
         <location filename="mainwindow.cpp" line="1141"/>
         <location filename="mainwindow.cpp" line="1165"/>
         <source>No</source>
-        <translation>Нет</translation>
+        <translation>Yo'q</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1147"/>
         <source>Continue</source>
-        <translation>Продолжить</translation>
+        <translation>Davom</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1191"/>
         <source>Ports: &quot;</source>
-        <translation>Порты: &quot;</translation>
+        <translation>Portlar: &quot;</translation>
     </message>
 </context>
 <context>
@@ -616,13 +614,13 @@ connected</source>
     <message>
         <location filename="programwidget.ui" line="26"/>
         <source>Form</source>
-        <translation></translation>
+        <translation>Shakl</translation>
     </message>
     <message>
         <location filename="programwidget.ui" line="53"/>
         <location filename="programwidget.ui" line="266"/>
         <source>Up</source>
-        <translation>Верх</translation>
+        <translation>Yuqoriga</translation>
     </message>
     <message>
         <location filename="programwidget.ui" line="86"/>
@@ -635,7 +633,7 @@ connected</source>
         <location filename="programwidget.ui" line="626"/>
         <location filename="programwidget.ui" line="743"/>
         <source>Заблокировать</source>
-        <translation type="unfinished"></translation>
+        <translation>Bloklash</translation>
     </message>
     <message>
         <location filename="programwidget.ui" line="103"/>
@@ -651,13 +649,13 @@ connected</source>
     <message>
         <location filename="programwidget.ui" line="463"/>
         <source>Активно</source>
-        <translation type="unfinished"></translation>
+        <translation>Faol</translation>
     </message>
     <message>
         <location filename="programwidget.ui" line="547"/>
         <location filename="programwidget.ui" line="697"/>
         <source>Down</source>
-        <translation>Низ</translation>
+        <translation>Pastga</translation>
     </message>
     <message>
         <location filename="programwidget.ui" line="316"/>
@@ -669,7 +667,7 @@ connected</source>
         <location filename="programwidget.ui" line="76"/>
         <location filename="programwidget.ui" line="240"/>
         <source>Передняя поверхность</source>
-        <translation type="unfinished"></translation>
+        <translation>Old yuzasi</translation>
     </message>
     <message>
         <location filename="programwidget.ui" line="129"/>
@@ -679,19 +677,19 @@ connected</source>
         <location filename="programwidget.ui" line="616"/>
         <location filename="programwidget.ui" line="753"/>
         <source>Задняя поверхность</source>
-        <translation type="unfinished"></translation>
+        <translation>Orqa yuzasi</translation>
     </message>
     <message>
         <location filename="programwidget.ui" line="803"/>
         <source>Просмотр</source>
-        <translation type="unfinished"></translation>
+        <translation>Ko'rish</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Loading: %1%</source>
-        <translation type="vanished">Загрузка: %1%</translation>
+        <translation type="vanished">Yuklash: %1%</translation>
     </message>
 </context>
 <context>
@@ -699,16 +697,16 @@ connected</source>
     <message>
         <location filename="recievedialog.ui" line="14"/>
         <source>Recieving data</source>
-        <translation>Передача информации</translation>
+        <translation>Axborot uzatish</translation>
     </message>
     <message>
         <location filename="recievedialog.ui" line="24"/>
         <source>Recieving data from device. Please, wait...</source>
-        <translation>Идёт передача информации с прибора. Пожалуйста, подождите...</translation>
+        <translation>Qurilmadan ma'lumotlarni qabul qilish. Iltimos, kuting...</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="obsolete">Отмена</translation>
+        <translation type="obsolete">Bekor qilish</translation>
     </message>
 </context>
 <context>
@@ -716,52 +714,52 @@ connected</source>
     <message>
         <location filename="tabswidget.ui" line="148"/>
         <source>Детский Церебральный Паралич</source>
-        <translation type="unfinished"></translation>
+        <translation>Miya Yarim Palsi</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="186"/>
         <source>Врожденные заболевания</source>
-        <translation type="unfinished"></translation>
+        <translation>Tug'ma kasalliklar</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="221"/>
         <source>Другие состояния</source>
-        <translation type="unfinished"></translation>
+        <translation>Boshqa shartlar</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="256"/>
         <source>Нервно-мышечные и мышечные заболевания</source>
-        <translation type="unfinished"></translation>
+        <translation>Nerv-mushak va mushak kasalliklari</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="291"/>
         <source>Спинальные нарушения</source>
-        <translation type="unfinished"></translation>
+        <translation>Orqa miya kasalliklari</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="326"/>
         <source>Инсульт</source>
-        <translation type="unfinished"></translation>
+        <translation>Qon tomir</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="361"/>
         <source>Симптомы верхнего мотонейронного</source>
-        <translation type="unfinished"></translation>
+        <translation>Yuqori motorli neyron belgilari</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="396"/>
         <source>Черепно-Мозговая Травма</source>
-        <translation type="unfinished"></translation>
+        <translation>Miya Shikastlanishi</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="432"/>
         <source>Добавить новую программу</source>
-        <translation type="unfinished"></translation>
+        <translation>Yangi dastur qo'shing</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="439"/>
         <source>Удалить выбранную программу</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanlangan dasturni o'chirish</translation>
     </message>
     <message>
         <location filename="tabswidget.ui" line="14"/>
@@ -775,32 +773,17 @@ connected</source>
     <message>
         <location filename="tabswidget.ui" line="32"/>
         <source>Выбор</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="tabswidget.ui" line="39"/>
-        <source>Для программирования необходимо выбрать нарушение из списка, нажав на кнопку «Выбор»</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="tabswidget.ui" line="78"/>
-        <source>Add new program</source>
-        <translation>Добавить новую программу</translation>
-    </message>
-    <message>
-        <location filename="tabswidget.ui" line="85"/>
-        <source>Delete selected program</source>
-        <translation>Удалить выбранную программу</translation>
+        <translation>Tanlov</translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="160"/>
         <source>Program with name </source>
-        <translation>Программа с именем </translation>
+        <translation>Nomi bilan dastur </translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="160"/>
         <source> already exists.</source>
-        <translation> уже существует.</translation>
+        <translation> allaqachon mavjud.</translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="112"/>
@@ -812,38 +795,38 @@ connected</source>
         <location filename="tabswidget.cpp" line="113"/>
         <location filename="tabswidget.cpp" line="195"/>
         <source>No</source>
-        <translation>Нет</translation>
+        <translation>Yo'q</translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="159"/>
         <source>New program creation</source>
-        <translation>Создание новой программы</translation>
+        <translation>Yangi dastur yaratish</translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="160"/>
         <source>Program name:</source>
         <oldsource>User name:</oldsource>
-        <translation>Название программы:</translation>
+        <translation>Dastur nomi:</translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="161"/>
         <source>New program</source>
-        <translation>Новая программа</translation>
+        <translation>Yangi dastur</translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="170"/>
         <source> already exists.</source>
-        <translation> уже существует.</translation>
+        <translation> allaqachon mavjud.</translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="172"/>
         <source>Continue</source>
-        <translation>Продолжить</translation>
+        <translation>Davom</translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="192"/>
         <source>Do you want to delete </source>
-        <translation>Вы точно хотите удалить программу </translation>
+        <translation>Yo'q qilmoqchimisiz </translation>
     </message>
     <message>
         <location filename="tabswidget.cpp" line="192"/>
@@ -856,7 +839,7 @@ connected</source>
     <message>
         <location filename="timeaxis.ui" line="20"/>
         <source>Form</source>
-        <translation></translation>
+        <translation>Shakl</translation>
     </message>
 </context>
 <context>
@@ -864,27 +847,27 @@ connected</source>
     <message>
         <location filename="jsonclient.ui" line="14"/>
         <source>Form</source>
-        <translation></translation>
+        <translation>Shakl</translation>
     </message>
     <message>
         <location filename="jsonclient.ui" line="48"/>
         <source>Введите Логин</source>
-        <translation></translation>
+        <translation>Loginni Kiriting</translation>
     </message>
     <message>
         <location filename="jsonclient.ui" line="61"/>
         <source>Войти</source>
-        <translation></translation>
+        <translation>Kirish</translation>
     </message>
     <message>
         <location filename="jsonclient.ui" line="74"/>
         <source>Закрыть </source>
-        <translation></translation>
+        <translation>Yopish </translation>
     </message>
     <message>
         <location filename="jsonclient.cpp" line="72"/>
         <source>Unable to open file</source>
-        <translation>Ошибка открытия файла</translation>
+        <translation>Faylni ochib bo'lmadi</translation>
     </message>
 </context>
 <context>
@@ -892,32 +875,32 @@ connected</source>
     <message>
         <location filename="addprogramdialog.cpp" line="66"/>
         <source>Ошибка</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Xato</translation>
     </message>
     <message>
         <location filename="addprogramdialog.cpp" line="66"/>
         <source>Пожалуйста введите имя программы.</source>
-        <translation type="unfinished"></translation>
+        <translation>Iltimos, dastur nomini kiriting.</translation>
     </message>
     <message>
         <location filename="addprogramdialog.ui" line="23"/>
         <source>Enter filename</source>
-        <translation>Введите название файла</translation>
+        <translation>Fayl nomini kiriting</translation>
     </message>
     <message>
         <location filename="addprogramdialog.ui" line="30"/>
         <source>Select a category</source>
-        <translation>Выберите категорию</translation>
+        <translation>Kategoriyani tanlang</translation>
     </message>
     <message>
         <location filename="addprogramdialog.ui" line="42"/>
         <source>Ok</source>
-        <translation>Ок</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="addprogramdialog.ui" line="52"/>
         <source>Cancel</source>
-        <translation>Отмена</translation>
+        <translation>Bekor qilish</translation>
     </message>
 </context>
 <context>
@@ -925,17 +908,17 @@ connected</source>
     <message>
         <location filename="deleteprogramdialog.ui" line="40"/>
         <source>Choose a program</source>
-        <translation>Выберите программу</translation>
+        <translation>Dasturni tanlang</translation>
     </message>
     <message>
         <location filename="deleteprogramdialog.ui" line="42"/>
         <source>Delete</source>
-        <translation>Удалить</translation>
+        <translation>O'chirish</translation>
     </message>
     <message>
         <location filename="deleteprogramdialog.ui" line="52"/>
         <source>Cancel</source>
-        <translation>Отмена</translation>
+        <translation>>Bekor qilish</translation>
     </message>
 </context>
 </TS>
