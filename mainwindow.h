@@ -516,5 +516,7 @@ protected:
      * \brief programWidgetViewPushButton кнопка "Вернуться к настройке" используется на экране с отображением тела, возвращает на экран программирования
      */
     QPushButton *programWidgetViewPushButton;
+
+    bool event(QEvent* event) override;
 };
 #endif // MAINWINDOW_H

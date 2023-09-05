@@ -73,6 +73,7 @@ public:
      * \return Статус всплывающей части тела
      */
     AbstractBodyPart::Status getPopStatus(int id) const;
+
     /*!
      * \brief setPopStatus устанавливает новый статус всплывающей части тела
      * \param id - id части тела

@@ -1388,6 +1388,17 @@ void MainWindow::onDefaultSettingsTriggered(){
     }
 }
 
+bool MainWindow::event(QEvent *event)
+{
+    if(event->type() == QEvent::WindowStateChange){
+        QWindowStateChangeEvent* stateChangeEvent = static_cast<QWindowStateChangeEvent*>(event);
+        if(stateChangeEvent->oldState() & Qt::WindowMaximized && windowState() & Qt::WindowMaximized){
+            repaint();
+        }
+    }
+    return QWidget::event(event);
+}
+
 void MainWindow::onCopyShortcut()
 {
     if (!isAdminModeActive) return;
