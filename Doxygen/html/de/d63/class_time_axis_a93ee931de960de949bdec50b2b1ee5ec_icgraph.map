@@ -1,0 +1,5 @@
+<map id="TimeAxis::deleteProgressBar" name="TimeAxis::deleteProgressBar">
+<area shape="rect" id="node1" title="deleteProgressBar удаляет интервал по индексу i" alt="" coords="216,46,407,73"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#ae0ae3e979f1080600ae0c41cb6f7be80" title="onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;" alt="" coords="8,5,165,47"/>
+<area shape="rect" id="node3" href="$d8/dc0/class_interval_widget.html#a4ec7fb8fdc02c5f216158c38be64668c" title="onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;" alt="" coords="5,71,168,112"/>
+</map>

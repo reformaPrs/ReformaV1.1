@@ -1,0 +1,30 @@
+<map id="BodyPart::setStatus" name="BodyPart::setStatus">
+<area shape="rect" id="node1" title="setStatus" alt="" coords="2013,220,2153,247"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#a90058c21df02a6321753657f2c315fad" title="mergeChanges сохраняет статутс всплывающей части тела в статус обычной" alt="" coords="1795,24,1941,51"/>
+<area shape="rect" id="node6" href="$d0/dcb/class_body.html#ad7a70362ec7f1288b00b413612787314" title="resetIntervalParts делает интервальные части тела не активными" alt="" coords="1788,195,1948,221"/>
+<area shape="rect" id="node9" href="$d0/dcb/class_body.html#ae97b0f4e1794f67851d2e0e2b04e1665" title="setCalculatePartStatus устанавливает статус части тела на активный в зависимости от поданного значени..." alt="" coords="1771,245,1965,272"/>
+<area shape="rect" id="node10" href="$d0/dcb/class_body.html#a1eab2bcaaff70f2f41e19bff292565b3" title="setPartStatus устанавливает новый статус части тела" alt="" coords="1798,111,1938,137"/>
+<area shape="rect" id="node13" href="$d2/d6f/class_body_part.html#a7b3eebc1a0b46831114d03ec8e10b148" title="Показывает часть тела" alt="" coords="1811,296,1925,323"/>
+<area shape="rect" id="node14" href="$d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86" title="update обновляет мышцы в соответсвии с сохранённой информацией" alt="" coords="1819,420,1917,447"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#af3754b6c30a25d7acd6994882e1aa6b2" title="onImpulseAdderDone вызывает при закрытии всплывающих мышц для задания импульсов" alt="" coords="1496,5,1723,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="1233,5,1448,32"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="984,5,1185,32"/>
+<area shape="rect" id="node7" href="$dd/dbd/class_interval_simulation.html#a492803bfc6f8908a07dcc04c52d840f7" title="onSimulationTimeChanged вызывается каждую секунду симуляции" alt="" coords="1517,253,1701,294"/>
+<area shape="rect" id="node8" href="$dc/db8/class_interval_simulation_widget.html#af5bda8aa592a7e94c73d6d7c67ed24fa" title="onSimulationTimeChanged вызывается каждую секунду симуляции" alt="" coords="1517,187,1701,229"/>
+<area shape="rect" id="node11" href="$dd/dd9/class_interval_dialog.html#ae0ae3e979f1080600ae0c41cb6f7be80" title="onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;" alt="" coords="1531,122,1688,163"/>
+<area shape="rect" id="node12" href="$d8/dc0/class_interval_widget.html#a4ec7fb8fdc02c5f216158c38be64668c" title="onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;" alt="" coords="1528,57,1691,98"/>
+<area shape="rect" id="node15" href="$d0/dcb/class_body.html#a0f7921e25faed42503fe9edfb650f75b" title="clearHalfhour" alt="" coords="1542,572,1677,599"/>
+<area shape="rect" id="node17" href="$d9/dc6/class_main_window.html#a89e97b4308d4e234c31a7023f8d5d928" title="onHalfhourToggled вызывается нажатием на одну из кнопок получаса" alt="" coords="1504,369,1715,396"/>
+<area shape="rect" id="node19" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="1513,319,1705,345"/>
+<area shape="rect" id="node21" href="$d9/dc6/class_main_window.html#a209079830a37745e47076a762bab17d6" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="1248,471,1433,497"/>
+<area shape="rect" id="node27" href="$dd/dd9/class_interval_dialog.html#a8d463e367f4dc697c9f35bcc79051300" title="onShowClicked вызывается при нажатии на кнопку &quot;Просмотр&quot;" alt="" coords="1512,420,1707,447"/>
+<area shape="rect" id="node28" href="$d9/dc6/class_main_window.html#a9d11494701432a2b68195c54213f1a0f" title="setRecievedValues обновляет пары в соответствии с полученными с прибора данными" alt="" coords="1502,521,1717,548"/>
+<area shape="rect" id="node16" href="$d9/dc6/class_main_window.html#ac52ef477f52b694ac64fff35523fb872" title="onClearShortcut вызывается при Ctrl+N для очистки часа или получаса в режиме получасов" alt="" coords="1242,572,1439,599"/>
+<area shape="rect" id="node18" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="1257,369,1424,396"/>
+<area shape="rect" id="node20" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,347,179,373"/>
+<area shape="rect" id="node22" href="$d9/dc6/class_main_window.html#a092e8d45c24f1c28f1015b3fa7dc8284" title="onPortTriggered вызывается при выборе порта прибора" alt="" coords="987,464,1182,491"/>
+<area shape="rect" id="node23" href="$d9/dc6/class_main_window.html#ae88824a309842c91bcb751650907a7ab" title="updatePortsList обновляет список портов" alt="" coords="741,413,936,440"/>
+<area shape="rect" id="node24" href="$d9/dc6/class_main_window.html#ae7410ead1c1c619ad3699aa1777231f8" title="onDeviceDisconnected вызывается при отключении прибора" alt="" coords="459,439,693,465"/>
+<area shape="rect" id="node25" href="$d9/dc6/class_main_window.html#a6540b8248b4b9d5cfd4b06a1588fb7df" title="onDeviceTriggered вызывается при нажатии на вкладку &quot;Устройство&quot;" alt="" coords="471,376,681,403"/>
+<area shape="rect" id="node26" href="$d9/dc6/class_main_window.html#ac74a8e6b0687f952b1f18cec8b59de65" title="initPortsMenu инициализирует меню портов" alt="" coords="227,372,411,399"/>
+</map>

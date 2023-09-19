@@ -1,0 +1,5 @@
+<map id="MainWindow::updateBodyParts" name="MainWindow::updateBodyParts">
+<area shape="rect" id="node1" title="updateBodyParts обновляет отрисовку частей тела после загрузки из файла или прибора" alt="" coords="5,31,209,57"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#aa5da772b503c6ba3ffc8f32df9f3e4dc" title="setStatus" alt="" coords="257,5,420,32"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="269,56,409,83"/>
+</map>

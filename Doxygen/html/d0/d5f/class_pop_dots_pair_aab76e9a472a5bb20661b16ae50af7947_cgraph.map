@@ -1,0 +1,9 @@
+<map id="PopDotsPair::onDotHoverEntered" name="PopDotsPair::onDotHoverEntered">
+<area shape="rect" id="node1" title="onDotHoverEntered вызывается при наведении на точки" alt="" coords="5,132,220,159"/>
+<area shape="rect" id="node2" href="$dc/d0f/class_dots_pair.html#aa8383c750d12d390716ec2908dcd7dc8" title="getDot1" alt="" coords="291,5,416,32"/>
+<area shape="rect" id="node3" href="$dc/d0f/class_dots_pair.html#a3aeacf728459c6ddb08a32bec49b5de9" title="getDot2" alt="" coords="291,56,416,83"/>
+<area shape="rect" id="node4" href="$dc/d0f/class_dots_pair.html#a6bd45d736f52baefe9739d3f123e818e" title="getRadius" alt="" coords="284,107,423,133"/>
+<area shape="rect" id="node5" href="$d9/d91/class_simple_dots_pair.html#a52792f3ef46e94d931edbc0aa57086d9" title="getValue" alt="" coords="268,157,439,184"/>
+<area shape="rect" id="node6" href="$df/ddf/class_dot.html#afa143b57d4e6b3f02bfef0985d713068" title="setRadius задаёт новый радиус" alt="" coords="299,208,407,235"/>
+<area shape="rect" id="node7" href="$d6/d51/class_text_rect.html#a0ca60a108ce111781c550fa01121b413" title="show показывает объект на сцене" alt="" coords="297,259,409,285"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="PopDotsPair" name="PopDotsPair">
+<area shape="rect" id="node1" title="Класс пары контактов для всплывающих окон" alt="" coords="295,277,389,304"/>
+<area shape="rect" id="node2" href="$dc/d0f/class_dots_pair.html" title="Класс пары контактов на главном экране" alt="" coords="189,187,261,213"/>
+<area shape="rect" id="node3" title=" " alt="" coords="177,5,248,32"/>
+<area shape="rect" id="node5" href="$df/ddf/class_dot.html" title="Класс точки" alt="" coords="111,81,154,108"/>
+<area shape="rect" id="node7" href="$d6/d51/class_text_rect.html" title="Класс текста с рамкой" alt="" coords="323,133,398,160"/>
+<area shape="rect" id="node4" href="$d9/d91/class_simple_dots_pair.html" title="Базовый класс для пары контактов костюма" alt="" coords="229,81,341,108"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node8" href="$d0/dea/class_custom_slider_widget.html" title="Класс слайдера с полем для выбора значения импульса в мкс" alt="" coords="399,187,541,213"/>
+<area shape="rect" id="node9" title=" " alt="" coords="433,81,507,108"/>
+</map>

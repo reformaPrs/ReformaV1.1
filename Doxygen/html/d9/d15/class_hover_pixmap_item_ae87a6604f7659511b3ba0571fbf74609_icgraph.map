@@ -1,0 +1,4 @@
+<map id="HoverPixmapItem::hoverEntered" name="HoverPixmapItem::hoverEntered">
+<area shape="rect" id="node1" title="hoverEntered вызывается при наведении на картинку" alt="" coords="245,13,452,39"/>
+<area shape="rect" id="node2" href="$d9/d15/class_hover_pixmap_item.html#aaec9021dbf0065d93e614451ac190cdf" title="hoverEnterEvent ловит событие наведения на картинку" alt="" coords="5,5,197,47"/>
+</map>

@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Reforma Windows Software: Исходный файл D:/Work/Reforma/Reforma-Windows-Software/intervalwidget.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../Logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Reforma Windows Software<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Программа для программирования костюма Reforma</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d4/d8f/intervalwidget_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">D:/Work/Reforma/Reforma-Windows-Software/intervalwidget.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef INTERVALWIDGET_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define INTERVALWIDGET_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QListWidget&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QButtonGroup&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;timeaxis.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;bodyParts/body.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;dotsPairs/miosuit.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span>Ui {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="../../d8/dc0/class_interval_widget.html">IntervalWidget</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/dc0/class_interval_widget.html">IntervalWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Q_OBJECT</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d8/dc0/class_interval_widget.html">IntervalWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_class" href="../../d8/dc0/class_interval_widget.html">~IntervalWidget</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/dc0/class_interval_widget.html#a41324ec5f4fabc30130c8d64b476ffcb">addPairs</a>(<span class="keywordtype">int</span> count);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/dc0/class_interval_widget.html#ae9eca5b0cbb5a24d15152349ee30c74f">translate</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html#a6caa15242b69691681d6c778aa87920b">   39</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="../../d8/dc0/class_interval_widget.html#a6caa15242b69691681d6c778aa87920b">ActiveMode</a>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        UP,</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        DOWN</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    };</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    Q_ENUM(<a class="code hl_enumeration" href="../../d8/dc0/class_interval_widget.html#a6caa15242b69691681d6c778aa87920b">ActiveMode</a>);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">bool</span> isUpActive();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/dc0/class_interval_widget.html#a7f083159316d02f8238ccfdb502aba07">updatePairs</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>signals:</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html#a9c939b26c31cee2cdbab8831952be5f9">   56</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d8/dc0/class_interval_widget.html#a9c939b26c31cee2cdbab8831952be5f9">partChanged</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html#adada54179bf03737d784e5bc24473b89">   60</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d8/dc0/class_interval_widget.html#adada54179bf03737d784e5bc24473b89">showClicked</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    Ui::IntervalWidget *ui;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html#ade140850e40f9e9b66a6f2cdc09dbeab">   69</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d8/dc0/class_interval_widget.html#ade140850e40f9e9b66a6f2cdc09dbeab">changedByUser</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <a class="code hl_class" href="../../d0/dcb/class_body.html">Body</a> *body;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_class" href="../../df/d66/class_mio_suit.html">MioSuit</a> *mioSuit;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html#ab0638ee5332446ebe5cc5ca99476c532">   78</a></span>    QListWidget *<a class="code hl_variable" href="../../d8/dc0/class_interval_widget.html#ab0638ee5332446ebe5cc5ca99476c532">activeListWidget</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html#aea6fde042d29ff4956371034dba1e04e">   84</a></span>    <a class="code hl_class" href="../../de/d63/class_time_axis.html">TimeAxis</a> *<a class="code hl_variable" href="../../d8/dc0/class_interval_widget.html#aea6fde042d29ff4956371034dba1e04e">activeTimeAxis</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html#ab50e4426a59caf21d1a9a446250e1b83">   88</a></span>    <a class="code hl_class" href="../../d1/d3e/class_interval_dots_pair.html">IntervalDotsPair</a> *<a class="code hl_variable" href="../../d8/dc0/class_interval_widget.html#ab50e4426a59caf21d1a9a446250e1b83">activeDotsPair</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="../../d8/dc0/class_interval_widget.html#a59a43f52ec2610908c1c281b990f46b7">   92</a></span>    <a class="code hl_enumeration" href="../../d8/dc0/class_interval_widget.html#a6caa15242b69691681d6c778aa87920b">ActiveMode</a> <a class="code hl_variable" href="../../d8/dc0/class_interval_widget.html#a59a43f52ec2610908c1c281b990f46b7">activeMode</a> = UP;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    QButtonGroup *selectionButtonGroup;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/dc0/class_interval_widget.html#a4ec7fb8fdc02c5f216158c38be64668c">onDeleteClicked</a>();</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/dc0/class_interval_widget.html#add3731a24b0218312de270de1a7ee8c4">onShowClicked</a>();</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/dc0/class_interval_widget.html#a8a33857cf699a7bd19868ff9994ff583">onStartChanged</a>(<span class="keywordtype">int</span> seconds);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/dc0/class_interval_widget.html#a50c262d8efd40073a5e0aef5f75b3060">onEndChanged</a>(<span class="keywordtype">int</span> seconds);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/dc0/class_interval_widget.html#adeedac421abc92e6f222879c4621a630">onSpinBoxStartChanged</a>(<span class="keywordtype">int</span> seconds);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/dc0/class_interval_widget.html#a50f75a01d712468d6f3e21f3b9180eab">onSpinBoxEndChanged</a>(<span class="keywordtype">int</span> seconds);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/dc0/class_interval_widget.html#a9ba7ab9ce9d902a2c7911cc0e182d601">onListItemClicked</a>(QListWidgetItem *item);</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/dc0/class_interval_widget.html#ac2c63161d9a1a97d87c13f39ddc6b784">onSelectionButtonToggled</a>(QAbstractButton *, <span class="keywordtype">bool</span>);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    <span class="comment">// QWidget interface</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    <span class="keywordtype">void</span> showEvent(QShowEvent *event);</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>};</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="preprocessor">#endif </span><span class="comment">// INTERVALWIDGET_H</span></div>
+<div class="ttc" id="aclass_body_html"><div class="ttname"><a href="../../d0/dcb/class_body.html">Body</a></div><div class="ttdoc">The Body class - класс фасад всего тела.</div><div class="ttdef"><b>Definition:</b> body.h:20</div></div>
+<div class="ttc" id="aclass_interval_dots_pair_html"><div class="ttname"><a href="../../d1/d3e/class_interval_dots_pair.html">IntervalDotsPair</a></div><div class="ttdoc">Класс пары контактов для интервалов</div><div class="ttdef"><b>Definition:</b> intervaldotspair.h:15</div></div>
+<div class="ttc" id="aclass_interval_widget_html"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html">IntervalWidget</a></div><div class="ttdef"><b>Definition:</b> intervalwidget.h:17</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a41324ec5f4fabc30130c8d64b476ffcb"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a41324ec5f4fabc30130c8d64b476ffcb">IntervalWidget::addPairs</a></div><div class="ttdeci">void addPairs(int count)</div><div class="ttdoc">addPairs добавляет новые пары</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:53</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a4ec7fb8fdc02c5f216158c38be64668c"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a4ec7fb8fdc02c5f216158c38be64668c">IntervalWidget::onDeleteClicked</a></div><div class="ttdeci">void onDeleteClicked()</div><div class="ttdoc">onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:108</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a50c262d8efd40073a5e0aef5f75b3060"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a50c262d8efd40073a5e0aef5f75b3060">IntervalWidget::onEndChanged</a></div><div class="ttdeci">void onEndChanged(int seconds)</div><div class="ttdoc">onEndChanged вызывается при изменении времени конца интервала через шкалу</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:151</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a50f75a01d712468d6f3e21f3b9180eab"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a50f75a01d712468d6f3e21f3b9180eab">IntervalWidget::onSpinBoxEndChanged</a></div><div class="ttdeci">void onSpinBoxEndChanged(int seconds)</div><div class="ttdoc">onSpinBoxEndChanged вызывается при изменении времени конца интервала в SpinBox'е</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:172</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a59a43f52ec2610908c1c281b990f46b7"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a59a43f52ec2610908c1c281b990f46b7">IntervalWidget::activeMode</a></div><div class="ttdeci">ActiveMode activeMode</div><div class="ttdoc">activeMode - активная часть тела (верхняя или нижняя)</div><div class="ttdef"><b>Definition:</b> intervalwidget.h:92</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a6caa15242b69691681d6c778aa87920b"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a6caa15242b69691681d6c778aa87920b">IntervalWidget::ActiveMode</a></div><div class="ttdeci">ActiveMode</div><div class="ttdoc">Enum для выбора верха или низа тела</div><div class="ttdef"><b>Definition:</b> intervalwidget.h:39</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a7f083159316d02f8238ccfdb502aba07"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a7f083159316d02f8238ccfdb502aba07">IntervalWidget::updatePairs</a></div><div class="ttdeci">void updatePairs()</div><div class="ttdoc">updatePairs обновляет пары виджета</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:74</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a8a33857cf699a7bd19868ff9994ff583"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a8a33857cf699a7bd19868ff9994ff583">IntervalWidget::onStartChanged</a></div><div class="ttdeci">void onStartChanged(int seconds)</div><div class="ttdoc">onStartChanged вызывается при изменении времени начала интервала через шкалу</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:143</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a9ba7ab9ce9d902a2c7911cc0e182d601"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a9ba7ab9ce9d902a2c7911cc0e182d601">IntervalWidget::onListItemClicked</a></div><div class="ttdeci">void onListItemClicked(QListWidgetItem *item)</div><div class="ttdoc">onListItemClicked вызывается при нажатии на объект листа</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:185</div></div>
+<div class="ttc" id="aclass_interval_widget_html_a9c939b26c31cee2cdbab8831952be5f9"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#a9c939b26c31cee2cdbab8831952be5f9">IntervalWidget::partChanged</a></div><div class="ttdeci">void partChanged(int)</div><div class="ttdoc">partChanged вызывается при изменении верхней и нижней части тела</div></div>
+<div class="ttc" id="aclass_interval_widget_html_ab0638ee5332446ebe5cc5ca99476c532"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#ab0638ee5332446ebe5cc5ca99476c532">IntervalWidget::activeListWidget</a></div><div class="ttdeci">QListWidget * activeListWidget</div><div class="ttdoc">activeListWidget - активный список</div><div class="ttdef"><b>Definition:</b> intervalwidget.h:78</div></div>
+<div class="ttc" id="aclass_interval_widget_html_ab50e4426a59caf21d1a9a446250e1b83"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#ab50e4426a59caf21d1a9a446250e1b83">IntervalWidget::activeDotsPair</a></div><div class="ttdeci">IntervalDotsPair * activeDotsPair</div><div class="ttdoc">activeDotsPair - активная пара контактов выбранная в списке</div><div class="ttdef"><b>Definition:</b> intervalwidget.h:88</div></div>
+<div class="ttc" id="aclass_interval_widget_html_ac2c63161d9a1a97d87c13f39ddc6b784"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#ac2c63161d9a1a97d87c13f39ddc6b784">IntervalWidget::onSelectionButtonToggled</a></div><div class="ttdeci">void onSelectionButtonToggled(QAbstractButton *, bool)</div><div class="ttdoc">onSelectionButtonToggled вызывается при смене режима верха/низа тела кнопками</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:199</div></div>
+<div class="ttc" id="aclass_interval_widget_html_adada54179bf03737d784e5bc24473b89"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#adada54179bf03737d784e5bc24473b89">IntervalWidget::showClicked</a></div><div class="ttdeci">void showClicked()</div><div class="ttdoc">showClicked вызывается при нажатии на кнопку Просмотр</div></div>
+<div class="ttc" id="aclass_interval_widget_html_add3731a24b0218312de270de1a7ee8c4"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#add3731a24b0218312de270de1a7ee8c4">IntervalWidget::onShowClicked</a></div><div class="ttdeci">void onShowClicked()</div><div class="ttdoc">onShowClicked вызывается при нажатии на кнопку &quot;Просмотр&quot;</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:136</div></div>
+<div class="ttc" id="aclass_interval_widget_html_ade140850e40f9e9b66a6f2cdc09dbeab"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#ade140850e40f9e9b66a6f2cdc09dbeab">IntervalWidget::changedByUser</a></div><div class="ttdeci">bool changedByUser</div><div class="ttdoc">changedByUser - изменено время начала или конца пользователем в поле времени или нет</div><div class="ttdef"><b>Definition:</b> intervalwidget.h:69</div></div>
+<div class="ttc" id="aclass_interval_widget_html_adeedac421abc92e6f222879c4621a630"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#adeedac421abc92e6f222879c4621a630">IntervalWidget::onSpinBoxStartChanged</a></div><div class="ttdeci">void onSpinBoxStartChanged(int seconds)</div><div class="ttdoc">onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox'е</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:159</div></div>
+<div class="ttc" id="aclass_interval_widget_html_ae9eca5b0cbb5a24d15152349ee30c74f"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#ae9eca5b0cbb5a24d15152349ee30c74f">IntervalWidget::translate</a></div><div class="ttdeci">void translate()</div><div class="ttdoc">translate переводит интерфейс</div><div class="ttdef"><b>Definition:</b> intervalwidget.cpp:64</div></div>
+<div class="ttc" id="aclass_interval_widget_html_aea6fde042d29ff4956371034dba1e04e"><div class="ttname"><a href="../../d8/dc0/class_interval_widget.html#aea6fde042d29ff4956371034dba1e04e">IntervalWidget::activeTimeAxis</a></div><div class="ttdeci">TimeAxis * activeTimeAxis</div><div class="ttdoc">activeTimeAxis - активная временная ось</div><div class="ttdef"><b>Definition:</b> intervalwidget.h:84</div></div>
+<div class="ttc" id="aclass_mio_suit_html"><div class="ttname"><a href="../../df/d66/class_mio_suit.html">MioSuit</a></div><div class="ttdoc">Класс костюма Является фасадом для всех пар контактов и нагревателей Также может существовать только ...</div><div class="ttdef"><b>Definition:</b> miosuit.h:22</div></div>
+<div class="ttc" id="aclass_time_axis_html"><div class="ttname"><a href="../../de/d63/class_time_axis.html">TimeAxis</a></div><div class="ttdoc">Класс временной оси для интервальности</div><div class="ttdef"><b>Definition:</b> timeaxis.h:23</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>intervalwidget.h</b></li>
+    <li class="footer">Документация по Reforma Windows Software. Последние изменения: Вт 19 Июл 2022 17:39:06. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

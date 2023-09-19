@@ -1,0 +1,5 @@
+<map id="PopBodyPart::clicked" name="PopBodyPart::clicked">
+<area shape="rect" id="node1" title="clicked вызывается при нажатии на часть тела" alt="" coords="481,5,629,32"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#a0c55ea8fdfa37a233b38a7163eb06980" title="onMuscleClicked вызывается при нажатии на картинку мышцы" alt="" coords="227,5,433,32"/>
+<area shape="rect" id="node3" href="$d6/d3b/class_pop_body_part.html#aba644c3c677a1e0854384d7837d6b1c0" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="5,5,179,32"/>
+</map>

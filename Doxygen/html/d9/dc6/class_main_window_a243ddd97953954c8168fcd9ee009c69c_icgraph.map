@@ -1,0 +1,4 @@
+<map id="MainWindow::onLanguageTriggered" name="MainWindow::onLanguageTriggered">
+<area shape="rect" id="node1" title="onLanguageTriggered вызывается при выборе языка" alt="" coords="227,5,453,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,5,179,32"/>
+</map>

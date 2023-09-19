@@ -1,0 +1,8 @@
+<map id="IntervalDialog::translate" name="IntervalDialog::translate">
+<area shape="rect" id="node1" title="translate переводит интерфейс" alt="" coords="956,31,1112,57"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a154d6f626586344f44a46bf9a5c52c2c" title="updateText обновляет текст" alt="" coords="740,31,908,57"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#ad2348d79be1a48b89a35f1320427b4de" title="initTranslators инициализирует переволчики" alt="" coords="232,5,417,32"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a243ddd97953954c8168fcd9ee009c69c" title="onLanguageTriggered вызывается при выборе языка" alt="" coords="465,56,692,83"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,31,184,57"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="238,56,411,83"/>
+</map>

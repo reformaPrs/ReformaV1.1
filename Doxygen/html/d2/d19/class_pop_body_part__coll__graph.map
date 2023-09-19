@@ -1,0 +1,7 @@
+<map id="PopBodyPart" name="PopBodyPart">
+<area shape="rect" id="node1" title="Класс части тела для всплывающего окна" alt="" coords="92,185,191,212"/>
+<area shape="rect" id="node2" href="$dd/d50/class_abstract_body_part.html" title="The AbstractBodyPart class &#45; абстрактный класс части тела" alt="" coords="5,81,131,108"/>
+<area shape="rect" id="node3" title=" " alt="" coords="42,5,113,32"/>
+<area shape="rect" id="node4" href="$d9/d15/class_hover_pixmap_item.html" title="Класс картинки с сигналами при нажатии наведении и выхода из наведения" alt="" coords="155,81,277,108"/>
+<area shape="rect" id="node5" title=" " alt="" coords="139,5,293,32"/>
+</map>

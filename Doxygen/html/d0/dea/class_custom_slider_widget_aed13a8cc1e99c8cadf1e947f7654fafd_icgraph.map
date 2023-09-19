@@ -1,0 +1,4 @@
+<map id="CustomSliderWidget::onAcceptButtonClicked" name="CustomSliderWidget::onAcceptButtonClicked">
+<area shape="rect" id="node1" title="onAcceptButtonClicked Отлавливает нажатие на кнопку &quot;Принять&quot; и отправляет impulseClicked(int)" alt="" coords="203,5,369,47"/>
+<area shape="rect" id="node2" href="$d0/dea/class_custom_slider_widget.html#af85e399a40779b2d5486d67acc78e843" title=" " alt="" coords="5,5,155,47"/>
+</map>

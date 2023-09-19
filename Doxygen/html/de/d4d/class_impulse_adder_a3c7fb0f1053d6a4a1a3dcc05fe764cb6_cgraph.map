@@ -1,0 +1,14 @@
+<map id="ImpulseAdder::setPopBodyPart" name="ImpulseAdder::setPopBodyPart">
+<area shape="rect" id="node1" title="setPopBodyPart устанавливает часть тела, которую отрисовывает на сцене" alt="" coords="5,114,209,140"/>
+<area shape="rect" id="node2" href="$df/d66/class_mio_suit.html#ac7804dec56e9fbd724faf2d7bb8789ce" title="addPopToScene добавляет всплывающие контакты на сцену" alt="" coords="264,38,433,64"/>
+<area shape="rect" id="node3" href="$d0/dcb/class_body.html#a2b72a5ebbfe163dee6861ea5570546fd" title="addPopToScene добавляет выбранную часть тела в увеличенном варианте на всплывающее окно" alt="" coords="271,88,426,115"/>
+<area shape="rect" id="node11" href="$d0/dcb/class_body.html#a39ecfa83f4de3c60e004f3d154414bc3" title="getPopStatus возвращает статус всплывающей части тела" alt="" coords="512,190,651,216"/>
+<area shape="rect" id="node12" href="$df/d66/class_mio_suit.html#af33273c61b459aec07c00dcf4e6f52d2" title="resetPopDotsPairs деактивирует всплывающие пары контактов" alt="" coords="257,190,440,216"/>
+<area shape="rect" id="node4" href="$d6/d3b/class_pop_body_part.html#a7bd4742abec82d3ecec3fbd385c8d096" title="addToScene добавляет часть тела на сцену" alt="" coords="492,38,671,64"/>
+<area shape="rect" id="node5" href="$d0/dcb/class_body.html#a17642bf2d861e2f46fb0884ff05c5096" title="onBackgroundClicked вызывается при нажатии на фон" alt="" coords="488,88,675,115"/>
+<area shape="rect" id="node6" href="$d0/dcb/class_body.html#ad904a015d2d007cbcb69a31ac7fe3d67" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="496,139,667,166"/>
+<area shape="rect" id="node10" href="$d6/d3b/class_pop_body_part.html#a3ecc7ddb1493722c6316c3be4ffc894d" title="setStatus" alt="" coords="736,38,899,64"/>
+<area shape="rect" id="node7" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="723,190,912,216"/>
+<area shape="rect" id="node8" href="$d2/d6f/class_body_part.html#a3be2587294821dd9ade3ab5c6b3926d5" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="742,139,893,166"/>
+<area shape="rect" id="node9" href="$d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f" title="hide скрывает объект на сцене" alt="" coords="960,139,1067,166"/>
+</map>

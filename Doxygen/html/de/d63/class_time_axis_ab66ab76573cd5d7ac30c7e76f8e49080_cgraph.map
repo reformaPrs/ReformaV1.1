@@ -1,0 +1,6 @@
+<map id="TimeAxis::setStartTime" name="TimeAxis::setStartTime">
+<area shape="rect" id="node1" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="5,31,164,57"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="212,5,408,32"/>
+<area shape="rect" id="node3" href="$de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="217,56,403,83"/>
+<area shape="rect" id="node4" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="456,56,652,83"/>
+</map>

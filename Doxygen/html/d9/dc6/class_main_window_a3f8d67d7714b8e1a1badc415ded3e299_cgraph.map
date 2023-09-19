@@ -1,0 +1,8 @@
+<map id="MainWindow::sendHalfhourData" name="MainWindow::sendHalfhourData">
+<area shape="rect" id="node1" title="sendHalfhourData отправляет данные активного получаса" alt="" coords="5,81,212,108"/>
+<area shape="rect" id="node2" href="$df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="292,5,439,32"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a4c894f92c0922023b08ab2aceffb0d89" title="sendDataPackets отсылает 4 пакета с данными о всех парах контактов" alt="" coords="262,56,469,83"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a82c524347ce0d331c634f071a26bda71" title="sendTimingPacket отсылает пакет для интервалов" alt="" coords="260,107,471,133"/>
+<area shape="rect" id="node6" href="$df/d66/class_mio_suit.html#ae1a0a0e56d431a3edf58529bdd9c6460" title="setHalfhourIndex задаёт новый индекс получаса" alt="" coords="280,157,451,184"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="519,81,705,108"/>
+</map>

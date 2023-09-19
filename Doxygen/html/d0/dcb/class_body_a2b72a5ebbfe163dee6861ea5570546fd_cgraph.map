@@ -1,0 +1,10 @@
+<map id="Body::addPopToScene" name="Body::addPopToScene">
+<area shape="rect" id="node1" title="addPopToScene добавляет выбранную часть тела в увеличенном варианте на всплывающее окно" alt="" coords="5,81,160,108"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#a7bd4742abec82d3ecec3fbd385c8d096" title="addToScene добавляет часть тела на сцену" alt="" coords="212,5,391,32"/>
+<area shape="rect" id="node3" href="$d0/dcb/class_body.html#a17642bf2d861e2f46fb0884ff05c5096" title="onBackgroundClicked вызывается при нажатии на фон" alt="" coords="208,56,395,83"/>
+<area shape="rect" id="node4" href="$d0/dcb/class_body.html#ad904a015d2d007cbcb69a31ac7fe3d67" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="216,107,387,133"/>
+<area shape="rect" id="node8" href="$d6/d3b/class_pop_body_part.html#a3ecc7ddb1493722c6316c3be4ffc894d" title="setStatus" alt="" coords="456,157,619,184"/>
+<area shape="rect" id="node5" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="443,56,632,83"/>
+<area shape="rect" id="node6" href="$d2/d6f/class_body_part.html#a3be2587294821dd9ade3ab5c6b3926d5" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="462,107,613,133"/>
+<area shape="rect" id="node7" href="$d6/d51/class_text_rect.html#a8e28e7bb74993d9c6b3fa59ed1f5c89f" title="hide скрывает объект на сцене" alt="" coords="680,107,787,133"/>
+</map>

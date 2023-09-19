@@ -1,0 +1,17 @@
+<map id="MioSuit::setHalfhourIndex" name="MioSuit::setHalfhourIndex">
+<area shape="rect" id="node1" title="setHalfhourIndex задаёт новый индекс получаса" alt="" coords="1981,124,2152,151"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a577a5c523b9e2f2b63fbc1cef3cf68a6" title="onHalfhourModeDisabled вызывается при отключении режима получасов" alt="" coords="1729,70,1927,111"/>
+<area shape="rect" id="node12" href="$d9/dc6/class_main_window.html#a9d11494701432a2b68195c54213f1a0f" title="setRecievedValues обновляет пары в соответствии с полученными с прибора данными" alt="" coords="1460,5,1675,32"/>
+<area shape="rect" id="node13" href="$d9/dc6/class_main_window.html#a89e97b4308d4e234c31a7023f8d5d928" title="onHalfhourToggled вызывается нажатием на одну из кнопок получаса" alt="" coords="1723,153,1933,180"/>
+<area shape="rect" id="node14" href="$d9/dc6/class_main_window.html#a956b1fa99a05bacebc7b645747fdae09" title="sendHalfhourData отправляет данные активного получаса" alt="" coords="1725,204,1931,231"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="1471,107,1663,133"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#a209079830a37745e47076a762bab17d6" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="1227,31,1412,57"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="1236,157,1403,184"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,107,179,133"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#a092e8d45c24f1c28f1015b3fa7dc8284" title="onPortTriggered вызывается при выборе порта прибора" alt="" coords="984,31,1179,57"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#ae88824a309842c91bcb751650907a7ab" title="updatePortsList обновляет список портов" alt="" coords="741,5,936,32"/>
+<area shape="rect" id="node9" href="$d9/dc6/class_main_window.html#ae7410ead1c1c619ad3699aa1777231f8" title="onDeviceDisconnected вызывается при отключении прибора" alt="" coords="459,56,693,83"/>
+<area shape="rect" id="node10" href="$d9/dc6/class_main_window.html#a6540b8248b4b9d5cfd4b06a1588fb7df" title="onDeviceTriggered вызывается при нажатии на вкладку &quot;Устройство&quot;" alt="" coords="471,5,681,32"/>
+<area shape="rect" id="node11" href="$d9/dc6/class_main_window.html#ac74a8e6b0687f952b1f18cec8b59de65" title="initPortsMenu инициализирует меню портов" alt="" coords="227,31,411,57"/>
+<area shape="rect" id="node15" href="$d9/dc6/class_main_window.html#a4d78c9376a9da99c9680318f9797cd6f" title="onSendClicked вызывается нажатием на кнопку или действие &quot;Отправить&quot;" alt="" coords="1472,208,1663,235"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="IntervalDialog::onStartChanged" name="IntervalDialog::onStartChanged">
+<area shape="rect" id="node1" title="onStartChanged вызывается при изменении времени начала интервала через шкалу" alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node2" href="$d1/d3e/class_interval_dots_pair.html#ae99f9dd3e0eab1849bb69539e6615cf2" title="setStartTime" alt="" coords="252,5,447,32"/>
+</map>

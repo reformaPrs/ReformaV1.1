@@ -1,0 +1,6 @@
+<map id="TimeAxis::setEndTime" name="TimeAxis::setEndTime">
+<area shape="rect" id="node1" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="5,31,159,57"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="207,5,403,32"/>
+<area shape="rect" id="node3" href="$de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="213,56,396,83"/>
+<area shape="rect" id="node4" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="451,56,647,83"/>
+</map>

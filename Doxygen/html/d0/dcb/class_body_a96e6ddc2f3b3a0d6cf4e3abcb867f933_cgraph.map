@@ -1,0 +1,4 @@
+<map id="Body::setPopStatus" name="Body::setPopStatus">
+<area shape="rect" id="node1" title="setPopStatus устанавливает новый статус всплывающей части тела" alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#a3ecc7ddb1493722c6316c3be4ffc894d" title="setStatus" alt="" coords="192,5,355,32"/>
+</map>

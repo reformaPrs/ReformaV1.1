@@ -1,0 +1,6 @@
+<map id="SimpleDotsPair" name="SimpleDotsPair">
+<area shape="rect" id="node1" title="Базовый класс для пары контактов костюма" alt="" coords="54,5,166,32"/>
+<area shape="rect" id="node2" href="$dc/d0f/class_dots_pair.html" title="Класс пары контактов на главном экране" alt="" coords="17,80,89,107"/>
+<area shape="rect" id="node4" href="$d1/d3e/class_interval_dots_pair.html" title="Класс пары контактов для интервалов" alt="" coords="113,80,225,107"/>
+<area shape="rect" id="node3" href="$d0/d5f/class_pop_dots_pair.html" title="Класс пары контактов для всплывающих окон" alt="" coords="5,155,100,181"/>
+</map>

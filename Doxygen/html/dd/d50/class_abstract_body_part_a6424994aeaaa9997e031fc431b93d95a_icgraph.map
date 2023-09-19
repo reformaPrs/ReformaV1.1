@@ -1,0 +1,32 @@
+<map id="AbstractBodyPart::getStatus" name="AbstractBodyPart::getStatus">
+<area shape="rect" id="node1" title="getStatus" alt="" coords="2264,325,2453,351"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#a39ecfa83f4de3c60e004f3d154414bc3" title="getPopStatus возвращает статус всплывающей части тела" alt="" coords="1803,46,1941,73"/>
+<area shape="rect" id="node8" href="$d0/dcb/class_body.html#ad904a015d2d007cbcb69a31ac7fe3d67" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="2033,147,2204,174"/>
+<area shape="rect" id="node11" href="$d0/dcb/class_body.html#a32a39de61acc8d3d110d735318a655a9" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="2052,325,2185,351"/>
+<area shape="rect" id="node27" href="$d0/dcb/class_body.html#ae97b0f4e1794f67851d2e0e2b04e1665" title="setCalculatePartStatus устанавливает статус части тела на активный в зависимости от поданного значени..." alt="" coords="2021,437,2216,463"/>
+<area shape="rect" id="node30" href="$d0/dcb/class_body.html#a2f5dadb187b6108143192a7e029e4623" title="update обновляет мышцы в соответствии с значениями полученных пар" alt="" coords="2069,487,2168,514"/>
+<area shape="rect" id="node3" href="$de/d4d/class_impulse_adder.html#a98de4f4b314bfba1713a79da246ef66b" title="onBodyPartClicked вызывается при получении сигнала от части тела" alt="" coords="1521,5,1698,47"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#af3754b6c30a25d7acd6994882e1aa6b2" title="onImpulseAdderDone вызывает при закрытии всплывающих мышц для задания импульсов" alt="" coords="1496,71,1723,98"/>
+<area shape="rect" id="node7" href="$de/d4d/class_impulse_adder.html#a3c7fb0f1053d6a4a1a3dcc05fe764cb6" title="setPopBodyPart устанавливает часть тела, которую отрисовывает на сцене" alt="" coords="1507,122,1711,149"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="1233,97,1448,123"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="984,97,1185,123"/>
+<area shape="rect" id="node9" href="$d0/dcb/class_body.html#a2b72a5ebbfe163dee6861ea5570546fd" title="addPopToScene добавляет выбранную часть тела в увеличенном варианте на всплывающее окно" alt="" coords="1795,147,1949,174"/>
+<area shape="rect" id="node10" href="$d0/dcb/class_body.html#aa5415e796b81b994527810fe6255d24e" title="readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла" alt="" coords="1771,97,1973,123"/>
+<area shape="rect" id="node12" href="$d0/dcb/class_body.html#aea0484ca63f4a41b0f8d69b463f5b92c" title="copyHalfhour копирует информацию на другой получас" alt="" coords="1805,249,1939,275"/>
+<area shape="rect" id="node14" href="$d9/dc6/class_main_window.html#a9e2960cfc72d6625032258f8bcc4079d" title="onHalfhourModeEnabled вызывается при включении режима получасов" alt="" coords="1773,452,1971,493"/>
+<area shape="rect" id="node18" href="$d9/dc6/class_main_window.html#a9d11494701432a2b68195c54213f1a0f" title="setRecievedValues обновляет пары в соответствии с полученными с прибора данными" alt="" coords="1502,299,1717,326"/>
+<area shape="rect" id="node19" href="$d9/dc6/class_main_window.html#a209079830a37745e47076a762bab17d6" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="1248,274,1433,301"/>
+<area shape="rect" id="node25" href="$d9/dc6/class_main_window.html#a89e97b4308d4e234c31a7023f8d5d928" title="onHalfhourToggled вызывается нажатием на одну из кнопок получаса" alt="" coords="1504,401,1715,427"/>
+<area shape="rect" id="node26" href="$d9/dc6/class_main_window.html#afb6cd5d734c075963465d0eec11902c6" title="onSaveClicked вызывается нажатием на кнопку или действие &quot;Сохранить&quot;" alt="" coords="1515,350,1704,377"/>
+<area shape="rect" id="node13" href="$d9/dc6/class_main_window.html#a553697c93cf9c770a2a0f5cce92e3fcc" title="onCopyShortcut вызывается нажатим на сочитание клавиш для копирования в системе" alt="" coords="1511,249,1708,275"/>
+<area shape="rect" id="node15" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,401,179,427"/>
+<area shape="rect" id="node16" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="1513,451,1705,478"/>
+<area shape="rect" id="node17" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="1257,401,1424,427"/>
+<area shape="rect" id="node20" href="$d9/dc6/class_main_window.html#a092e8d45c24f1c28f1015b3fa7dc8284" title="onPortTriggered вызывается при выборе порта прибора" alt="" coords="987,274,1182,301"/>
+<area shape="rect" id="node21" href="$d9/dc6/class_main_window.html#ae88824a309842c91bcb751650907a7ab" title="updatePortsList обновляет список портов" alt="" coords="741,249,936,275"/>
+<area shape="rect" id="node22" href="$d9/dc6/class_main_window.html#ae7410ead1c1c619ad3699aa1777231f8" title="onDeviceDisconnected вызывается при отключении прибора" alt="" coords="459,299,693,326"/>
+<area shape="rect" id="node23" href="$d9/dc6/class_main_window.html#a6540b8248b4b9d5cfd4b06a1588fb7df" title="onDeviceTriggered вызывается при нажатии на вкладку &quot;Устройство&quot;" alt="" coords="471,249,681,275"/>
+<area shape="rect" id="node24" href="$d9/dc6/class_main_window.html#ac74a8e6b0687f952b1f18cec8b59de65" title="initPortsMenu инициализирует меню портов" alt="" coords="227,274,411,301"/>
+<area shape="rect" id="node28" href="$dd/dbd/class_interval_simulation.html#a492803bfc6f8908a07dcc04c52d840f7" title="onSimulationTimeChanged вызывается каждую секунду симуляции" alt="" coords="1780,583,1964,624"/>
+<area shape="rect" id="node29" href="$dc/db8/class_interval_simulation_widget.html#af5bda8aa592a7e94c73d6d7c67ed24fa" title="onSimulationTimeChanged вызывается каждую секунду симуляции" alt="" coords="1780,517,1964,559"/>
+</map>

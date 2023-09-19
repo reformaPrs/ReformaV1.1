@@ -1,0 +1,13 @@
+<map id="BodyPart::setIntaractive" name="BodyPart::setIntaractive">
+<area shape="rect" id="node1" title="setIntaractive" alt="" coords="976,107,1136,133"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#ab25bacb7a215cb819328dc2aeed48b59" title="setIntaractive обновляет интерактивность частей тела в зависимости от значения activePart" alt="" coords="792,107,928,133"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="255,31,469,57"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a89e97b4308d4e234c31a7023f8d5d928" title="onHalfhourToggled вызывается нажатием на одну из кнопок получаса" alt="" coords="525,107,736,133"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#af3754b6c30a25d7acd6994882e1aa6b2" title="onImpulseAdderDone вызывает при закрытии всплывающих мышц для задания импульсов" alt="" coords="517,5,744,32"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#aaf19c173d7ee7f136d685849762a0aa8" title="onIntervalIntaractivePartChanged вызывается при изменении мышц в интервалах" alt="" coords="523,209,739,250"/>
+<area shape="rect" id="node10" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="535,157,727,184"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,31,207,57"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="279,107,445,133"/>
+<area shape="rect" id="node9" href="$d9/dc6/class_main_window.html#a4507212aefca6178791585d378128231" title="initIntervalDialog инициализирует диалоговое окно интервалов" alt="" coords="281,209,443,250"/>
+<area shape="rect" id="node11" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="275,157,449,184"/>
+</map>

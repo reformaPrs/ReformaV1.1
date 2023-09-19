@@ -1,0 +1,4 @@
+<map id="IntervalWidget::onEndChanged" name="IntervalWidget::onEndChanged">
+<area shape="rect" id="node1" title="onEndChanged вызывается при изменении времени конца интервала через шкалу" alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node2" href="$d1/d3e/class_interval_dots_pair.html#a703f030eb780ae9b169631494c6e85e2" title="setEndTime" alt="" coords="252,5,441,32"/>
+</map>

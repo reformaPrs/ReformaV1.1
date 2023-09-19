@@ -1,0 +1,4 @@
+<map id="TimeAxis::simulationEnded" name="TimeAxis::simulationEnded">
+<area shape="rect" id="node1" title="simulationEnded вызывается при окончании симуляции" alt="" coords="228,5,408,32"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#a8142291d56eb295970e76711cae18009" title="moveSimulation сдвигает время симуляции" alt="" coords="5,5,180,32"/>
+</map>

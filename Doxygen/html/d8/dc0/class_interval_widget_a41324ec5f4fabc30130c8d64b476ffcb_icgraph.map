@@ -1,0 +1,6 @@
+<map id="IntervalWidget::addPairs" name="IntervalWidget::addPairs">
+<area shape="rect" id="node1" title="addPairs добавляет новые пары" alt="" coords="792,5,955,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#af3754b6c30a25d7acd6994882e1aa6b2" title="onImpulseAdderDone вызывает при закрытии всплывающих мышц для задания импульсов" alt="" coords="517,5,744,32"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a0bf5ebd13e3d88f673c0472515c86b3a" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="255,5,469,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,5,207,32"/>
+</map>

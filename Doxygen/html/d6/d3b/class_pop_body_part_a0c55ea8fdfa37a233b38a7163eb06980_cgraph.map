@@ -1,0 +1,4 @@
+<map id="PopBodyPart::onMuscleClicked" name="PopBodyPart::onMuscleClicked">
+<area shape="rect" id="node1" title="onMuscleClicked вызывается при нажатии на картинку мышцы" alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#aa5da772b503c6ba3ffc8f32df9f3e4dc" title="setStatus" alt="" coords="260,5,423,32"/>
+</map>

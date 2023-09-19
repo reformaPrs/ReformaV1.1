@@ -1,0 +1,5 @@
+<map id="MainWindow::onIntervalPartDeleted" name="MainWindow::onIntervalPartDeleted">
+<area shape="rect" id="node1" title="onIntervalPartDeleted вызывается при изменении интерактивности мышцы" alt="" coords="5,23,188,65"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#aa5da772b503c6ba3ffc8f32df9f3e4dc" title="setStatus" alt="" coords="236,5,399,32"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="247,56,387,83"/>
+</map>

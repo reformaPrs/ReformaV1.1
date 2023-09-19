@@ -1,0 +1,5 @@
+<map id="MainWindow::sendStatusTick" name="MainWindow::sendStatusTick">
+<area shape="rect" id="node1" title="sendStatusTick вызывается при срабатывании таймера statusTickTimer" alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#ae35f43a8452da4d9612f4fea56cf9d09" title="sendCommand отправляет пакет с командой" alt="" coords="248,5,439,32"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="487,5,673,32"/>
+</map>

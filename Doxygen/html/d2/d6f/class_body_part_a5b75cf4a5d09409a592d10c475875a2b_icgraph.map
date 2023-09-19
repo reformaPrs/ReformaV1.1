@@ -1,0 +1,8 @@
+<map id="BodyPart::getStatus" name="BodyPart::getStatus">
+<area shape="rect" id="node1" title="getStatus" alt="" coords="487,56,627,83"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a553697c93cf9c770a2a0f5cce92e3fcc" title="onCopyShortcut вызывается нажатим на сочитание клавиш для копирования в системе" alt="" coords="234,5,431,32"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a0068db57f6f251b7f06bec37e24e0923" title="onHalfHourToggled вызывается нажатием на одну из кнопок получаса" alt="" coords="227,56,439,83"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#afb6cd5d734c075963465d0eec11902c6" title="onSaveClicked вызывается нажатием на кнопку или действие &quot;Сохранить&quot;" alt="" coords="238,107,427,133"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="9,56,175,83"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,107,179,133"/>
+</map>

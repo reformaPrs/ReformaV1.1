@@ -1,0 +1,6 @@
+<map id="IntervalDialog::pairsActivated" name="IntervalDialog::pairsActivated">
+<area shape="rect" id="node1" title="pairsActivated вызывается при активации мышцы в симуляции" alt="" coords="693,31,880,57"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#a8502b211e30b6af12ae84002e800eae3" title="onPairsActivated вызывается для передачи сигнала дальше" alt="" coords="443,5,645,32"/>
+<area shape="rect" id="node3" href="$dd/dd9/class_interval_dialog.html#a8d463e367f4dc697c9f35bcc79051300" title="onShowClicked вызывается при нажатии на кнопку &quot;Просмотр&quot;" alt="" coords="200,31,395,57"/>
+<area shape="rect" id="node4" href="$dd/dd9/class_interval_dialog.html#a9677d56c40fbf5c4f8da1f640135ab78" title=" " alt="" coords="5,23,152,65"/>
+</map>

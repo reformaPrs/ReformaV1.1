@@ -1,0 +1,5 @@
+<map id="TextRect::addToScene" name="TextRect::addToScene">
+<area shape="rect" id="node1" title="addToScene добавляет на сцену" alt="" coords="228,31,383,57"/>
+<area shape="rect" id="node2" href="$d2/d6f/class_body_part.html#a32f0be22bf2b3cf421599ec41edf295d" title="addToScene добавляет часть тела на сцену" alt="" coords="15,5,171,32"/>
+<area shape="rect" id="node3" href="$d0/d5f/class_pop_dots_pair.html#ad4749035e5ed7b74a3900dbb7f2c4289" title="addToScene добавляет пару контактов на сцену" alt="" coords="5,56,180,83"/>
+</map>

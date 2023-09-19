@@ -1,0 +1,19 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node1" title=" " alt="" coords="8,5,156,32"/>
+<area shape="rect" id="node2" href="$df/ddf/class_dot.html" title="Класс точки" alt="" coords="248,5,291,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,56,159,83"/>
+<area shape="rect" id="node4" href="$d9/d15/class_hover_pixmap_item.html" title="Класс картинки с сигналами при нажатии наведении и выхода из наведения" alt="" coords="208,56,331,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="47,208,117,235"/>
+<area shape="rect" id="node6" href="$dd/d50/class_abstract_body_part.html" title="The AbstractBodyPart class &#45; абстрактный класс части тела" alt="" coords="207,107,332,133"/>
+<area shape="rect" id="node9" href="$d0/dcb/class_body.html" title="The Body class &#45; класс фасад всего тела." alt="" coords="243,157,295,184"/>
+<area shape="rect" id="node10" href="$dc/d0f/class_dots_pair.html" title="Класс пары контактов на главном экране" alt="" coords="233,411,305,437"/>
+<area shape="rect" id="node12" href="$de/d1d/class_heater.html" title="Класс нагревательного элемента" alt="" coords="239,208,299,235"/>
+<area shape="rect" id="node13" href="$de/d4d/class_impulse_adder.html" title="Класс диалогового окна для добавления значений импульсов" alt="" coords="219,259,320,285"/>
+<area shape="rect" id="node14" href="$df/d66/class_mio_suit.html" title="Класс костюма Является фасадом для всех пар контактов и нагревателей Также может существовать только ..." alt="" coords="236,309,303,336"/>
+<area shape="rect" id="node15" href="$d6/d51/class_text_rect.html" title="Класс текста с рамкой" alt="" coords="232,360,307,387"/>
+<area shape="rect" id="node7" href="$d2/d6f/class_body_part.html" title="Класс части тела на главном экране" alt="" coords="391,132,467,159"/>
+<area shape="rect" id="node8" href="$d6/d3b/class_pop_body_part.html" title="Класс части тела для всплывающего окна" alt="" coords="380,81,479,108"/>
+<area shape="rect" id="node11" href="$d0/d5f/class_pop_dots_pair.html" title="Класс пары контактов для всплывающих окон" alt="" coords="382,411,477,437"/>
+<area shape="rect" id="node16" href="$d9/d91/class_simple_dots_pair.html" title="Базовый класс для пары контактов костюма" alt="" coords="26,436,138,463"/>
+<area shape="rect" id="node17" href="$d1/d3e/class_interval_dots_pair.html" title="Класс пары контактов для интервалов" alt="" coords="213,461,325,488"/>
+</map>

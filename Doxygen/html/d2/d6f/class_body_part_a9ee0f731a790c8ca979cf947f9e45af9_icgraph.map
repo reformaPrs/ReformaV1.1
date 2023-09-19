@@ -1,0 +1,5 @@
+<map id="BodyPart::onHoverEntered" name="BodyPart::onHoverEntered">
+<area shape="rect" id="node1" title="onHoverEntered вызывается при наведении на мышцу" alt="" coords="391,5,565,32"/>
+<area shape="rect" id="node2" href="$d2/d6f/class_body_part.html#a4cb80294e4b04cd83b935da0963e58be" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="192,5,343,32"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#a8eb593c1f53bda975f7c449fa5296f74" title="BodyPart." alt="" coords="5,5,144,32"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="MainWindow::onOpenClicked" name="MainWindow::onOpenClicked">
+<area shape="rect" id="node1" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="5,385,197,412"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a577a5c523b9e2f2b63fbc1cef3cf68a6" title="onHalfhourModeDisabled вызывается при отключении режима получасов" alt="" coords="245,49,443,90"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a9e2960cfc72d6625032258f8bcc4079d" title="onHalfhourModeEnabled вызывается при включении режима получасов" alt="" coords="245,201,443,242"/>
+<area shape="rect" id="node11" href="$d0/dcb/class_body.html#ad754ebc26f5ab93fc80d52989b5156be" title="readFromFile считывает статусы мышц из файла" alt="" coords="276,335,412,361"/>
+<area shape="rect" id="node12" href="$df/d66/class_mio_suit.html#ae84c0ca8d74964d8603466cc079e2368" title="readFromFile считывает информацию о костюме из файла" alt="" coords="269,385,419,412"/>
+<area shape="rect" id="node17" href="$d0/dcb/class_body.html#ab25bacb7a215cb819328dc2aeed48b59" title="setIntaractive обновляет интерактивность частей тела в зависимости от значения activePart" alt="" coords="276,436,412,463"/>
+<area shape="rect" id="node19" href="$d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86" title="update обновляет мышцы в соответсвии с сохранённой информацией" alt="" coords="295,487,393,513"/>
+<area shape="rect" id="node21" href="$df/d66/class_mio_suit.html#a2ac95b2e1a82256313bbf759e91942d0" title="update обновляет пары контактов в соответствии с сохранёнными значениями" alt="" coords="287,537,401,564"/>
+<area shape="rect" id="node3" href="$d0/dcb/class_body.html#a03e2f9745af5e226c77115ef2d780b00" title="setHalfhourIndex задаёт новый индекс получаса" alt="" coords="518,5,674,32"/>
+<area shape="rect" id="node4" href="$df/d66/class_mio_suit.html#ae1a0a0e56d431a3edf58529bdd9c6460" title="setHalfhourIndex задаёт новый индекс получаса" alt="" coords="511,56,681,83"/>
+<area shape="rect" id="node6" href="$d0/dcb/class_body.html#acfd562ff6d6de31313a0e0643d6c1638" title="activateHalfhour активирует режим получасов" alt="" coords="521,107,671,133"/>
+<area shape="rect" id="node7" href="$df/d66/class_mio_suit.html#a3442797bf38fd184047472f6d8795b43" title="activateHalfhour активирует режим получасов" alt="" coords="513,157,679,184"/>
+<area shape="rect" id="node8" href="$d0/dcb/class_body.html#a32a39de61acc8d3d110d735318a655a9" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="529,208,663,235"/>
+<area shape="rect" id="node10" href="$df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="523,259,669,285"/>
+<area shape="rect" id="node9" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="749,208,939,235"/>
+<area shape="rect" id="node13" href="$df/d66/class_mio_suit.html#a51c6bf7f6890e2ef3be7700b5e2df542" title="checkForActiveHalfhour проверяет записанные данные получасов" alt="" coords="491,309,701,336"/>
+<area shape="rect" id="node14" href="$d1/d3e/class_interval_dots_pair.html#a703f030eb780ae9b169631494c6e85e2" title="setEndTime" alt="" coords="501,360,691,387"/>
+<area shape="rect" id="node15" href="$d1/d3e/class_interval_dots_pair.html#ae99f9dd3e0eab1849bb69539e6615cf2" title="setStartTime" alt="" coords="499,411,693,437"/>
+<area shape="rect" id="node16" href="$d9/d91/class_simple_dots_pair.html#a0300c142c4a808ca8bdc3de9a04654a4" title="setValue" alt="" coords="511,461,681,488"/>
+<area shape="rect" id="node18" href="$d2/d6f/class_body_part.html#a24feb7f4d611a87d83b740ae8261684f" title="setIntaractive" alt="" coords="516,512,676,539"/>
+<area shape="rect" id="node20" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="526,563,666,589"/>
+</map>

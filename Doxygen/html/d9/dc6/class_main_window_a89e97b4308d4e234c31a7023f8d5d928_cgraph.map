@@ -1,0 +1,15 @@
+<map id="MainWindow::onHalfhourToggled" name="MainWindow::onHalfhourToggled">
+<area shape="rect" id="node1" title="onHalfhourToggled вызывается нажатием на одну из кнопок получаса" alt="" coords="5,208,216,235"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#a755b4c2559548e2c698b4ef78c20bab2" title="hide скрывает все части тела, но не фон (всё тело)" alt="" coords="307,5,391,32"/>
+<area shape="rect" id="node3" href="$df/d66/class_mio_suit.html#a52f6295c125e119f1c3a6c1cc032c8c8" title="hide скрывает пары контактов" alt="" coords="300,56,399,83"/>
+<area shape="rect" id="node4" href="$d0/dcb/class_body.html#a32a39de61acc8d3d110d735318a655a9" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="283,107,416,133"/>
+<area shape="rect" id="node6" href="$df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="276,157,423,184"/>
+<area shape="rect" id="node7" href="$d0/dcb/class_body.html#a03e2f9745af5e226c77115ef2d780b00" title="setHalfhourIndex задаёт новый индекс получаса" alt="" coords="271,208,427,235"/>
+<area shape="rect" id="node8" href="$df/d66/class_mio_suit.html#ae1a0a0e56d431a3edf58529bdd9c6460" title="setHalfhourIndex задаёт новый индекс получаса" alt="" coords="264,259,435,285"/>
+<area shape="rect" id="node9" href="$d0/dcb/class_body.html#ab25bacb7a215cb819328dc2aeed48b59" title="setIntaractive обновляет интерактивность частей тела в зависимости от значения activePart" alt="" coords="281,309,417,336"/>
+<area shape="rect" id="node11" href="$d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86" title="update обновляет мышцы в соответсвии с сохранённой информацией" alt="" coords="300,360,399,387"/>
+<area shape="rect" id="node13" href="$df/d66/class_mio_suit.html#a2ac95b2e1a82256313bbf759e91942d0" title="update обновляет пары контактов в соответствии с сохранёнными значениями" alt="" coords="293,411,406,437"/>
+<area shape="rect" id="node5" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="483,107,672,133"/>
+<area shape="rect" id="node10" href="$d2/d6f/class_body_part.html#a24feb7f4d611a87d83b740ae8261684f" title="setIntaractive" alt="" coords="497,309,657,336"/>
+<area shape="rect" id="node12" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="507,360,647,387"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="MainWindow::sendTimingPacket" name="MainWindow::sendTimingPacket">
+<area shape="rect" id="node1" title="sendTimingPacket отсылает пакет для интервалов" alt="" coords="947,31,1157,57"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#aa0e7f76e975450f88f74e0f630bca247" title=" " alt="" coords="692,31,899,57"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a4d78c9376a9da99c9680318f9797cd6f" title="onSendClicked вызывается нажатием на кнопку или действие &quot;Отправить&quot;" alt="" coords="453,31,644,57"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="235,5,402,32"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="232,56,405,83"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,31,184,57"/>
+</map>

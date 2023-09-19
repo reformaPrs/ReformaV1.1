@@ -1,0 +1,8 @@
+<map id="MainWindow::sendHalfhourData" name="MainWindow::sendHalfhourData">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,212,134"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#a537dda5234888dbc30601602996b1455" title="getIntervalDotsPairsDown" alt="" coords="283,5,447,47"/>
+<area shape="rect" id="node3" href="$dd/dd9/class_interval_dialog.html#a9af3b5bcd34ffe643c83ee5f60cb7a71" title="getIntervalDotsPairsUp" alt="" coords="283,71,447,112"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a4c894f92c0922023b08ab2aceffb0d89" title="sendDataPackets отсылает 4 пакета с данными о всех парах контактов" alt="" coords="262,137,469,163"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#a968c3cb5fa3990338d927fafc3010a40" title="sendTimingPacket отсылает пакет для интервалов" alt="" coords="260,187,471,214"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="519,162,705,189"/>
+</map>

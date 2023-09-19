@@ -1,0 +1,29 @@
+<map id="IntervalDialog::IntervalDialog" name="IntervalDialog::IntervalDialog">
+<area shape="rect" id="node1" title=" " alt="" coords="5,273,152,314"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#ab7c296f30d139e618f6e57b12fc6d861" title="onAddClicked вызывается при нажатии кнопки &quot;Добавить&quot;" alt="" coords="206,5,393,32"/>
+<area shape="rect" id="node3" href="$dd/dd9/class_interval_dialog.html#ab7c47277ac7911a70cdcbac01d49a700" title="onComboBoxIndexChanged вызывается при выборе части тела" alt="" coords="207,57,391,98"/>
+<area shape="rect" id="node4" href="$dd/dd9/class_interval_dialog.html#ae0ae3e979f1080600ae0c41cb6f7be80" title="onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;" alt="" coords="221,122,378,163"/>
+<area shape="rect" id="node7" href="$dd/dd9/class_interval_dialog.html#ab040d68c356e533e8768ed8019384555" title="onEndChanged вызывается при изменении времени конца интервала через шкалу" alt="" coords="202,188,397,215"/>
+<area shape="rect" id="node9" href="$dd/dd9/class_interval_dialog.html#aa4a28d6c4bccbad920257ff1143269e4" title="onListItemClicked вызывается при нажатии на объект листа" alt="" coords="216,422,383,463"/>
+<area shape="rect" id="node21" href="$dd/dd9/class_interval_dialog.html#ae7c184969a0dfac872d44a399c6541f7" title="onSaveClicked вызывается при нажатии на кнопку &quot;Сохранить&quot;" alt="" coords="204,488,395,515"/>
+<area shape="rect" id="node22" href="$dd/dd9/class_interval_dialog.html#a8d463e367f4dc697c9f35bcc79051300" title="onShowClicked вызывается при нажатии на кнопку &quot;Просмотр&quot;" alt="" coords="202,539,397,565"/>
+<area shape="rect" id="node24" href="$dd/dd9/class_interval_dialog.html#afb7a8e2eefd7146d5c01d81e4d720825" title="onSpinBoxEndChanged вызывается при изменении времени конца интервала в SpinBox&#39;е" alt="" coords="215,239,384,281"/>
+<area shape="rect" id="node25" href="$dd/dd9/class_interval_dialog.html#ad7b6c5409f17319a084f4cb9bf9129b6" title="onSpinBoxStartChanged вызывается при изменении времени начала интервала в SpinBox&#39;е" alt="" coords="215,305,384,346"/>
+<area shape="rect" id="node27" href="$dd/dd9/class_interval_dialog.html#adf4b5d6547a926d1535bf603d18c9130" title="onStartChanged вызывается при изменении времени начала интервала через шкалу" alt="" coords="200,371,399,397"/>
+<area shape="rect" id="node5" href="$de/d63/class_time_axis.html#a93ee931de960de949bdec50b2b1ee5ec" title="deleteProgressBar удаляет интервал по индексу i" alt="" coords="453,81,643,108"/>
+<area shape="rect" id="node6" href="$d9/d91/class_simple_dots_pair.html#a0e651d74ab9e43115da2974c859a68ec" title="getPartID" alt="" coords="461,132,635,159"/>
+<area shape="rect" id="node8" href="$d1/d3e/class_interval_dots_pair.html#a703f030eb780ae9b169631494c6e85e2" title="setEndTime" alt="" coords="453,192,643,219"/>
+<area shape="rect" id="node10" href="$de/d63/class_time_axis.html#a5e03f029108a8aaf98bf987fcf24b15d" title="selectProgressBar делает под индексом i интервал активныым" alt="" coords="453,425,643,452"/>
+<area shape="rect" id="node11" href="$de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e" title="activateProgressBar активирует интервал" alt="" coords="705,413,905,440"/>
+<area shape="rect" id="node12" href="$de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec" title="deactivateProgressBar деактивирует интервал" alt="" coords="697,464,912,491"/>
+<area shape="rect" id="node13" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="1204,312,1400,339"/>
+<area shape="rect" id="node14" href="$de/d63/class_time_axis.html#a99bcf0c3ee80441c5a7b0a3ee66c0247" title="hideActivePoints скрывает нижнюю подпись у интервала" alt="" coords="715,515,895,541"/>
+<area shape="rect" id="node15" href="$de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="728,256,881,283"/>
+<area shape="rect" id="node18" href="$de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="725,312,884,339"/>
+<area shape="rect" id="node20" href="$de/d63/class_time_axis.html#a5631b5d880c0db1bdc0e0daffa80ef06" title="showActivePoints показывает нижнюю подпись у интервала" alt="" coords="711,565,898,592"/>
+<area shape="rect" id="node16" href="$de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="960,261,1156,288"/>
+<area shape="rect" id="node17" href="$de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="967,211,1149,237"/>
+<area shape="rect" id="node19" href="$de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="965,312,1151,339"/>
+<area shape="rect" id="node23" href="$dd/dd9/class_interval_dialog.html#a8502b211e30b6af12ae84002e800eae3" title="onPairsActivated вызывается для передачи сигнала дальше" alt="" coords="447,539,649,565"/>
+<area shape="rect" id="node26" href="$d1/d3e/class_interval_dots_pair.html#ae99f9dd3e0eab1849bb69539e6615cf2" title="setStartTime" alt="" coords="451,367,645,393"/>
+</map>

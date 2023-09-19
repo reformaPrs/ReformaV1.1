@@ -1,0 +1,4 @@
+<map id="Body::translate" name="Body::translate">
+<area shape="rect" id="node1" title="translate переводит тексты подсказок частей тела на общей картинке" alt="" coords="221,5,332,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a154d6f626586344f44a46bf9a5c52c2c" title="updateText обновляет текст" alt="" coords="5,5,173,32"/>
+</map>

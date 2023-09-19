@@ -1,0 +1,11 @@
+<map id="SimpleDotsPair::getValue" name="SimpleDotsPair::getValue">
+<area shape="rect" id="node1" title="getValue" alt="" coords="521,157,692,184"/>
+<area shape="rect" id="node2" href="$dc/d0f/class_dots_pair.html#a53786b5ef7d2e796a22ae2bde03a491d" title="addToScene добавляет пару контактов на сцену" alt="" coords="290,5,442,32"/>
+<area shape="rect" id="node3" href="$d0/d5f/class_pop_dots_pair.html#ad4749035e5ed7b74a3900dbb7f2c4289" title="addToScene добавляет пару контактов на сцену" alt="" coords="21,31,195,57"/>
+<area shape="rect" id="node4" href="$d1/d3e/class_interval_dots_pair.html#a957d6d3567c5b2269af792914d2f5c38" title="equals Сравнивает две пары по id, длинной импульса, началу и концу интервала" alt="" coords="287,107,445,133"/>
+<area shape="rect" id="node5" href="$d0/d5f/class_pop_dots_pair.html#aab76e9a472a5bb20661b16ae50af7947" title="onDotHoverEntered вызывается при наведении на точки" alt="" coords="259,157,473,184"/>
+<area shape="rect" id="node6" href="$d0/d5f/class_pop_dots_pair.html#ac6d3d177172786b874ef4e4e80b8db4a" title="onDotHoverLeft вызывается при выходе из наведения на точки" alt="" coords="271,208,461,235"/>
+<area shape="rect" id="node7" href="$dc/d0f/class_dots_pair.html#abb9b8dfeb56bf18e0952fa0dc610ea83" title="show показывает на сцене" alt="" coords="311,259,421,285"/>
+<area shape="rect" id="node9" href="$d1/d3e/class_interval_dots_pair.html#a835d196dc987439725d53fefb8a78263" title="toString" alt="" coords="283,309,449,336"/>
+<area shape="rect" id="node8" href="$d0/d5f/class_pop_dots_pair.html#afcff07128dc3d1713e2780219c7efd5b" title="onImpulseClicked вызывается при сигнале от слайдера о принятии значения" alt="" coords="5,259,211,285"/>
+</map>

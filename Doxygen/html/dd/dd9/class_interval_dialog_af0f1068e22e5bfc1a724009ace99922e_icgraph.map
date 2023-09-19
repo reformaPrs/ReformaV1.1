@@ -1,0 +1,5 @@
+<map id="IntervalDialog::intervalPartDeleted" name="IntervalDialog::intervalPartDeleted">
+<area shape="rect" id="node1" title="intervalPartDeleted вызывается при удалении части тела из интервальности" alt="" coords="405,5,552,47"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#ae0ae3e979f1080600ae0c41cb6f7be80" title="onDeleteClicked вызывается при нажатии на кнопку &quot;Удалить&quot;" alt="" coords="200,5,357,47"/>
+<area shape="rect" id="node3" href="$dd/dd9/class_interval_dialog.html#a9677d56c40fbf5c4f8da1f640135ab78" title=" " alt="" coords="5,5,152,47"/>
+</map>

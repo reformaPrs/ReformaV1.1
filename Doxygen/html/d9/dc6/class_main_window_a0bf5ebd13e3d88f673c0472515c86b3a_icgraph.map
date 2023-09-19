@@ -1,0 +1,4 @@
+<map id="MainWindow::onBodyPartClicked" name="MainWindow::onBodyPartClicked">
+<area shape="rect" id="node1" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="255,5,469,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,5,207,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="MioSuit::clearHalfhour" name="MioSuit::clearHalfhour">
+<area shape="rect" id="node1" title="clearHalfhour" alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node2" href="$df/d66/class_mio_suit.html#a5cad30f1e420aac0db99516c63f03a8f" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="203,5,349,32"/>
+</map>

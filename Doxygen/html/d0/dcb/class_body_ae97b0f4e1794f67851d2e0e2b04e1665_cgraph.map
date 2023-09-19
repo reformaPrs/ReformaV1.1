@@ -1,0 +1,5 @@
+<map id="Body::setCalculatePartStatus" name="Body::setCalculatePartStatus">
+<area shape="rect" id="node1" title="setCalculatePartStatus устанавливает статус части тела на активный в зависимости от поданного значени..." alt="" coords="5,31,200,57"/>
+<area shape="rect" id="node2" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="248,5,437,32"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="273,56,413,83"/>
+</map>

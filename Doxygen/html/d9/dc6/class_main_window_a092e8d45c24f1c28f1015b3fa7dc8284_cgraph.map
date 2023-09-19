@@ -1,0 +1,12 @@
+<map id="MainWindow::onPortTriggered" name="MainWindow::onPortTriggered">
+<area shape="rect" id="node1" title="onPortTriggered вызывается при выборе порта прибора" alt="" coords="5,56,200,83"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#ae7410ead1c1c619ad3699aa1777231f8" title="onDeviceDisconnected вызывается при отключении прибора" alt="" coords="248,5,483,32"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a209079830a37745e47076a762bab17d6" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="273,107,458,133"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#ae88824a309842c91bcb751650907a7ab" title="updatePortsList обновляет список портов" alt="" coords="531,27,725,53"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a049302056dae9da5f5d6325cccedfd75" title="readDataFromPacket считывает данные из пришедшего с прибора пакета" alt="" coords="535,99,721,141"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="1025,68,1212,95"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#ae35f43a8452da4d9612f4fea56cf9d09" title="sendCommand отправляет пакет с командой" alt="" coords="780,107,971,133"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#a3623b94005619a94633c2ac1d643266f" title="updateBodyParts обновляет отрисовку частей тела после загрузки из файла" alt="" coords="773,157,977,184"/>
+<area shape="rect" id="node9" href="$d6/d3b/class_pop_body_part.html#aa5da772b503c6ba3ffc8f32df9f3e4dc" title="setStatus" alt="" coords="1037,144,1200,171"/>
+<area shape="rect" id="node10" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="1049,195,1189,221"/>
+</map>

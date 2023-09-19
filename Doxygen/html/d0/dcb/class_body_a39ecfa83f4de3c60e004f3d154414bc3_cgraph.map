@@ -1,0 +1,4 @@
+<map id="Body::getPopStatus" name="Body::getPopStatus">
+<area shape="rect" id="node1" title="getPopStatus возвращает статус всплывающей части тела" alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="192,5,381,32"/>
+</map>

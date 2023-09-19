@@ -1,0 +1,13 @@
+<map id="TimeAxis::showActivePoints" name="TimeAxis::showActivePoints">
+<area shape="rect" id="node1" title="showActivePoints показывает нижнюю подпись у интервала" alt="" coords="1448,93,1635,119"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#a0ca92e65c848bf4d13c24a674d1f4832" title="addNewProgressBar добавляет один интервал и делает его активным" alt="" coords="1197,63,1400,90"/>
+<area shape="rect" id="node9" href="$de/d63/class_time_axis.html#a5e03f029108a8aaf98bf987fcf24b15d" title="selectProgressBar делает под индексом i интервал активныым" alt="" coords="1203,118,1394,145"/>
+<area shape="rect" id="node3" href="$dd/dd9/class_interval_dialog.html#a368cf07e533e7d3743c37796ae09b306" title="addPairs добавляет новые пары" alt="" coords="987,13,1145,39"/>
+<area shape="rect" id="node8" href="$de/d63/class_time_axis.html#a7dc353ed69d7934850242615496d982a" title="initSimulation инициализирует симуляцию" alt="" coords="985,63,1147,90"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a97c3be5d1473370d4e86f3a756c0dd25" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="720,13,935,39"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a190db24a81b8883c9249850d5cfed68d" title="readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла" alt="" coords="481,5,672,47"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="232,13,433,39"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,13,184,39"/>
+<area shape="rect" id="node10" href="$dd/dd9/class_interval_dialog.html#aa4a28d6c4bccbad920257ff1143269e4" title="onListItemClicked вызывается при нажатии на объект листа" alt="" coords="983,115,1149,156"/>
+<area shape="rect" id="node11" href="$dd/dd9/class_interval_dialog.html#a9677d56c40fbf5c4f8da1f640135ab78" title=" " alt="" coords="754,115,901,156"/>
+</map>

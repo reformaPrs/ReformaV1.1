@@ -1,0 +1,8 @@
+<map id="ImpulseAdder::onBackgroundClicked" name="ImpulseAdder::onBackgroundClicked">
+<area shape="rect" id="node1" title="onBackgroundClicked вызывается при нажатии на задний фон" alt="" coords="5,23,197,65"/>
+<area shape="rect" id="node2" href="$df/d66/class_mio_suit.html#a46ca994fd989acec2050f817a65d1cf1" title="isPopValuesChanged проверяет поменялись ли значения всплывающих пар контактов" alt="" coords="245,5,444,32"/>
+<area shape="rect" id="node3" href="$de/d4d/class_impulse_adder.html#aa287adc68b5a11794ea91a1c5ae577fb" title="проверка перед закрытием" alt="" coords="261,56,428,83"/>
+<area shape="rect" id="node4" href="$df/d66/class_mio_suit.html#a0a69ef989ed595121fd5f75593f9e402" title="isMuscleActive активна ли пара контактов (мышца)" alt="" coords="492,31,653,57"/>
+<area shape="rect" id="node5" href="$d0/dcb/class_body.html#a96e6ddc2f3b3a0d6cf4e3abcb867f933" title="setPopStatus устанавливает новый статус всплывающей части тела" alt="" coords="503,81,642,108"/>
+<area shape="rect" id="node6" href="$d6/d3b/class_pop_body_part.html#a3ecc7ddb1493722c6316c3be4ffc894d" title="setStatus" alt="" coords="701,81,864,108"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Body::removePopFromScene" name="Body::removePopFromScene">
+<area shape="rect" id="node1" title="removePopFromScene &#45; убирает часть тела в увеличенном варианте со сцены" alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#ada1f395bda19566e1515165b16d9d068" title="removeFromScene удаляет часть тела со сцены" alt="" coords="244,5,459,32"/>
+</map>

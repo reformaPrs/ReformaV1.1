@@ -1,0 +1,12 @@
+<map id="MainWindow::setIntaractive" name="MainWindow::setIntaractive">
+<area shape="rect" id="node1" title="setIntaractive обновляет интерактивность частей тела в зависимости от значения activePart" alt="" coords="1013,97,1193,124"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a0068db57f6f251b7f06bec37e24e0923" title="onHalfHourToggled вызывается нажатием на одну из кнопок получаса" alt="" coords="489,12,701,39"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#aaf19c173d7ee7f136d685849762a0aa8" title="onIntervalIntaractivePartChanged вызывается при изменении мышц в интервалах" alt="" coords="749,90,965,131"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#a02b0b269de35136bdad02f3ac2955570" title="onOpenClicked вызывается нажатием на кнопку или действие &quot;Открыть&quot;" alt="" coords="238,188,430,215"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a8ad262789cd18ca48cb4e9be96105430" title="initButtons инициализирует кнопки интерфейса" alt="" coords="9,87,175,113"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a83a631e8c81a2f061c8ee4a152618f67" title="initIntervalDialog инициализирует диалоговое окно интервалов" alt="" coords="515,90,676,131"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#a553697c93cf9c770a2a0f5cce92e3fcc" title="onCopyShortcut вызывается нажатим на сочитание клавиш для копирования в системе" alt="" coords="235,36,433,63"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#a0aa82c54ccfa15fe98eb02e201e39654" title="onIntervalClicked вызывается нажатием на кнопку &quot;Интервал&quot;" alt="" coords="233,87,435,113"/>
+<area shape="rect" id="node10" href="$d9/dc6/class_main_window.html#a9d11494701432a2b68195c54213f1a0f" title="setRecievedValues обновляет пары в соответствии с полученными с прибора данными" alt="" coords="227,137,441,164"/>
+<area shape="rect" id="node9" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,188,179,215"/>
+</map>

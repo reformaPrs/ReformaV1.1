@@ -1,0 +1,6 @@
+<map id="MioSuit::isPopValuesChanged" name="MioSuit::isPopValuesChanged">
+<area shape="rect" id="node1" title="isPopValuesChanged проверяет поменялись ли значения всплывающих пар контактов" alt="" coords="729,13,928,39"/>
+<area shape="rect" id="node2" href="$de/d4d/class_impulse_adder.html#ad07c85181bd46c554d2b840bf249928f" title="onBackgroundClicked вызывается при нажатии на задний фон" alt="" coords="489,5,681,47"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a74239fc92ffa143241be33e79e4e57dc" title="onBackgroundClicked вызывается при нажатии на фон" alt="" coords="255,5,441,47"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="5,13,207,39"/>
+</map>

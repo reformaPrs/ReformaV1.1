@@ -1,0 +1,6 @@
+<map id="Dot::setRadius" name="Dot::setRadius">
+<area shape="rect" id="node1" title="setRadius задаёт новый радиус" alt="" coords="492,31,600,57"/>
+<area shape="rect" id="node2" href="$d0/d5f/class_pop_dots_pair.html#aab76e9a472a5bb20661b16ae50af7947" title="onDotHoverEntered вызывается при наведении на точки" alt="" coords="229,5,444,32"/>
+<area shape="rect" id="node4" href="$d0/d5f/class_pop_dots_pair.html#ac6d3d177172786b874ef4e4e80b8db4a" title="onDotHoverLeft вызывается при выходе из наведения на точки" alt="" coords="241,56,432,83"/>
+<area shape="rect" id="node3" href="$d0/d5f/class_pop_dots_pair.html#a235f6f089dccea0d42174617d7e0892e" title=" " alt="" coords="5,31,181,57"/>
+</map>

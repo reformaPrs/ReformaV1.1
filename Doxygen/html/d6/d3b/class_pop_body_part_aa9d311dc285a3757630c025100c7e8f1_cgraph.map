@@ -1,0 +1,9 @@
+<map id="PopBodyPart::PopBodyPart" name="PopBodyPart::PopBodyPart">
+<area shape="rect" id="node1" title="PopBodyPart." alt="" coords="5,85,189,112"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#aba644c3c677a1e0854384d7837d6b1c0" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="246,56,419,83"/>
+<area shape="rect" id="node7" href="$d6/d3b/class_pop_body_part.html#a3a7e09d1f9268e7fdef5199d1c78f7ba" title="onBackgroundClicked вызывается при нажатии на картинку заднего фона" alt="" coords="237,107,428,149"/>
+<area shape="rect" id="node3" href="$d6/d3b/class_pop_body_part.html#aaa2ac63b2f63c7aac1ac8511b5512a99" title="onHoverEntered вызывается при наведении на мышцу" alt="" coords="480,5,679,32"/>
+<area shape="rect" id="node4" href="$d6/d3b/class_pop_body_part.html#a39aa3e66c895c5369d0d28a891ab4a22" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="492,56,667,83"/>
+<area shape="rect" id="node5" href="$d6/d3b/class_pop_body_part.html#a0c55ea8fdfa37a233b38a7163eb06980" title="onMuscleClicked вызывается при нажатии на картинку мышцы" alt="" coords="476,107,683,133"/>
+<area shape="rect" id="node6" href="$d6/d3b/class_pop_body_part.html#a3ecc7ddb1493722c6316c3be4ffc894d" title="setStatus" alt="" coords="731,107,893,133"/>
+</map>

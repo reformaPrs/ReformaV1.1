@@ -1,0 +1,5 @@
+<map id="IntervalDialog::add" name="IntervalDialog::add">
+<area shape="rect" id="node1" title="add вызывает при нажатии на кнопку &quot;Добавить&quot;" alt="" coords="435,13,561,39"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#ab7c296f30d139e618f6e57b12fc6d861" title="onAddClicked вызывается при нажатии кнопки &quot;Добавить&quot;" alt="" coords="200,13,387,39"/>
+<area shape="rect" id="node3" href="$dd/dd9/class_interval_dialog.html#a9677d56c40fbf5c4f8da1f640135ab78" title=" " alt="" coords="5,5,152,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Body::copyHalfhour" name="Body::copyHalfhour">
+<area shape="rect" id="node1" title="resetIntervalParts делает интервальные части тела не активными" alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$d0/dcb/class_body.html#a32a39de61acc8d3d110d735318a655a9" title="saveHalfhour сохраняет данные о текущем получасе" alt="" coords="188,5,321,32"/>
+<area shape="rect" id="node3" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="369,5,559,32"/>
+</map>

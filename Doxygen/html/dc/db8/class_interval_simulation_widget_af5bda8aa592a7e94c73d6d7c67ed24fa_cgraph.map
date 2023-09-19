@@ -1,0 +1,10 @@
+<map id="IntervalSimulationWidget::onSimulationTimeChanged" name="IntervalSimulationWidget::onSimulationTimeChanged">
+<area shape="rect" id="node1" title="onSimulationTimeChanged вызывается каждую секунду симуляции" alt="" coords="5,99,189,141"/>
+<area shape="rect" id="node2" href="$df/d66/class_mio_suit.html#a582343b6caa3fdf86bd7d37ce6262bec" title="isFirstMuscleByID относиться ли пара контактов к первой мышце" alt="" coords="249,5,429,32"/>
+<area shape="rect" id="node3" href="$d0/dcb/class_body.html#ad7a70362ec7f1288b00b413612787314" title="resetIntervalParts делает интервальные части тела не активными" alt="" coords="259,56,419,83"/>
+<area shape="rect" id="node5" href="$d0/dcb/class_body.html#ae97b0f4e1794f67851d2e0e2b04e1665" title="setCalculatePartStatus устанавливает статус части тела на активный в зависимости от поданного значени..." alt="" coords="241,107,436,133"/>
+<area shape="rect" id="node7" href="$df/d66/class_mio_suit.html#a0e216d5965603d8d7d5869d1d95a32fd" title="setDotsPairSimulationValue" alt="" coords="237,158,440,199"/>
+<area shape="rect" id="node8" href="$df/d66/class_mio_suit.html#a2ac95b2e1a82256313bbf759e91942d0" title="update обновляет пары контактов в соответствии с сохранёнными значениями" alt="" coords="282,224,395,251"/>
+<area shape="rect" id="node4" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="513,56,653,83"/>
+<area shape="rect" id="node6" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="488,107,677,133"/>
+</map>

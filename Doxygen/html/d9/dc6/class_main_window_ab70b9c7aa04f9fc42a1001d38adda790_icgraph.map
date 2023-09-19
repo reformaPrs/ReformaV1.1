@@ -1,0 +1,5 @@
+<map id="MainWindow::onSimulationDone" name="MainWindow::onSimulationDone">
+<area shape="rect" id="node1" title="onSimulationDone вызывается при нажатии кнопки ОК на виджете симуляции" alt="" coords="453,13,663,39"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a9fc62786c39aa6b93b214e40bca5f304" title="onIntervalShowClicked вызывается при нажатии кнопки Просмотр на виджете интервальности" alt="" coords="215,5,405,47"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a4507212aefca6178791585d378128231" title="initIntervalDialog инициализирует диалоговое окно интервалов" alt="" coords="5,5,167,47"/>
+</map>

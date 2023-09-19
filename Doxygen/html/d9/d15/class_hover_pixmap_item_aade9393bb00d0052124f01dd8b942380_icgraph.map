@@ -1,0 +1,4 @@
+<map id="HoverPixmapItem::hoverLeft" name="HoverPixmapItem::hoverLeft">
+<area shape="rect" id="node1" title="hoverLeft вызывается при выходе из наведения на картинку" alt="" coords="248,13,431,39"/>
+<area shape="rect" id="node2" href="$d9/d15/class_hover_pixmap_item.html#a29c0863746874d26be2975189ad712ba" title="hoverLeaveEvent ловит событие выхода из наведения на картинку" alt="" coords="5,5,200,47"/>
+</map>

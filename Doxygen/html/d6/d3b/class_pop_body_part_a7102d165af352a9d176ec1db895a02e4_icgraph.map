@@ -1,0 +1,5 @@
+<map id="PopBodyPart::backgroundClicked" name="PopBodyPart::backgroundClicked">
+<area shape="rect" id="node1" title="backgroundClicked вызывается при нажатии на картинку заднего фона" alt="" coords="476,13,693,39"/>
+<area shape="rect" id="node2" href="$d6/d3b/class_pop_body_part.html#a3a7e09d1f9268e7fdef5199d1c78f7ba" title="onBackgroundClicked вызывается при нажатии на картинку заднего фона" alt="" coords="237,5,428,47"/>
+<area shape="rect" id="node3" href="$d6/d3b/class_pop_body_part.html#aa9d311dc285a3757630c025100c7e8f1" title="PopBodyPart." alt="" coords="5,13,189,39"/>
+</map>

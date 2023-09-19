@@ -1,0 +1,6 @@
+<map id="TimeAxis::mouseMoveEvent" name="TimeAxis::mouseMoveEvent">
+<area shape="rect" id="node1" title="mouseMoveEvent ловит событие движения мыши" alt="" coords="5,31,191,57"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="241,5,423,32"/>
+<area shape="rect" id="node4" href="$de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="239,56,425,83"/>
+<area shape="rect" id="node3" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="473,31,669,57"/>
+</map>

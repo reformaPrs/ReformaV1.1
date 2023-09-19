@@ -1,0 +1,9 @@
+<map id="TextRect::hide" name="TextRect::hide">
+<area shape="rect" id="node1" title="hide скрывает объект на сцене" alt="" coords="655,107,761,133"/>
+<area shape="rect" id="node2" href="$de/d1d/class_heater.html#accecafff1dad8c95027509ca817f3446" title="addHint &#45; добавляет новую подсказку в нагреватель" alt="" coords="455,5,567,32"/>
+<area shape="rect" id="node3" href="$d2/d6f/class_body_part.html#a595fb2de387d0c534184c841679ce0a5" title="BodyPart." alt="" coords="5,144,144,171"/>
+<area shape="rect" id="node4" href="$d0/d5f/class_pop_dots_pair.html#ac6d3d177172786b874ef4e4e80b8db4a" title="onDotHoverLeft вызывается при выходе из наведения на точки" alt="" coords="416,107,607,133"/>
+<area shape="rect" id="node5" href="$d0/d5f/class_pop_dots_pair.html#a235f6f089dccea0d42174617d7e0892e" title=" " alt="" coords="192,119,368,145"/>
+<area shape="rect" id="node6" href="$d2/d6f/class_body_part.html#a3be2587294821dd9ade3ab5c6b3926d5" title="onHoverLeft вызывается при выходе из наведённого состояния мышцы" alt="" coords="436,208,587,235"/>
+<area shape="rect" id="node7" href="$d2/d6f/class_body_part.html#a4cb80294e4b04cd83b935da0963e58be" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="205,195,355,221"/>
+</map>

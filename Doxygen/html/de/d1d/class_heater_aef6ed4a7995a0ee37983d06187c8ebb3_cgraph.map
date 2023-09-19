@@ -1,0 +1,6 @@
+<map id="Heater::addDot" name="Heater::addDot">
+<area shape="rect" id="node1" title="addDot &#45; добавляет новую точку в нагреватель" alt="" coords="5,56,115,83"/>
+<area shape="rect" id="node2" href="$de/d1d/class_heater.html#a69d23dd23bf1212c10a0b775f714bd1f" title="onDotEntered вызывается при наведение на точку" alt="" coords="164,5,311,32"/>
+<area shape="rect" id="node3" href="$de/d1d/class_heater.html#a74016c1fbe013dcaa540dda8fd54deca" title="onDotLeft вызывается при выходе из наведения на точку" alt="" coords="176,56,299,83"/>
+<area shape="rect" id="node4" href="$de/d1d/class_heater.html#a525ad52fe0fc6b3409430f9861abea0c" title="onHeaterClick вызывается при нажатии на нагреватель" alt="" coords="163,107,312,133"/>
+</map>

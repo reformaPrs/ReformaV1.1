@@ -1,0 +1,7 @@
+<map id="MainWindow::onIntervalShowClicked" name="MainWindow::onIntervalShowClicked">
+<area shape="rect" id="node1" title="onIntervalShowClicked вызывается при нажатии кнопки Просмотр на виджете интервальности" alt="" coords="5,23,196,65"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#ab70b9c7aa04f9fc42a1001d38adda790" title="onSimulationDone вызывается при нажатии кнопки ОК на виджете симуляции" alt="" coords="244,31,453,57"/>
+<area shape="rect" id="node3" href="$d0/dcb/class_body.html#aecb309cef7f9e5945b519adbcb107b86" title="update обновляет мышцы в соответсвии с сохранённой информацией" alt="" coords="509,5,607,32"/>
+<area shape="rect" id="node5" href="$df/d66/class_mio_suit.html#a2ac95b2e1a82256313bbf759e91942d0" title="update обновляет пары контактов в соответствии с сохранёнными значениями" alt="" coords="501,56,615,83"/>
+<area shape="rect" id="node4" href="$d2/d6f/class_body_part.html#aa96ba4ddeb7b60fc7f158b6007ffe4c8" title="setStatus" alt="" coords="663,5,803,32"/>
+</map>

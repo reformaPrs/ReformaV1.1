@@ -1,0 +1,9 @@
+<map id="TimeAxis::moveSimulation" name="TimeAxis::moveSimulation">
+<area shape="rect" id="node1" title="moveSimulation сдвигает время симуляции" alt="" coords="5,81,180,108"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e" title="activateProgressBar активирует интервал" alt="" coords="235,5,435,32"/>
+<area shape="rect" id="node3" href="$de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec" title="deactivateProgressBar деактивирует интервал" alt="" coords="228,56,443,83"/>
+<area shape="rect" id="node4" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="735,157,931,184"/>
+<area shape="rect" id="node5" href="$de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="259,157,412,184"/>
+<area shape="rect" id="node6" href="$de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="491,157,687,184"/>
+<area shape="rect" id="node7" href="$de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="497,208,680,235"/>
+</map>

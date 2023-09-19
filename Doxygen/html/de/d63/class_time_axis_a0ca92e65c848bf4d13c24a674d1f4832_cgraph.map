@@ -1,0 +1,13 @@
+<map id="TimeAxis::addNewProgressBar" name="TimeAxis::addNewProgressBar">
+<area shape="rect" id="node1" title="addNewProgressBar добавляет один интервал и делает его активным" alt="" coords="5,132,208,159"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#ad91e69e4333db26afa01d7c8860a167e" title="activateProgressBar активирует интервал" alt="" coords="263,5,463,32"/>
+<area shape="rect" id="node3" href="$de/d63/class_time_axis.html#ae8641b0ad3c37f252c5c03cb3675b8ec" title="deactivateProgressBar деактивирует интервал" alt="" coords="256,56,471,83"/>
+<area shape="rect" id="node4" href="$de/d63/class_time_axis.html#a99bcf0c3ee80441c5a7b0a3ee66c0247" title="hideActivePoints скрывает нижнюю подпись у интервала" alt="" coords="273,107,453,133"/>
+<area shape="rect" id="node5" href="$de/d63/class_time_axis.html#af7147439b0e29d422f1e3cd9b3c28b27" title="setEndTime устанавливает конец активного временного интервала" alt="" coords="287,157,440,184"/>
+<area shape="rect" id="node9" href="$de/d63/class_time_axis.html#ab66ab76573cd5d7ac30c7e76f8e49080" title="setStartTime устанавливает начало активного временного интервала" alt="" coords="284,208,443,235"/>
+<area shape="rect" id="node11" href="$de/d63/class_time_axis.html#a5631b5d880c0db1bdc0e0daffa80ef06" title="showActivePoints показывает нижнюю подпись у интервала" alt="" coords="270,259,457,285"/>
+<area shape="rect" id="node6" href="$de/d63/class_time_axis.html#aaa711117d512d01ea66970454d23f5f1" title="getPixelsFromTime" alt="" coords="519,183,715,209"/>
+<area shape="rect" id="node7" href="$de/d63/class_time_axis.html#ab35e47db83b16146db00a08b55a16dfb" title="setEndGeometry устанавливат положение конечных элементов интервала" alt="" coords="525,132,708,159"/>
+<area shape="rect" id="node8" href="$de/d63/class_time_axis.html#a4aa359176c644e507ab46351c6d1d829" title="getTimeFromPixels" alt="" coords="763,183,959,209"/>
+<area shape="rect" id="node10" href="$de/d63/class_time_axis.html#a7cc4a686239e09a0c709e9e52eba67e8" title="setStartGeometry устанавливат положение начальных элементов интервала" alt="" coords="523,233,710,260"/>
+</map>

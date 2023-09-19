@@ -1,0 +1,4 @@
+<map id="TimeAxis::simulationTimeChanged" name="TimeAxis::simulationTimeChanged">
+<area shape="rect" id="node1" title="simulationTimeChanged вызывается при изменении времени симуляции на секунду" alt="" coords="228,5,399,47"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#a8142291d56eb295970e76711cae18009" title="moveSimulation сдвигает время симуляции" alt="" coords="5,13,180,39"/>
+</map>

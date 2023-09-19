@@ -1,0 +1,11 @@
+<map id="ImpulseAdder::onBodyPartClicked" name="ImpulseAdder::onBodyPartClicked">
+<area shape="rect" id="node1" title="onBodyPartClicked вызывается при получении сигнала от части тела" alt="" coords="5,155,183,196"/>
+<area shape="rect" id="node2" href="$df/d66/class_mio_suit.html#a042b8805d7d868e9302ba55f67aa4e4f" title="activateMusclePopDotsPairs показвывает всплывающую пару контактов мышцы" alt="" coords="231,5,413,47"/>
+<area shape="rect" id="node3" href="$df/d66/class_mio_suit.html#accb2def86ffa0e0d9f331639fd24a1c6" title="deactivateMusclePopDotsPairs скрывает всплывающую пару контактов мышцы" alt="" coords="235,71,409,112"/>
+<area shape="rect" id="node4" href="$d0/dcb/class_body.html#a39ecfa83f4de3c60e004f3d154414bc3" title="getPopStatus возвращает статус всплывающей части тела" alt="" coords="253,137,391,163"/>
+<area shape="rect" id="node6" href="$df/d66/class_mio_suit.html#a0a69ef989ed595121fd5f75593f9e402" title="isMuscleActive активна ли пара контактов (мышца)" alt="" coords="241,187,403,214"/>
+<area shape="rect" id="node7" href="$df/d66/class_mio_suit.html#af33273c61b459aec07c00dcf4e6f52d2" title="resetPopDotsPairs деактивирует всплывающие пары контактов" alt="" coords="231,238,413,265"/>
+<area shape="rect" id="node8" href="$d0/dcb/class_body.html#a96e6ddc2f3b3a0d6cf4e3abcb867f933" title="setPopStatus устанавливает новый статус всплывающей части тела" alt="" coords="253,289,391,315"/>
+<area shape="rect" id="node5" href="$dd/d50/class_abstract_body_part.html#a6424994aeaaa9997e031fc431b93d95a" title="getStatus" alt="" coords="461,137,651,163"/>
+<area shape="rect" id="node9" href="$d6/d3b/class_pop_body_part.html#a3ecc7ddb1493722c6316c3be4ffc894d" title="setStatus" alt="" coords="475,289,637,315"/>
+</map>

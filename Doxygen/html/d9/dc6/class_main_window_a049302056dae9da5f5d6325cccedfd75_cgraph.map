@@ -1,0 +1,5 @@
+<map id="MainWindow::readDataFromPacket" name="MainWindow::readDataFromPacket">
+<area shape="rect" id="node1" title="readDataFromPacket считывает данные из пришедшего с прибора пакета" alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="479,13,665,39"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#ae35f43a8452da4d9612f4fea56cf9d09" title="sendCommand отправляет пакет с командой" alt="" coords="240,38,431,65"/>
+</map>

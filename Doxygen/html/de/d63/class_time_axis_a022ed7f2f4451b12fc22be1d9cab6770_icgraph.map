@@ -1,0 +1,4 @@
+<map id="TimeAxis::onPointerPressed" name="TimeAxis::onPointerPressed">
+<area shape="rect" id="node1" title="onPointerPressed вызывается при нажатии на бегунок" alt="" coords="203,5,389,32"/>
+<area shape="rect" id="node2" href="$de/d63/class_time_axis.html#a193bdafdd3f3e4333faf7012761173e9" title="initPointers инициализирует бегунки" alt="" coords="5,5,155,32"/>
+</map>

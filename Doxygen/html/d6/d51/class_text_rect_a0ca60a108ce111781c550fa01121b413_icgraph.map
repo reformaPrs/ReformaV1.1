@@ -1,0 +1,8 @@
+<map id="TextRect::show" name="TextRect::show">
+<area shape="rect" id="node1" title="show показывает объект на сцене" alt="" coords="679,31,791,57"/>
+<area shape="rect" id="node2" href="$d0/d5f/class_pop_dots_pair.html#aab76e9a472a5bb20661b16ae50af7947" title="onDotHoverEntered вызывается при наведении на точки" alt="" coords="416,5,631,32"/>
+<area shape="rect" id="node4" href="$d2/d6f/class_body_part.html#a9ee0f731a790c8ca979cf947f9e45af9" title="onHoverEntered вызывается при наведении на мышцу" alt="" coords="436,56,611,83"/>
+<area shape="rect" id="node3" href="$d0/d5f/class_pop_dots_pair.html#a235f6f089dccea0d42174617d7e0892e" title=" " alt="" coords="192,5,368,32"/>
+<area shape="rect" id="node5" href="$d2/d6f/class_body_part.html#a4cb80294e4b04cd83b935da0963e58be" title="initMuscles инициализирует свойства firstMuscleи и secondMuscle" alt="" coords="205,56,355,83"/>
+<area shape="rect" id="node6" href="$d2/d6f/class_body_part.html#a595fb2de387d0c534184c841679ce0a5" title="BodyPart." alt="" coords="5,56,144,83"/>
+</map>

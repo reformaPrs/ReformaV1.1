@@ -1,0 +1,9 @@
+<map id="PopDotsPair::onImpulseClicked" name="PopDotsPair::onImpulseClicked">
+<area shape="rect" id="node1" title="onImpulseClicked вызывается при сигнале от слайдера о принятии значения" alt="" coords="5,81,211,108"/>
+<area shape="rect" id="node2" href="$dc/d0f/class_dots_pair.html#aa8383c750d12d390716ec2908dcd7dc8" title="getDot1" alt="" coords="261,5,387,32"/>
+<area shape="rect" id="node3" href="$dc/d0f/class_dots_pair.html#a3aeacf728459c6ddb08a32bec49b5de9" title="getDot2" alt="" coords="261,56,387,83"/>
+<area shape="rect" id="node4" href="$dc/d0f/class_dots_pair.html#abde1e8d6dca7d0dd7116f91fd2ab3745" title="setValue" alt="" coords="259,107,389,133"/>
+<area shape="rect" id="node6" href="$dc/d0f/class_dots_pair.html#abb9b8dfeb56bf18e0952fa0dc610ea83" title="show показывает на сцене" alt="" coords="269,157,379,184"/>
+<area shape="rect" id="node5" href="$d9/d91/class_simple_dots_pair.html#a0300c142c4a808ca8bdc3de9a04654a4" title="setValue" alt="" coords="437,107,608,133"/>
+<area shape="rect" id="node7" href="$d9/d91/class_simple_dots_pair.html#a52792f3ef46e94d931edbc0aa57086d9" title="getValue" alt="" coords="437,157,608,184"/>
+</map>

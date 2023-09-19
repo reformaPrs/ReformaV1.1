@@ -1,0 +1,10 @@
+<map id="MainWindow::onReadyRead" name="MainWindow::onReadyRead">
+<area shape="rect" id="node1" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="1453,31,1639,57"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a092e8d45c24f1c28f1015b3fa7dc8284" title="onPortTriggered вызывается при выборе порта прибора" alt="" coords="1211,31,1405,57"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#ae88824a309842c91bcb751650907a7ab" title="updatePortsList обновляет список портов" alt="" coords="968,56,1163,83"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#ae7410ead1c1c619ad3699aa1777231f8" title="onDeviceDisconnected вызывается при отключении прибора" alt="" coords="685,5,920,32"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#a6540b8248b4b9d5cfd4b06a1588fb7df" title="onDeviceTriggered вызывается при нажатии на вкладку &quot;Устройство&quot;" alt="" coords="698,56,907,83"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,31,184,57"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#ac74a8e6b0687f952b1f18cec8b59de65" title="initPortsMenu инициализирует меню портов" alt="" coords="453,56,637,83"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="232,56,405,83"/>
+</map>

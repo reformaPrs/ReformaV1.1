@@ -1,0 +1,4 @@
+<map id="MainWindow::sendTimingPacket" name="MainWindow::sendTimingPacket">
+<area shape="rect" id="node1" title="sendTimingPacket отсылает пакет для интервалов" alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#ae94e12e4a14edf7207eab85dd675fa02" title="getCheckSum считает контрольную сумму пакета" alt="" coords="264,5,451,32"/>
+</map>

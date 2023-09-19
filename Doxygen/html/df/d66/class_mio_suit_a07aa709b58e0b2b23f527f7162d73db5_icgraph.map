@@ -1,0 +1,11 @@
+<map id="MioSuit::setRecievedValues" name="MioSuit::setRecievedValues">
+<area shape="rect" id="node1" title="setRecievedValues" alt="" coords="1723,31,1907,57"/>
+<area shape="rect" id="node2" href="$d9/dc6/class_main_window.html#a9d11494701432a2b68195c54213f1a0f" title="setRecievedValues обновляет пары в соответствии с полученными с прибора данными" alt="" coords="1460,31,1675,57"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a209079830a37745e47076a762bab17d6" title="onReadyRead вызывается при доступной информации для считывания с порта" alt="" coords="1227,31,1412,57"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a092e8d45c24f1c28f1015b3fa7dc8284" title="onPortTriggered вызывается при выборе порта прибора" alt="" coords="984,31,1179,57"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#ae88824a309842c91bcb751650907a7ab" title="updatePortsList обновляет список портов" alt="" coords="741,56,936,83"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#ae7410ead1c1c619ad3699aa1777231f8" title="onDeviceDisconnected вызывается при отключении прибора" alt="" coords="459,5,693,32"/>
+<area shape="rect" id="node7" href="$d9/dc6/class_main_window.html#a6540b8248b4b9d5cfd4b06a1588fb7df" title="onDeviceTriggered вызывается при нажатии на вкладку &quot;Устройство&quot;" alt="" coords="471,56,681,83"/>
+<area shape="rect" id="node8" href="$d9/dc6/class_main_window.html#ac74a8e6b0687f952b1f18cec8b59de65" title="initPortsMenu инициализирует меню портов" alt="" coords="227,56,411,83"/>
+<area shape="rect" id="node9" href="$d9/dc6/class_main_window.html#aac2ce97570c9e572691eb5f02ccee1be" title="initMenuBar инициализирует действия в верхней панеле" alt="" coords="5,56,179,83"/>
+</map>

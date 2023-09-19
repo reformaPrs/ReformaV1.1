@@ -1,0 +1,9 @@
+<map id="TimeAxis::addNewProgressBar" name="TimeAxis::addNewProgressBar">
+<area shape="rect" id="node1" title="addNewProgressBar добавляет один интервал и делает его активным" alt="" coords="1193,38,1396,65"/>
+<area shape="rect" id="node2" href="$dd/dd9/class_interval_dialog.html#a368cf07e533e7d3743c37796ae09b306" title="addPairs добавляет новые пары" alt="" coords="985,13,1143,39"/>
+<area shape="rect" id="node7" href="$de/d63/class_time_axis.html#a7dc353ed69d7934850242615496d982a" title="initSimulation инициализирует симуляцию" alt="" coords="983,63,1145,90"/>
+<area shape="rect" id="node3" href="$d9/dc6/class_main_window.html#a97c3be5d1473370d4e86f3a756c0dd25" title="onBodyPartClicked вызывается при нажатии на часть тела" alt="" coords="720,13,935,39"/>
+<area shape="rect" id="node4" href="$d9/dc6/class_main_window.html#a190db24a81b8883c9249850d5cfed68d" title="readBodyPartsFromCSV считывает данные о частях тела для главного окна из csv файла" alt="" coords="481,5,672,47"/>
+<area shape="rect" id="node5" href="$d9/dc6/class_main_window.html#acbfba3e4284cf11d850005c187ee55cf" title="initGraphicsView инициализирует графические элементы интерфейса" alt="" coords="232,13,433,39"/>
+<area shape="rect" id="node6" href="$d9/dc6/class_main_window.html#a996c5a2b6f77944776856f08ec30858d" title=" " alt="" coords="5,13,184,39"/>
+</map>

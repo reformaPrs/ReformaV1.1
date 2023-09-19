@@ -1,0 +1,5 @@
+<map id="IntervalDotsPair::equals" name="IntervalDotsPair::equals">
+<area shape="rect" id="node1" title="equals Сравнивает две пары по id, длинной импульса, началу и концу интервала" alt="" coords="5,31,164,57"/>
+<area shape="rect" id="node2" href="$d9/d91/class_simple_dots_pair.html#a170c88efc4a1c8c8be1dcca604bb32d8" title="getId" alt="" coords="222,5,373,32"/>
+<area shape="rect" id="node3" href="$d9/d91/class_simple_dots_pair.html#a52792f3ef46e94d931edbc0aa57086d9" title="getValue" alt="" coords="212,56,383,83"/>
+</map>
